@@ -1,0 +1,1077 @@
+year,constructor_id,constructor_name,race_entries,wins,podiums,points,best_finish,championship_position
+1950,adams,Adams,2,0,0,0.0,27.0,
+1950,alfa-romeo,Alfa Romeo,22,6,12,89.0,1.0,
+1950,alta,Alta,3,0,0,0.0,9.0,
+1950,cooper,Cooper,1,0,0,0.0,,
+1950,deidt,Deidt,3,0,2,10.0,2.0,
+1950,era,ERA,8,0,0,0.0,6.0,
+1950,ewing,Ewing,1,0,0,0.0,17.0,
+1950,ferrari,Ferrari,15,0,4,21.0,2.0,
+1950,kurtis-kraft,Kurtis Kraft,15,1,1,14.0,1.0,
+1950,langley,Langley,1,0,0,0.0,16.0,
+1950,lesovsky,Lesovsky,2,0,0,0.0,8.0,
+1950,marchese,Marchese,1,0,0,0.0,11.0,
+1950,maserati,Maserati,37,0,1,11.0,3.0,
+1950,moore,Moore,1,0,0,0.0,6.0,
+1950,nichels,Nichels,1,0,0,0.0,9.0,
+1950,olson,Olson,1,0,0,0.0,23.0,
+1950,rae,Rae,1,0,0,0.0,22.0,
+1950,simca-gordini,Simca-Gordini,5,0,0,3.0,4.0,
+1950,snowberger,Snowberger,1,0,0,0.0,26.0,
+1950,stevens,Stevens,1,0,0,0.0,12.0,
+1950,talbot-lago,Talbot-Lago,38,0,2,20.0,3.0,
+1950,watson,Watson,1,0,0,0.0,32.0,
+1950,wetteroth,Wetteroth,1,0,0,0.0,24.0,
+1951,alfa-romeo,Alfa Romeo,30,5,11,75.0,1.0,
+1951,alta,Alta,1,0,0,0.0,,
+1951,brm,BRM,5,0,0,2.0,5.0,
+1951,bromme,Bromme,1,0,0,0.0,27.0,
+1951,deidt,Deidt,4,0,0,0.0,8.0,
+1951,era,ERA,2,0,0,0.0,8.0,
+1951,ferrari,Ferrari,34,3,13,86.0,1.0,
+1951,hwm,HWM,2,0,0,0.0,8.0,
+1951,hall,Hall,1,0,0,0.0,19.0,
+1951,kurtis-kraft,Kurtis Kraft,17,1,4,19.0,1.0,
+1951,kuzma,Kuzma,1,0,0,0.0,15.0,
+1951,lesovsky,Lesovsky,1,0,0,0.0,30.0,
+1951,marchese,Marchese,1,0,0,0.0,20.0,
+1951,maserati,Maserati,15,0,0,0.0,7.0,
+1951,moore,Moore,1,0,0,0.0,6.0,
+1951,osca,O.S.C.A.,1,0,0,0.0,9.0,
+1951,pawl,Pawl,1,0,0,0.0,16.0,
+1951,schroeder,Schroeder,2,0,0,2.0,5.0,
+1951,sherman,Sherman,1,0,0,3.0,4.0,
+1951,simca-gordini,Simca-Gordini,13,0,0,0.0,6.0,
+1951,talbot-lago,Talbot-Lago,45,0,0,5.0,4.0,
+1951,trevis,Trevis,1,0,0,0.0,29.0,
+1951,veritas,Veritas,1,0,0,0.0,,
+1951,watson,Watson,1,0,0,0.0,33.0,
+1952,afm,AFM,5,0,0,0.0,9.0,
+1952,alta,Alta,2,0,0,0.0,12.0,
+1952,aston-butterworth,Aston Butterworth,4,0,0,0.0,,
+1952,balsa,Balsa,1,0,0,0.0,,
+1952,bromme,Bromme,1,0,0,0.0,22.0,
+1952,cisitalia,Cisitalia,1,0,0,0.0,,
+1952,connaught,Connaught,8,0,0,5.0,4.0,
+1952,cooper,Cooper,16,0,1,12.0,3.0,
+1952,deidt,Deidt,1,0,0,0.0,24.0,
+1952,era,ERA,3,0,0,0.0,,
+1952,ferrari,Ferrari,51,7,17,120.5,1.0,
+1952,frazer-nash,Frazer-Nash,4,0,0,3.0,4.0,
+1952,gordini,Gordini,23,0,2,17.0,3.0,
+1952,hwm,HWM,26,0,0,2.0,5.0,
+1952,heck,Heck,1,0,0,0.0,12.0,
+1952,krakau,Krakau,1,0,0,0.0,,
+1952,kurtis-kraft,Kurtis Kraft,21,0,2,13.0,2.0,
+1952,kuzma,Kuzma,1,1,1,8.0,1.0,
+1952,lesovsky,Lesovsky,3,0,0,3.0,4.0,
+1952,maserati,Maserati,25,0,1,8.5,2.0,
+1952,nacke,Nacke,1,0,0,0.0,,
+1952,osca,O.S.C.A.,1,0,0,0.0,,
+1952,reif,Reif,1,0,0,0.0,,
+1952,sherman,Sherman,1,0,0,0.0,15.0,
+1952,simca-gordini,Simca-Gordini,6,0,0,0.0,14.0,
+1952,stevens,Stevens,2,0,0,0.0,14.0,
+1952,trevis,Trevis,1,0,0,0.0,16.0,
+1952,veritas,Veritas,9,0,0,0.0,7.0,
+1952,watson,Watson,1,0,0,0.0,12.0,
+1953,afm,AFM,4,0,0,0.0,14.0,
+1953,bromme,Bromme,1,0,0,0.0,31.0,
+1953,connaught,Connaught,21,0,0,0.0,7.0,
+1953,cooper,Cooper,21,0,0,0.0,6.0,
+1953,del-roy,Del Roy,1,0,0,0.0,32.0,
+1953,emw,EMW,1,0,0,0.0,,
+1953,ferrari,Ferrari,50,7,16,122.5,1.0,
+1953,gordini,Gordini,29,0,0,4.0,5.0,
+1953,greifzu,Greifzu,1,0,0,0.0,14.0,
+1953,hwm,HWM,18,0,0,0.0,8.0,
+1953,heck,Heck,1,0,0,0.0,15.0,
+1953,kurtis-kraft,Kurtis Kraft,33,1,4,24.0,1.0,
+1953,kuzma,Kuzma,6,0,0,0.0,9.0,
+1953,lesovsky,Lesovsky,1,0,0,0.0,24.0,
+1953,maserati,Maserati,45,1,9,65.5,1.0,
+1953,osca,O.S.C.A.,7,0,0,0.0,10.0,
+1953,schroeder,Schroeder,1,0,0,0.0,14.0,
+1953,simca-gordini,Simca-Gordini,2,0,0,0.0,,
+1953,stevens,Stevens,2,0,0,0.0,8.0,
+1953,turner,Turner,1,0,0,0.0,21.0,
+1953,veritas,Veritas,8,0,0,0.0,9.0,
+1953,watson,Watson,1,0,0,0.0,27.0,
+1954,bromme,Bromme,2,0,0,0.0,30.0,
+1954,connaught,Connaught,5,0,0,0.0,11.0,
+1954,cooper,Cooper,6,0,0,0.0,10.0,
+1954,ferrari,Ferrari,47,2,14,80.28,1.0,
+1954,gordini,Gordini,25,0,0,4.14,5.0,
+1954,hwm,HWM,1,0,0,0.0,,
+1954,klenk,Klenk,1,0,0,0.0,,
+1954,kurtis-kraft,Kurtis Kraft,35,1,2,18.0,1.0,
+1954,kuzma,Kuzma,4,0,1,6.0,2.0,
+1954,lancia,Lancia,2,0,0,1.0,,
+1954,maserati,Maserati,67,2,5,46.42,1.0,
+1954,mercedes,Mercedes,18,4,7,60.14,1.0,
+1954,nichels,Nichels,3,0,0,0.0,24.0,
+1954,pankratz,Pankratz,1,0,0,0.0,17.0,
+1954,pawl,Pawl,2,0,0,0.0,22.0,
+1954,phillips,Phillips,1,0,0,0.0,7.0,
+1954,schroeder,Schroeder,4,0,0,0.0,25.0,
+1954,stevens,Stevens,3,0,0,0.0,10.0,
+1954,vanwall,Vanwall,3,0,0,0.0,7.0,
+1955,arzani-volpini,Arzani-Volpini,1,0,0,0.0,,
+1955,connaught,Connaught,5,0,0,0.0,,
+1955,cooper,Cooper,1,0,0,0.0,,
+1955,epperly,Epperly,1,0,0,0.0,14.0,
+1955,ferrari,Ferrari,29,1,9,33.99,1.0,
+1955,gordini,Gordini,15,0,0,0.0,7.0,
+1955,hwm,HWM,1,0,0,0.0,,
+1955,kurtis-kraft,Kurtis Kraft,23,1,4,21.0,1.0,
+1955,kuzma,Kuzma,4,0,0,3.0,4.0,
+1955,lancia,Lancia,11,0,1,8.0,2.0,
+1955,maserati,Maserati,51,0,3,23.0,3.0,
+1955,mercedes,Mercedes,24,5,10,79.0,1.0,
+1955,pankratz,Pankratz,1,0,0,0.0,33.0,
+1955,pawl,Pawl,1,0,0,0.0,22.0,
+1955,phillips,Phillips,1,0,0,0.0,15.0,
+1955,schroeder,Schroeder,1,0,0,0.0,20.0,
+1955,stevens,Stevens,1,0,0,0.0,31.0,
+1955,trevis,Trevis,2,0,0,0.0,13.0,
+1955,vanwall,Vanwall,7,0,0,0.0,9.0,
+1956,brm,BRM,5,0,0,0.0,,
+1956,bugatti,Bugatti,1,0,0,0.0,,
+1956,connaught,Connaught,7,0,1,9.0,3.0,
+1956,cooper,Cooper,1,0,0,0.0,11.0,
+1956,emeryson,Emeryson,1,0,0,0.0,,
+1956,ferrari,Ferrari,45,6,14,80.5,1.0,
+1956,gordini,Gordini,15,0,0,2.0,5.0,
+1956,kurtis-kraft,Kurtis Kraft,23,0,1,9.0,2.0,
+1956,kuzma,Kuzma,7,0,0,3.0,4.0,
+1956,lesovsky,Lesovsky,1,0,0,0.0,9.0,
+1956,maserati,Maserati,70,2,11,72.0,1.0,
+1956,phillips,Phillips,1,0,1,4.0,3.0,
+1956,stevens,Stevens,1,0,0,0.0,10.0,
+1956,vanwall,Vanwall,14,0,0,3.0,4.0,
+1956,watson,Watson,1,1,1,8.0,1.0,
+1957,brm,BRM,6,0,0,0.0,,
+1957,connaught,Connaught,2,0,0,3.0,4.0,
+1957,cooper,Cooper,16,0,0,2.0,5.0,
+1957,dunn,Dunn,1,0,0,0.0,21.0,
+1957,epperly,Epperly,2,1,2,15.0,1.0,
+1957,ferrari,Ferrari,32,0,7,48.0,2.0,
+1957,kurtis-kraft,Kurtis Kraft,21,0,0,5.0,4.0,
+1957,kuzma,Kuzma,5,0,1,4.0,3.0,
+1957,lesovsky,Lesovsky,2,0,0,0.0,10.0,
+1957,maserati,Maserati,61,4,10,78.0,1.0,
+1957,phillips,Phillips,1,0,0,0.0,9.0,
+1957,porsche,Porsche,3,0,0,0.0,12.0,
+1957,vanwall,Vanwall,18,4,5,37.0,1.0,
+1957,watson,Watson,1,0,0,0.0,31.0,
+1958,vanwall,Vanwall,27,6,9,68.0,1.0,1.0
+1958,ferrari,Ferrari,34,2,14,93.0,1.0,2.0
+1958,cooper,Cooper,41,2,5,38.0,1.0,3.0
+1958,brm,BRM,22,0,2,24.0,2.0,4.0
+1958,maserati,Maserati,55,0,0,9.0,4.0,5.0
+1958,lotus,Lotus,19,0,0,3.0,4.0,6.0
+1958,connaught,Connaught,5,0,0,0.0,,
+1958,dunn,Dunn,1,0,0,0.0,24.0,
+1958,epperly,Epperly,4,1,2,20.0,1.0,
+1958,kurtis-kraft,Kurtis Kraft,16,0,1,4.0,3.0,
+1958,kuzma,Kuzma,5,0,0,0.0,13.0,
+1958,lesovsky,Lesovsky,2,0,0,0.0,20.0,
+1958,osca,O.S.C.A.,2,0,0,0.0,,
+1958,phillips,Phillips,1,0,0,0.0,7.0,
+1958,porsche,Porsche,3,0,0,0.0,6.0,
+1958,watson,Watson,4,0,0,0.0,6.0,
+1959,cooper,Cooper,65,5,13,97.5,1.0,1.0
+1959,ferrari,Ferrari,29,2,9,67.0,1.0,2.0
+1959,brm,BRM,22,1,2,22.5,1.0,3.0
+1959,lotus,Lotus,19,0,0,5.0,4.0,4.0
+1959,aston-martin,Aston Martin,8,0,0,0.0,6.0,
+1959,behra-porsche,Behra-Porsche,2,0,0,0.0,,
+1959,christensen,Christensen,1,0,0,0.0,27.0,
+1959,connaught,Connaught,1,0,0,0.0,,
+1959,dunn,Dunn,1,0,0,0.0,13.0,
+1959,elder,Elder,1,0,0,0.0,23.0,
+1959,epperly,Epperly,4,0,0,5.0,4.0,
+1959,fry,Fry,1,0,0,0.0,,
+1959,jbw,JBW,1,0,0,0.0,,
+1959,kurtis-kraft,Kurtis Kraft,13,0,0,0.0,7.0,
+1959,kuzma,Kuzma,5,0,0,0.0,10.0,
+1959,lesovsky,Lesovsky,2,0,1,5.0,3.0,
+1959,maserati,Maserati,9,0,0,0.0,8.0,
+1959,moore,Moore,1,0,0,0.0,12.0,
+1959,phillips,Phillips,1,0,0,0.0,24.0,
+1959,porsche,Porsche,4,0,0,0.0,7.0,
+1959,sutton,Sutton,1,0,0,0.0,30.0,
+1959,tec-mec,Tec-Mec,1,0,0,0.0,,
+1959,vanwall,Vanwall,1,0,0,0.0,,
+1959,watson,Watson,4,1,2,14.0,1.0,
+1960,lotus,Lotus,33,2,7,52.0,1.0,2.0
+1960,ferrari,Ferrari,25,1,5,43.0,1.0,3.0
+1960,brm,BRM,23,0,1,8.0,3.0,4.0
+1960,cooper,Cooper,83,6,15,108.0,1.0,5.0
+1960,porsche,Porsche,2,0,0,1.0,6.0,7.0
+1960,aston-martin,Aston Martin,3,0,0,0.0,11.0,
+1960,behra-porsche,Behra-Porsche,2,0,0,0.0,10.0,
+1960,christensen,Christensen,1,0,0,0.0,18.0,
+1960,epperly,Epperly,6,0,1,4.0,3.0,
+1960,ewing,Ewing,2,0,0,0.0,21.0,
+1960,jbw,JBW,4,0,0,0.0,13.0,
+1960,kurtis-kraft,Kurtis Kraft,8,0,0,0.0,10.0,
+1960,kuzma,Kuzma,2,0,0,0.0,12.0,
+1960,lesovsky,Lesovsky,1,0,0,2.0,5.0,
+1960,maserati,Maserati,7,0,0,0.0,13.0,
+1960,meskowski,Meskowski,2,0,0,0.0,8.0,
+1960,phillips,Phillips,1,0,0,3.0,4.0,
+1960,scarab,Scarab,9,0,0,0.0,10.0,
+1960,trevis,Trevis,2,0,0,1.0,6.0,
+1960,vanwall,Vanwall,1,0,0,0.0,,
+1960,watson,Watson,8,1,2,14.0,1.0,
+1961,ferrari,Ferrari,27,5,14,99.0,1.0,1.0
+1961,lotus,Lotus,67,3,5,44.0,1.0,2.0
+1961,porsche,Porsche,25,0,3,24.0,2.0,3.0
+1961,cooper,Cooper,58,0,1,24.0,3.0,4.0
+1961,brm,BRM,16,0,1,9.0,3.0,5.0
+1961,de-tomaso,De Tomaso,4,0,0,0.0,,
+1961,emeryson,Emeryson,3,0,0,0.0,,
+1961,ferguson,Ferguson,2,0,0,0.0,,
+1961,gilby,Gilby,1,0,0,0.0,15.0,
+1961,jbw,JBW,1,0,0,0.0,,
+1962,brm,BRM,20,4,8,62.0,1.0,1.0
+1962,cooper,Cooper,30,1,7,45.0,1.0,3.0
+1962,lola,Lola,17,0,2,19.0,2.0,4.0
+1962,porsche,Porsche,27,1,2,20.0,1.0,5.0
+1962,ferrari,Ferrari,21,0,4,30.0,2.0,6.0
+1962,brabham,Brabham,3,0,0,6.0,4.0,7.0
+1962,lotus,Lotus,71,3,4,43.0,1.0,8.0
+1962,de-tomaso,De Tomaso,2,0,0,0.0,,
+1962,enb,ENB,1,0,0,0.0,16.0,
+1962,emeryson,Emeryson,3,0,0,0.0,11.0,
+1962,gilby,Gilby,2,0,0,0.0,,
+1962,lds,LDS,1,0,0,0.0,,
+1963,brm,BRM,25,2,10,65.0,1.0,2.0
+1963,brabham,Brabham,20,0,4,33.0,2.0,3.0
+1963,ferrari,Ferrari,19,1,3,27.0,1.0,4.0
+1963,cooper,Cooper,36,0,4,32.0,2.0,5.0
+1963,brp,BRP,5,0,0,6.0,4.0,6.0
+1963,porsche,Porsche,10,0,0,5.0,4.0,7.0
+1963,lotus,Lotus,63,7,9,78.0,1.0,8.0
+1963,ats,ATS,10,0,0,0.0,11.0,
+1963,alfa-special,Alfa Special,1,0,0,0.0,,
+1963,de-tomaso,De Tomaso,1,0,0,0.0,,
+1963,gilby,Gilby,3,0,0,0.0,,
+1963,lds,LDS,2,0,0,0.0,11.0,
+1963,lola,Lola,15,0,0,0.0,7.0,
+1963,scirocco,Scirocco,7,0,0,0.0,8.0,
+1963,stebro,Stebro,1,0,0,0.0,7.0,
+1964,ferrari,Ferrari,22,3,10,64.0,1.0,1.0
+1964,brm,BRM,37,2,7,70.0,1.0,2.0
+1964,cooper,Cooper,24,0,2,16.0,2.0,5.0
+1964,brabham,Brabham,52,2,6,43.0,1.0,6.0
+1964,brp,BRP,14,0,0,5.0,5.0,7.0
+1964,lotus,Lotus,53,3,5,52.0,1.0,8.0
+1964,derrington-francis,Derrington-Francis,1,0,0,0.0,,
+1964,honda,Honda,3,0,0,0.0,13.0,
+1964,porsche,Porsche,2,0,0,0.0,,
+1964,scirocco,Scirocco,2,0,0,0.0,,
+1965,brm,BRM,29,3,11,81.0,1.0,2.0
+1965,ferrari,Ferrari,23,0,4,32.0,2.0,4.0
+1965,cooper,Cooper,24,0,1,14.0,3.0,5.0
+1965,honda,Honda,14,1,1,13.0,1.0,6.0
+1965,brabham,Brabham,62,0,6,44.0,2.0,7.0
+1965,lotus,Lotus,50,6,7,66.0,1.0,8.0
+1965,alfa-special,Alfa Special,1,0,0,0.0,10.0,
+1965,lds,LDS,3,0,0,0.0,13.0,
+1966,ferrari,Ferrari,16,2,6,42.0,1.0,2.0
+1966,cooper,Cooper,42,1,6,49.0,1.0,3.0
+1966,brm,BRM,25,1,4,34.0,1.0,4.0
+1966,lotus,Lotus,34,1,2,21.0,1.0,6.0
+1966,eagle,Eagle,11,0,0,4.0,5.0,7.0
+1966,honda,Honda,5,0,0,3.0,4.0,8.0
+1966,brabham,Brabham,37,4,9,65.0,1.0,10.0
+1966,mclaren,McLaren,7,0,0,3.0,5.0,10.0
+1966,matra,Matra,4,0,0,0.0,8.0,
+1966,shannon,Shannon,1,0,0,0.0,,
+1967,honda,Honda,9,1,2,20.0,1.0,4.0
+1967,ferrari,Ferrari,16,0,4,23.0,3.0,5.0
+1967,brm,BRM,34,0,2,21.0,2.0,6.0
+1967,eagle,Eagle,17,1,2,13.0,1.0,7.0
+1967,cooper,Cooper,46,1,2,37.0,1.0,8.0
+1967,lotus,Lotus,31,4,7,56.0,1.0,8.0
+1967,mclaren,McLaren,6,0,0,3.0,4.0,10.0
+1967,brabham,Brabham,37,4,14,102.0,1.0,11.0
+1967,lds,LDS,1,0,0,0.0,,
+1967,lola,Lola,3,0,0,0.0,10.0,
+1967,matra,Matra,6,0,0,0.0,7.0,
+1967,protos,Protos,2,0,0,0.0,,
+1968,lotus,Lotus,38,5,9,75.0,1.0,1.0
+1968,ferrari,Ferrari,24,1,5,37.0,1.0,4.0
+1968,brm,BRM,33,0,4,28.0,2.0,5.0
+1968,honda,Honda,15,0,2,14.0,2.0,6.0
+1968,cooper,Cooper,25,0,2,20.0,3.0,7.0
+1968,brabham,Brabham,34,0,2,12.0,3.0,8.0
+1968,matra,Matra,29,3,6,53.0,1.0,9.0
+1968,mclaren,McLaren,33,3,6,59.0,1.0,10.0
+1968,eagle,Eagle,6,0,0,0.0,9.0,
+1968,lds,LDS,1,0,0,0.0,,
+1968,lola,Lola,1,0,0,0.0,10.0,
+1969,matra,Matra,27,6,10,85.0,1.0,1.0
+1969,brabham,Brabham,43,2,9,68.0,1.0,2.0
+1969,lotus,Lotus,48,2,7,59.0,1.0,3.0
+1969,mclaren,McLaren,28,1,5,49.0,1.0,4.0
+1969,brm,BRM,26,0,1,7.0,3.0,5.0
+1969,ferrari,Ferrari,12,0,1,7.0,3.0,5.0
+1969,bmw,BMW,3,0,0,0.0,,
+1969,cooper,Cooper,1,0,0,0.0,7.0,
+1969,eagle,Eagle,1,0,0,0.0,,
+1969,tecno,Tecno,1,0,0,0.0,,
+1970,lotus,Lotus,49,6,7,70.0,1.0,1.0
+1970,ferrari,Ferrari,25,4,9,76.0,1.0,2.0
+1970,march,March,63,1,8,55.0,1.0,3.0
+1970,brabham,Brabham,29,1,5,35.0,1.0,4.0
+1970,mclaren,McLaren,41,0,5,36.0,2.0,5.0
+1970,brm,BRM,37,1,2,25.0,1.0,6.0
+1970,matra,Matra,26,0,3,24.0,3.0,7.0
+1970,surtees,Surtees,8,0,0,3.0,5.0,8.0
+1970,bellasi,Bellasi,5,0,0,0.0,,
+1970,de-tomaso,De Tomaso,11,0,0,0.0,,
+1970,tyrrell,Tyrrell,3,0,0,0.0,,
+1971,tyrrell,Tyrrell,23,7,11,88.0,1.0,1.0
+1971,brm,BRM,38,2,4,42.0,1.0,2.0
+1971,ferrari,Ferrari,29,2,7,44.0,1.0,3.0
+1971,march,March,57,0,5,37.0,2.0,4.0
+1971,lotus,Lotus,25,0,3,25.0,2.0,5.0
+1971,mclaren,McLaren,29,0,1,13.0,3.0,6.0
+1971,matra,Matra,17,0,1,10.0,3.0,7.0
+1971,surtees,Surtees,28,0,0,9.0,4.0,8.0
+1971,brabham,Brabham,25,0,1,7.0,3.0,9.0
+1971,bellasi,Bellasi,1,0,0,0.0,,
+1972,lotus,Lotus,28,5,8,61.0,1.0,1.0
+1972,tyrrell,Tyrrell,25,4,7,60.0,1.0,2.0
+1972,mclaren,McLaren,25,1,11,66.0,1.0,3.0
+1972,ferrari,Ferrari,30,1,6,47.0,1.0,4.0
+1972,surtees,Surtees,38,0,1,18.0,2.0,5.0
+1972,march,March,58,0,1,15.0,3.0,6.0
+1972,brm,BRM,50,1,1,14.0,1.0,7.0
+1972,matra,Matra,12,0,1,12.0,3.0,8.0
+1972,brabham,Brabham,33,0,0,7.0,4.0,9.0
+1972,connew,Connew,2,0,0,0.0,,
+1972,eifelland,Eifelland,8,0,0,0.0,10.0,
+1972,politoys,Politoys,1,0,0,0.0,,
+1972,tecno,Tecno,9,0,0,0.0,,
+1973,lotus,Lotus,31,7,15,107.0,1.0,1.0
+1973,tyrrell,Tyrrell,33,5,15,118.0,1.0,2.0
+1973,mclaren,McLaren,35,3,8,68.0,1.0,3.0
+1973,brabham,Brabham,41,0,2,22.0,3.0,4.0
+1973,march,March,42,0,2,14.0,2.0,5.0
+1973,ferrari,Ferrari,19,0,0,14.0,4.0,6.0
+1973,brm,BRM,45,0,0,13.0,4.0,7.0
+1973,shadow,Shadow,39,0,2,9.0,3.0,8.0
+1973,surtees,Surtees,35,0,1,7.0,3.0,9.0
+1973,iso-marlboro,Iso-Marlboro,30,0,0,2.0,6.0,10.0
+1973,tecno,Tecno,5,0,0,1.0,6.0,11.0
+1973,ensign,Ensign,7,0,0,0.0,13.0,
+1974,mclaren,McLaren,46,4,10,87.0,1.0,1.0
+1974,ferrari,Ferrari,30,3,12,90.0,1.0,2.0
+1974,tyrrell,Tyrrell,31,2,7,59.0,1.0,3.0
+1974,lotus,Lotus,33,3,6,47.0,1.0,4.0
+1974,brabham,Brabham,55,3,5,46.0,1.0,5.0
+1974,hesketh,Hesketh,14,0,3,15.0,3.0,6.0
+1974,brm,BRM,40,0,1,10.0,2.0,7.0
+1974,shadow,Shadow,28,0,1,7.0,3.0,8.0
+1974,march,March,33,0,0,6.0,4.0,9.0
+1974,iso-marlboro,Iso-Marlboro,28,0,0,4.0,4.0,10.0
+1974,surtees,Surtees,36,0,0,3.0,4.0,11.0
+1974,lola,Lola,30,0,0,1.0,6.0,12.0
+1974,amon,Amon,5,0,0,0.0,,
+1974,ensign,Ensign,12,0,0,0.0,15.0,
+1974,lyncar,Lyncar,1,0,0,0.0,,
+1974,maki,Maki,2,0,0,0.0,,
+1974,parnelli,Parnelli,2,0,0,0.0,7.0,
+1974,penske,Penske,2,0,0,0.0,12.0,
+1974,token,Token,4,0,0,0.0,14.0,
+1974,trojan,Trojan,8,0,0,0.0,10.0,
+1975,ferrari,Ferrari,28,6,11,89.5,1.0,1.0
+1975,brabham,Brabham,28,2,9,61.0,1.0,2.0
+1975,mclaren,McLaren,29,3,10,65.0,1.0,3.0
+1975,hesketh,Hesketh,26,1,4,33.0,1.0,4.0
+1975,tyrrell,Tyrrell,31,1,4,32.0,1.0,5.0
+1975,shadow,Shadow,28,0,1,9.5,3.0,6.0
+1975,lotus,Lotus,31,0,1,9.0,2.0,7.0
+1975,march,March,33,1,1,9.0,1.0,8.0
+1975,frank-williams-racing-cars,Frank Williams Racing Cars,27,0,1,6.0,2.0,9.0
+1975,parnelli,Parnelli,12,0,0,5.0,4.0,10.0
+1975,hill,Hill,20,0,0,3.0,5.0,11.0
+1975,penske,Penske,10,0,0,2.0,5.0,12.0
+1975,ensign,Ensign,11,0,0,1.0,6.0,13.0
+1975,brm,BRM,11,0,0,0.0,9.0,
+1975,fittipaldi,Fittipaldi,14,0,0,0.0,10.0,
+1975,lola,Lola,6,0,0,0.0,7.0,
+1975,lyncar,Lyncar,1,0,0,0.0,17.0,
+1975,maki,Maki,5,0,0,0.0,,
+1975,surtees,Surtees,12,0,0,0.0,8.0,
+1976,ferrari,Ferrari,30,6,13,99.0,1.0,1.0
+1976,mclaren,McLaren,32,6,10,88.0,1.0,2.0
+1976,tyrrell,Tyrrell,41,1,12,88.0,1.0,3.0
+1976,lotus,Lotus,31,1,5,32.0,1.0,4.0
+1976,penske,Penske,17,1,3,20.0,1.0,5.0
+1976,ligier,Ligier,16,0,3,20.0,2.0,6.0
+1976,march,March,55,1,1,19.0,1.0,7.0
+1976,shadow,Shadow,33,0,1,10.0,3.0,8.0
+1976,brabham,Brabham,47,0,0,11.0,4.0,9.0
+1976,surtees,Surtees,38,0,0,7.0,4.0,10.0
+1976,fittipaldi,Fittipaldi,20,0,0,3.0,6.0,11.0
+1976,ensign,Ensign,14,0,0,2.0,5.0,12.0
+1976,parnelli,Parnelli,2,0,0,1.0,6.0,13.0
+1976,brm,BRM,1,0,0,0.0,,
+1976,boro,Boro,6,0,0,0.0,8.0,
+1976,hesketh,Hesketh,23,0,0,0.0,7.0,
+1976,kojima,Kojima,1,0,0,0.0,11.0,
+1976,maki,Maki,1,0,0,0.0,,
+1976,wolf-williams,Wolf-Williams,28,0,0,0.0,7.0,
+1977,ferrari,Ferrari,34,4,16,114.0,1.0,1.0
+1977,lotus,Lotus,34,5,7,67.0,1.0,2.0
+1977,mclaren,McLaren,53,3,7,65.0,1.0,3.0
+1977,wolf,Wolf,17,3,9,55.0,1.0,4.0
+1977,brabham,Brabham,35,0,4,27.0,2.0,5.0
+1977,tyrrell,Tyrrell,35,0,4,27.0,2.0,6.0
+1977,shadow,Shadow,34,1,2,24.0,1.0,7.0
+1977,ligier,Ligier,18,1,2,18.0,1.0,8.0
+1977,fittipaldi,Fittipaldi,18,0,0,11.0,4.0,9.0
+1977,ensign,Ensign,26,0,0,10.0,5.0,10.0
+1977,surtees,Surtees,36,0,0,6.0,4.0,11.0
+1977,penske,Penske,17,0,0,1.0,6.0,12.0
+1977,apollon,Apollon,1,0,0,0.0,,
+1977,brm,BRM,10,0,0,0.0,15.0,
+1977,boro,Boro,2,0,0,0.0,,
+1977,hesketh,Hesketh,28,0,0,0.0,7.0,
+1977,kojima,Kojima,2,0,0,0.0,11.0,
+1977,lec,LEC,5,0,0,0.0,13.0,
+1977,march,March,68,0,0,0.0,7.0,
+1977,mcguire,McGuire,1,0,0,0.0,,
+1977,renault,Renault,5,0,0,0.0,,
+1978,lotus,Lotus,48,8,14,116.0,1.0,1.0
+1978,ferrari,Ferrari,32,5,9,65.0,1.0,2.0
+1978,brabham,Brabham,33,2,10,69.0,1.0,3.0
+1978,tyrrell,Tyrrell,32,1,5,41.0,1.0,4.0
+1978,wolf,Wolf,22,0,4,24.0,2.0,5.0
+1978,ligier,Ligier,16,0,2,19.0,3.0,6.0
+1978,fittipaldi,Fittipaldi,16,0,1,17.0,2.0,7.0
+1978,mclaren,McLaren,55,0,1,16.0,3.0,8.0
+1978,williams,Williams,16,0,1,11.0,2.0,9.0
+1978,arrows,Arrows,28,0,1,11.0,2.0,10.0
+1978,shadow,Shadow,34,0,0,6.0,5.0,11.0
+1978,renault,Renault,14,0,0,3.0,4.0,12.0
+1978,ensign,Ensign,25,0,0,1.0,6.0,13.0
+1978,surtees,Surtees,32,0,0,1.0,6.0,13.0
+1978,ats-wheels,ATS,32,0,0,0.0,7.0,
+1978,hesketh,Hesketh,6,0,0,0.0,,
+1978,march,March,1,0,0,0.0,,
+1978,martini,Martini,7,0,0,0.0,9.0,
+1978,merzario,Merzario,17,0,0,0.0,,
+1978,theodore,Theodore,7,0,0,0.0,,
+1979,ferrari,Ferrari,30,6,13,113.0,1.0,1.0
+1979,williams,Williams,30,5,10,75.0,1.0,2.0
+1979,ligier,Ligier,30,3,8,61.0,1.0,3.0
+1979,lotus,Lotus,41,0,5,39.0,2.0,4.0
+1979,tyrrell,Tyrrell,32,0,4,28.0,3.0,5.0
+1979,renault,Renault,30,1,4,26.0,1.0,6.0
+1979,mclaren,McLaren,30,0,1,15.0,3.0,7.0
+1979,brabham,Brabham,30,0,0,7.0,4.0,8.0
+1979,arrows,Arrows,30,0,0,5.0,5.0,9.0
+1979,shadow,Shadow,30,0,0,3.0,4.0,10.0
+1979,ats-wheels,ATS,15,0,0,2.0,5.0,11.0
+1979,fittipaldi,Fittipaldi,17,0,0,1.0,6.0,12.0
+1979,alfa-romeo,Alfa Romeo,7,0,0,0.0,12.0,
+1979,ensign,Ensign,15,0,0,0.0,11.0,
+1979,kauhsen,Kauhsen,2,0,0,0.0,,
+1979,merzario,Merzario,15,0,0,0.0,,
+1979,rebaque,Rebaque,3,0,0,0.0,,
+1979,wolf,Wolf,15,0,0,0.0,8.0,
+1980,williams,Williams,38,6,18,120.0,1.0,1.0
+1980,ligier,Ligier,28,2,10,66.0,1.0,2.0
+1980,brabham,Brabham,28,3,6,55.0,1.0,3.0
+1980,renault,Renault,27,3,4,38.0,1.0,4.0
+1980,lotus,Lotus,31,0,1,14.0,2.0,5.0
+1980,tyrrell,Tyrrell,30,0,0,12.0,4.0,6.0
+1980,arrows,Arrows,29,0,1,11.0,2.0,7.0
+1980,fittipaldi,Fittipaldi,28,0,2,11.0,3.0,8.0
+1980,mclaren,McLaren,28,0,0,11.0,4.0,9.0
+1980,ferrari,Ferrari,28,0,0,8.0,5.0,10.0
+1980,alfa-romeo,Alfa Romeo,26,0,0,4.0,5.0,11.0
+1980,ats-wheels,ATS,18,0,0,0.0,7.0,
+1980,ensign,Ensign,16,0,0,0.0,9.0,
+1980,osella,Osella,14,0,0,0.0,12.0,
+1980,shadow,Shadow,14,0,0,0.0,13.0,
+1981,williams,Williams,30,4,13,95.0,1.0,1.0
+1981,brabham,Brabham,30,3,7,61.0,1.0,2.0
+1981,renault,Renault,30,3,7,54.0,1.0,3.0
+1981,ligier,Ligier,31,2,7,44.0,1.0,4.0
+1981,ferrari,Ferrari,30,2,3,34.0,1.0,5.0
+1981,mclaren,McLaren,30,1,4,28.0,1.0,6.0
+1981,lotus,Lotus,28,0,1,22.0,3.0,7.0
+1981,arrows,Arrows,30,0,2,10.0,2.0,8.0
+1981,alfa-romeo,Alfa Romeo,30,0,1,10.0,3.0,9.0
+1981,tyrrell,Tyrrell,30,0,0,10.0,4.0,10.0
+1981,ensign,Ensign,16,0,0,5.0,4.0,11.0
+1981,ats-wheels,ATS,16,0,0,1.0,6.0,12.0
+1981,theodore,Theodore,15,0,0,1.0,6.0,12.0
+1981,fittipaldi,Fittipaldi,28,0,0,0.0,7.0,
+1981,march,March,21,0,0,0.0,7.0,
+1981,osella,Osella,29,0,0,0.0,8.0,
+1981,toleman,Toleman,24,0,0,0.0,10.0,
+1982,ferrari,Ferrari,27,3,11,74.0,1.0,1.0
+1982,mclaren,McLaren,30,4,8,69.0,1.0,2.0
+1982,renault,Renault,32,4,8,62.0,1.0,3.0
+1982,williams,Williams,30,1,7,58.0,1.0,4.0
+1982,lotus,Lotus,30,1,2,30.0,1.0,5.0
+1982,tyrrell,Tyrrell,32,1,2,25.0,1.0,6.0
+1982,ligier,Ligier,30,0,4,20.0,2.0,8.0
+1982,brabham,Brabham,30,2,5,41.0,1.0,9.0
+1982,alfa-romeo,Alfa Romeo,32,0,1,7.0,3.0,10.0
+1982,arrows,Arrows,30,0,0,5.0,5.0,11.0
+1982,ats-wheels,ATS,32,0,0,4.0,5.0,12.0
+1982,osella,Osella,24,0,0,3.0,4.0,13.0
+1982,fittipaldi,Fittipaldi,15,0,0,1.0,6.0,14.0
+1982,ensign,Ensign,14,0,0,0.0,8.0,
+1982,march,March,35,0,0,0.0,7.0,
+1982,theodore,Theodore,15,0,0,0.0,14.0,
+1982,toleman,Toleman,28,0,0,0.0,10.0,
+1983,ferrari,Ferrari,30,4,12,89.0,1.0,1.0
+1983,renault,Renault,30,4,11,79.0,1.0,2.0
+1983,brabham,Brabham,30,4,10,72.0,1.0,3.0
+1983,mclaren,McLaren,30,1,5,34.0,1.0,5.0
+1983,alfa-romeo,Alfa Romeo,30,0,2,18.0,2.0,6.0
+1983,tyrrell,Tyrrell,30,1,1,12.0,1.0,7.0
+1983,toleman,Toleman,30,0,0,10.0,4.0,9.0
+1983,arrows,Arrows,30,0,0,4.0,5.0,10.0
+1983,williams,Williams,31,1,2,38.0,1.0,11.0
+1983,lotus,Lotus,30,0,1,12.0,3.0,12.0
+1983,theodore,Theodore,27,0,0,1.0,6.0,12.0
+1983,ats-wheels,ATS,15,0,0,0.0,8.0,
+1983,ligier,Ligier,30,0,0,0.0,7.0,
+1983,osella,Osella,30,0,0,0.0,10.0,
+1983,ram,RAM,15,0,0,0.0,12.0,
+1983,spirit,Spirit,6,0,0,0.0,7.0,
+1984,mclaren,McLaren,32,12,18,143.5,1.0,1.0
+1984,ferrari,Ferrari,32,1,8,57.5,1.0,2.0
+1984,lotus,Lotus,32,0,6,47.0,2.0,3.0
+1984,brabham,Brabham,32,2,5,38.0,1.0,4.0
+1984,renault,Renault,33,0,5,34.0,2.0,5.0
+1984,williams,Williams,32,1,2,25.5,1.0,6.0
+1984,toleman,Toleman,29,0,3,16.0,2.0,7.0
+1984,alfa-romeo,Alfa Romeo,32,0,1,11.0,3.0,8.0
+1984,arrows,Arrows,32,0,0,6.0,5.0,9.0
+1984,ligier,Ligier,32,0,0,3.0,5.0,9.0
+1984,osella,Osella,24,0,0,2.0,5.0,12.0
+1984,ats-wheels,ATS,18,0,0,0.0,6.0,
+1984,ram,RAM,32,0,0,0.0,8.0,
+1984,spirit,Spirit,16,0,0,0.0,8.0,
+1984,tyrrell,Tyrrell,26,0,0,0.0,,
+1985,mclaren,McLaren,32,6,12,90.0,1.0,1.0
+1985,ferrari,Ferrari,32,2,10,82.0,1.0,2.0
+1985,williams,Williams,32,4,8,71.0,1.0,3.0
+1985,lotus,Lotus,32,3,9,71.0,1.0,4.0
+1985,brabham,Brabham,32,1,2,26.0,1.0,5.0
+1985,ligier,Ligier,30,0,4,23.0,2.0,6.0
+1985,renault,Renault,31,0,2,16.0,3.0,7.0
+1985,arrows,Arrows,32,0,1,14.0,2.0,8.0
+1985,tyrrell,Tyrrell,30,0,0,7.0,4.0,10.0
+1985,alfa-romeo,Alfa Romeo,32,0,0,0.0,9.0,
+1985,lola,Lola,4,0,0,0.0,,
+1985,minardi,Minardi,16,0,0,0.0,8.0,
+1985,osella,Osella,16,0,0,0.0,7.0,
+1985,ram,RAM,26,0,0,0.0,9.0,
+1985,spirit,Spirit,3,0,0,0.0,,
+1985,toleman,Toleman,20,0,0,0.0,12.0,
+1985,zakspeed,Zakspeed,10,0,0,0.0,11.0,
+1986,williams,Williams,32,9,19,141.0,1.0,1.0
+1986,mclaren,McLaren,32,4,12,96.0,1.0,2.0
+1986,lotus,Lotus,32,2,8,58.0,1.0,3.0
+1986,ferrari,Ferrari,32,0,5,37.0,2.0,4.0
+1986,ligier,Ligier,32,0,2,29.0,2.0,5.0
+1986,benetton,Benetton,32,1,2,19.0,1.0,6.0
+1986,tyrrell,Tyrrell,32,0,0,11.0,4.0,7.0
+1986,lola,Lola,32,0,0,6.0,4.0,8.0
+1986,brabham,Brabham,31,0,0,2.0,6.0,9.0
+1986,arrows,Arrows,31,0,0,1.0,6.0,10.0
+1986,ags,AGS,2,0,0,0.0,,
+1986,minardi,Minardi,32,0,0,0.0,8.0,
+1986,osella,Osella,32,0,0,0.0,11.0,
+1986,zakspeed,Zakspeed,30,0,0,0.0,8.0,
+1987,williams,Williams,32,9,18,137.0,1.0,1.0
+1987,mclaren,McLaren,32,3,12,76.0,1.0,2.0
+1987,lotus,Lotus,32,2,8,64.0,1.0,3.0
+1987,ferrari,Ferrari,32,2,6,53.0,1.0,4.0
+1987,benetton,Benetton,32,0,2,28.0,3.0,5.0
+1987,tyrrell,Tyrrell,32,0,0,11.0,4.0,6.0
+1987,arrows,Arrows,32,0,0,11.0,4.0,7.0
+1987,brabham,Brabham,32,0,2,10.0,3.0,8.0
+1987,lola,Lola,18,0,0,3.0,5.0,9.0
+1987,zakspeed,Zakspeed,32,0,0,2.0,5.0,10.0
+1987,ags,AGS,16,0,0,1.0,6.0,11.0
+1987,ligier,Ligier,30,0,0,1.0,6.0,11.0
+1987,march,March,16,0,0,1.0,6.0,11.0
+1987,coloni,Coloni,2,0,0,0.0,,
+1987,minardi,Minardi,32,0,0,0.0,11.0,
+1987,osella,Osella,20,0,0,0.0,12.0,
+1988,mclaren,McLaren,32,15,25,199.0,1.0,1.0
+1988,ferrari,Ferrari,32,1,8,65.0,1.0,2.0
+1988,benetton,Benetton,32,0,7,39.0,3.0,3.0
+1988,lotus,Lotus,32,0,3,23.0,3.0,4.0
+1988,arrows,Arrows,32,0,1,23.0,3.0,5.0
+1988,march,March,32,0,2,22.0,2.0,6.0
+1988,williams,Williams,32,0,2,20.0,2.0,7.0
+1988,tyrrell,Tyrrell,32,0,0,5.0,5.0,8.0
+1988,rial,Rial,16,0,0,3.0,4.0,9.0
+1988,minardi,Minardi,32,0,0,1.0,6.0,10.0
+1988,ags,AGS,16,0,0,0.0,8.0,
+1988,coloni,Coloni,16,0,0,0.0,8.0,
+1988,dallara,Dallara,16,0,0,0.0,7.0,
+1988,eurobrun,EuroBrun,32,0,0,0.0,11.0,
+1988,ligier,Ligier,32,0,0,0.0,9.0,
+1988,lola,Lola,32,0,0,0.0,7.0,
+1988,osella,Osella,16,0,0,0.0,9.0,
+1988,zakspeed,Zakspeed,32,0,0,0.0,12.0,
+1989,mclaren,McLaren,32,10,18,141.0,1.0,1.0
+1989,williams,Williams,32,2,11,77.0,1.0,2.0
+1989,ferrari,Ferrari,30,3,9,59.0,1.0,3.0
+1989,benetton,Benetton,32,1,4,39.0,1.0,4.0
+1989,tyrrell,Tyrrell,32,0,1,16.0,3.0,5.0
+1989,lotus,Lotus,32,0,0,15.0,4.0,6.0
+1989,arrows,Arrows,32,0,1,13.0,3.0,7.0
+1989,dallara,Dallara,32,0,1,8.0,3.0,8.0
+1989,brabham,Brabham,32,0,1,8.0,3.0,9.0
+1989,onyx,Onyx,32,0,1,6.0,3.0,10.0
+1989,minardi,Minardi,32,0,0,6.0,5.0,11.0
+1989,march,March,32,0,1,4.0,3.0,12.0
+1989,rial,Rial,32,0,0,3.0,4.0,13.0
+1989,ligier,Ligier,32,0,0,3.0,5.0,14.0
+1989,ags,AGS,31,0,0,1.0,6.0,15.0
+1989,lola,Lola,32,0,0,1.0,6.0,15.0
+1989,coloni,Coloni,32,0,0,0.0,,
+1989,eurobrun,EuroBrun,16,0,0,0.0,,
+1989,osella,Osella,32,0,0,0.0,12.0,
+1989,zakspeed,Zakspeed,32,0,0,0.0,,
+1990,mclaren,McLaren,32,6,18,121.0,1.0,1.0
+1990,ferrari,Ferrari,32,6,14,110.0,1.0,2.0
+1990,benetton,Benetton,32,2,8,71.0,1.0,3.0
+1990,williams,Williams,32,2,4,57.0,1.0,4.0
+1990,tyrrell,Tyrrell,32,0,2,16.0,2.0,5.0
+1990,lola,Lola,32,0,1,11.0,3.0,6.0
+1990,leyton-house,Leyton House,32,0,1,7.0,2.0,7.0
+1990,lotus,Lotus,32,0,0,3.0,5.0,8.0
+1990,arrows,Arrows,32,0,0,2.0,5.0,9.0
+1990,brabham,Brabham,32,0,0,2.0,5.0,9.0
+1990,ags,AGS,32,0,0,0.0,9.0,
+1990,coloni,Coloni,16,0,0,0.0,,
+1990,dallara,Dallara,32,0,0,0.0,10.0,
+1990,eurobrun,EuroBrun,28,0,0,0.0,13.0,
+1990,life,Life,14,0,0,0.0,,
+1990,ligier,Ligier,32,0,0,0.0,7.0,
+1990,minardi,Minardi,32,0,0,0.0,7.0,
+1990,onyx,Onyx,20,0,0,0.0,7.0,
+1990,osella,Osella,16,0,0,0.0,13.0,
+1991,mclaren,McLaren,32,8,18,139.0,1.0,1.0
+1991,williams,Williams,32,7,17,125.0,1.0,2.0
+1991,ferrari,Ferrari,32,0,8,55.5,2.0,3.0
+1991,benetton,Benetton,32,1,3,38.5,1.0,4.0
+1991,jordan,Jordan,32,0,0,13.0,4.0,5.0
+1991,tyrrell,Tyrrell,32,0,1,12.0,2.0,6.0
+1991,minardi,Minardi,32,0,0,6.0,4.0,7.0
+1991,dallara,Dallara,32,0,1,5.0,3.0,8.0
+1991,lotus,Lotus,32,0,0,3.0,5.0,9.0
+1991,brabham,Brabham,32,0,0,3.0,5.0,10.0
+1991,lola,Lola,32,0,0,2.0,6.0,11.0
+1991,leyton-house,Leyton House,32,0,0,1.0,6.0,12.0
+1991,ags,AGS,28,0,0,0.0,8.0,
+1991,coloni,Coloni,15,0,0,0.0,,
+1991,fondmetal,Fondmetal,16,0,0,0.0,10.0,
+1991,footwork,Footwork,32,0,0,0.0,10.0,
+1991,ligier,Ligier,32,0,0,0.0,7.0,
+1991,modena,Modena,32,0,0,0.0,7.0,
+1992,williams,Williams,32,10,21,164.0,1.0,1.0
+1992,mclaren,McLaren,32,5,12,99.0,1.0,2.0
+1992,benetton,Benetton,32,1,13,91.0,1.0,3.0
+1992,ferrari,Ferrari,32,0,2,21.0,3.0,4.0
+1992,lotus,Lotus,32,0,0,13.0,4.0,5.0
+1992,tyrrell,Tyrrell,32,0,0,8.0,4.0,6.0
+1992,footwork,Footwork,32,0,0,6.0,5.0,7.0
+1992,ligier,Ligier,32,0,0,6.0,5.0,7.0
+1992,march,March,32,0,0,3.0,4.0,9.0
+1992,dallara,Dallara,32,0,0,2.0,6.0,10.0
+1992,jordan,Jordan,32,0,0,1.0,6.0,11.0
+1992,minardi,Minardi,32,0,0,1.0,6.0,11.0
+1992,venturi,Venturi,32,0,0,1.0,6.0,11.0
+1992,andrea-moda,Andrea Moda,18,0,0,0.0,,
+1992,brabham,Brabham,21,0,0,0.0,11.0,
+1992,fondmetal,Fondmetal,26,0,0,0.0,10.0,
+1993,williams,Williams,32,10,22,168.0,1.0,1.0
+1993,mclaren,McLaren,32,5,9,84.0,1.0,2.0
+1993,benetton,Benetton,32,1,11,72.0,1.0,3.0
+1993,ferrari,Ferrari,32,0,3,28.0,2.0,4.0
+1993,ligier,Ligier,32,0,3,23.0,3.0,5.0
+1993,lotus,Lotus,32,0,0,12.0,4.0,6.0
+1993,sauber,Sauber,32,0,0,12.0,4.0,7.0
+1993,minardi,Minardi,32,0,0,7.0,4.0,8.0
+1993,footwork,Footwork,32,0,0,4.0,4.0,9.0
+1993,jordan,Jordan,32,0,0,3.0,5.0,10.0
+1993,larrousse,Larrousse,32,0,0,3.0,5.0,10.0
+1993,lola,Lola,28,0,0,0.0,7.0,
+1993,tyrrell,Tyrrell,32,0,0,0.0,10.0,
+1994,williams,Williams,31,7,13,118.0,1.0,1.0
+1994,benetton,Benetton,32,8,12,103.0,1.0,2.0
+1994,ferrari,Ferrari,32,1,11,71.0,1.0,3.0
+1994,mclaren,McLaren,32,0,8,42.0,2.0,4.0
+1994,jordan,Jordan,32,0,1,28.0,3.0,5.0
+1994,ligier,Ligier,32,0,2,13.0,2.0,6.0
+1994,tyrrell,Tyrrell,32,0,1,13.0,3.0,7.0
+1994,sauber,Sauber,31,0,0,12.0,4.0,8.0
+1994,footwork,Footwork,32,0,0,9.0,4.0,9.0
+1994,minardi,Minardi,32,0,0,5.0,5.0,10.0
+1994,larrousse,Larrousse,32,0,0,2.0,6.0,11.0
+1994,lotus,Lotus,32,0,0,0.0,7.0,
+1994,pacific,Pacific,32,0,0,0.0,,
+1994,simtek,Simtek,30,0,0,0.0,9.0,
+1995,benetton,Benetton,34,11,15,147.0,1.0,1.0
+1995,williams,Williams,34,5,17,118.0,1.0,2.0
+1995,ferrari,Ferrari,34,1,11,73.0,1.0,3.0
+1995,mclaren,McLaren,34,0,2,30.0,2.0,4.0
+1995,ligier,Ligier,34,0,2,24.0,2.0,5.0
+1995,jordan,Jordan,34,0,2,21.0,2.0,6.0
+1995,sauber,Sauber,34,0,1,18.0,3.0,7.0
+1995,footwork,Footwork,34,0,1,5.0,3.0,8.0
+1995,tyrrell,Tyrrell,34,0,0,5.0,5.0,9.0
+1995,minardi,Minardi,34,0,0,1.0,6.0,10.0
+1995,forti,Forti,34,0,0,0.0,7.0,
+1995,pacific,Pacific,34,0,0,0.0,8.0,
+1995,simtek,Simtek,10,0,0,0.0,9.0,
+1996,williams,Williams,32,12,21,175.0,1.0,1.0
+1996,ferrari,Ferrari,32,3,9,70.0,1.0,2.0
+1996,benetton,Benetton,32,0,10,68.0,2.0,3.0
+1996,mclaren,McLaren,32,0,6,49.0,2.0,4.0
+1996,jordan,Jordan,32,0,0,22.0,4.0,5.0
+1996,ligier,Ligier,32,1,1,15.0,1.0,6.0
+1996,sauber,Sauber,32,0,1,11.0,3.0,7.0
+1996,tyrrell,Tyrrell,32,0,0,5.0,5.0,8.0
+1996,footwork,Footwork,32,0,0,1.0,6.0,9.0
+1996,forti,Forti,20,0,0,0.0,10.0,
+1996,minardi,Minardi,32,0,0,0.0,8.0,
+1997,williams,Williams,34,8,15,123.0,1.0,1.0
+1997,ferrari,Ferrari,34,5,13,102.0,1.0,2.0
+1997,benetton,Benetton,34,1,8,67.0,1.0,3.0
+1997,mclaren,McLaren,34,3,7,63.0,1.0,4.0
+1997,jordan,Jordan,34,0,3,33.0,2.0,5.0
+1997,prost,Prost,34,0,2,21.0,2.0,6.0
+1997,sauber,Sauber,34,0,1,16.0,3.0,7.0
+1997,arrows,Arrows,34,0,1,9.0,2.0,8.0
+1997,stewart,Stewart,34,0,1,6.0,2.0,9.0
+1997,tyrrell,Tyrrell,34,0,0,2.0,5.0,10.0
+1997,lola,Lola,2,0,0,0.0,,
+1997,minardi,Minardi,34,0,0,0.0,9.0,
+1998,mclaren,McLaren,32,9,20,156.0,1.0,1.0
+1998,ferrari,Ferrari,32,6,19,133.0,1.0,2.0
+1998,williams,Williams,32,0,3,38.0,3.0,3.0
+1998,jordan,Jordan,32,1,3,34.0,1.0,4.0
+1998,benetton,Benetton,32,0,2,33.0,2.0,5.0
+1998,sauber,Sauber,32,0,1,10.0,3.0,6.0
+1998,arrows,Arrows,32,0,0,6.0,4.0,7.0
+1998,stewart,Stewart,32,0,0,5.0,5.0,8.0
+1998,prost,Prost,32,0,0,1.0,6.0,9.0
+1998,minardi,Minardi,32,0,0,0.0,7.0,
+1998,tyrrell,Tyrrell,32,0,0,0.0,8.0,
+1999,ferrari,Ferrari,32,6,17,128.0,1.0,1.0
+1999,mclaren,McLaren,32,7,16,124.0,1.0,2.0
+1999,jordan,Jordan,32,2,6,61.0,1.0,3.0
+1999,stewart,Stewart,32,1,4,36.0,1.0,4.0
+1999,williams,Williams,32,0,3,35.0,2.0,5.0
+1999,benetton,Benetton,32,0,1,16.0,2.0,6.0
+1999,prost,Prost,32,0,1,9.0,2.0,7.0
+1999,sauber,Sauber,32,0,0,5.0,6.0,8.0
+1999,arrows,Arrows,32,0,0,1.0,6.0,9.0
+1999,minardi,Minardi,32,0,0,1.0,6.0,10.0
+1999,bar,BAR,32,0,0,0.0,7.0,
+2000,ferrari,Ferrari,34,10,21,170.0,1.0,1.0
+2000,mclaren,McLaren,34,7,22,162.0,1.0,2.0
+2000,williams,Williams,34,0,3,36.0,3.0,3.0
+2000,benetton,Benetton,34,0,3,20.0,2.0,4.0
+2000,bar,BAR,34,0,0,20.0,4.0,5.0
+2000,jordan,Jordan,34,0,2,17.0,3.0,6.0
+2000,arrows,Arrows,34,0,0,7.0,4.0,7.0
+2000,sauber,Sauber,34,0,0,6.0,5.0,8.0
+2000,jaguar,Jaguar,34,0,0,4.0,4.0,9.0
+2000,minardi,Minardi,34,0,0,0.0,8.0,10.0
+2000,prost,Prost,34,0,0,0.0,8.0,11.0
+2001,ferrari,Ferrari,34,9,24,179.0,1.0,1.0
+2001,mclaren,McLaren,34,4,13,102.0,1.0,2.0
+2001,williams,Williams,34,4,9,80.0,1.0,3.0
+2001,sauber,Sauber,34,0,1,21.0,3.0,4.0
+2001,jordan,Jordan,34,0,0,19.0,4.0,5.0
+2001,bar,BAR,34,0,2,17.0,3.0,6.0
+2001,benetton,Benetton,34,0,1,10.0,3.0,7.0
+2001,jaguar,Jaguar,34,0,1,9.0,3.0,8.0
+2001,prost,Prost,34,0,0,4.0,5.0,9.0
+2001,arrows,Arrows,34,0,0,1.0,6.0,10.0
+2001,minardi,Minardi,34,0,0,0.0,9.0,11.0
+2002,ferrari,Ferrari,34,15,27,221.0,1.0,1.0
+2002,williams,Williams,34,1,13,92.0,1.0,2.0
+2002,mclaren,McLaren,34,1,10,65.0,1.0,3.0
+2002,renault,Renault,34,0,0,23.0,4.0,4.0
+2002,sauber,Sauber,34,0,0,11.0,4.0,5.0
+2002,jordan,Jordan,34,0,0,9.0,5.0,6.0
+2002,jaguar,Jaguar,34,0,1,8.0,3.0,7.0
+2002,bar,BAR,34,0,0,7.0,4.0,8.0
+2002,minardi,Minardi,34,0,0,2.0,5.0,9.0
+2002,toyota,Toyota,34,0,0,2.0,6.0,10.0
+2002,arrows,Arrows,24,0,0,2.0,6.0,11.0
+2003,ferrari,Ferrari,32,8,16,158.0,1.0,1.0
+2003,williams,Williams,32,4,12,144.0,1.0,2.0
+2003,mclaren,McLaren,32,2,13,142.0,1.0,3.0
+2003,renault,Renault,32,1,5,88.0,1.0,4.0
+2003,bar,BAR,32,0,0,26.0,4.0,5.0
+2003,sauber,Sauber,32,0,1,19.0,3.0,6.0
+2003,jaguar,Jaguar,32,0,0,18.0,6.0,7.0
+2003,toyota,Toyota,32,0,0,16.0,5.0,8.0
+2003,jordan,Jordan,32,1,1,13.0,1.0,9.0
+2003,minardi,Minardi,32,0,0,0.0,9.0,10.0
+2004,ferrari,Ferrari,36,15,29,262.0,1.0,1.0
+2004,bar,BAR,36,0,11,119.0,2.0,2.0
+2004,renault,Renault,36,1,6,105.0,1.0,3.0
+2004,williams,Williams,36,1,4,88.0,1.0,4.0
+2004,mclaren,McLaren,36,1,4,69.0,1.0,5.0
+2004,sauber,Sauber,36,0,0,34.0,4.0,6.0
+2004,jaguar,Jaguar,36,0,0,10.0,6.0,7.0
+2004,toyota,Toyota,36,0,0,9.0,5.0,8.0
+2004,jordan,Jordan,36,0,0,5.0,7.0,9.0
+2004,minardi,Minardi,36,0,0,1.0,8.0,10.0
+2005,renault,Renault,38,8,18,191.0,1.0,1.0
+2005,mclaren,McLaren,38,10,18,182.0,1.0,2.0
+2005,ferrari,Ferrari,38,1,9,100.0,1.0,3.0
+2005,toyota,Toyota,38,0,5,88.0,2.0,4.0
+2005,williams,Williams,38,0,4,66.0,2.0,5.0
+2005,bar,BAR,34,0,2,38.0,3.0,6.0
+2005,red-bull,Red Bull,38,0,0,34.0,4.0,7.0
+2005,sauber,Sauber,38,0,0,20.0,4.0,8.0
+2005,jordan,Jordan,38,0,1,12.0,3.0,9.0
+2005,minardi,Minardi,38,0,0,7.0,5.0,10.0
+2006,renault,Renault,36,8,19,206.0,1.0,1.0
+2006,ferrari,Ferrari,36,9,19,201.0,1.0,2.0
+2006,mclaren,McLaren,36,0,9,110.0,2.0,3.0
+2006,honda,Honda,36,1,3,86.0,1.0,4.0
+2006,bmw-sauber,BMW Sauber,36,0,2,36.0,3.0,5.0
+2006,toyota,Toyota,36,0,1,35.0,3.0,6.0
+2006,red-bull,Red Bull,36,0,1,16.0,3.0,7.0
+2006,williams,Williams,36,0,0,11.0,6.0,8.0
+2006,toro-rosso,Toro Rosso,36,0,0,1.0,8.0,9.0
+2006,midland,Midland,36,0,0,0.0,9.0,10.0
+2006,super-aguri,Super Aguri,36,0,0,0.0,10.0,11.0
+2007,ferrari,Ferrari,34,9,22,204.0,1.0,1.0
+2007,bmw-sauber,BMW Sauber,34,0,2,101.0,2.0,2.0
+2007,renault,Renault,34,0,1,51.0,2.0,3.0
+2007,williams,Williams,34,0,1,33.0,3.0,4.0
+2007,red-bull,Red Bull,34,0,1,24.0,3.0,5.0
+2007,toyota,Toyota,34,0,0,13.0,6.0,6.0
+2007,toro-rosso,Toro Rosso,34,0,0,8.0,4.0,7.0
+2007,honda,Honda,34,0,0,6.0,5.0,8.0
+2007,super-aguri,Super Aguri,34,0,0,4.0,6.0,9.0
+2007,spyker,Spyker,34,0,0,1.0,8.0,10.0
+2007,mclaren,McLaren,34,8,24,218.0,1.0,
+2008,ferrari,Ferrari,36,8,19,172.0,1.0,1.0
+2008,mclaren,McLaren,36,6,13,151.0,1.0,2.0
+2008,bmw-sauber,BMW Sauber,36,1,11,135.0,1.0,3.0
+2008,renault,Renault,36,2,4,80.0,1.0,4.0
+2008,toyota,Toyota,36,0,2,56.0,2.0,5.0
+2008,toro-rosso,Toro Rosso,36,1,1,39.0,1.0,6.0
+2008,red-bull,Red Bull,36,0,1,29.0,3.0,7.0
+2008,williams,Williams,36,0,2,26.0,2.0,8.0
+2008,honda,Honda,36,0,1,14.0,3.0,9.0
+2008,force-india,Force India,36,0,0,0.0,10.0,10.0
+2008,super-aguri,Super Aguri,8,0,0,0.0,13.0,11.0
+2009,brawn,Brawn,34,8,15,172.0,1.0,1.0
+2009,red-bull,Red Bull,34,6,16,153.5,1.0,2.0
+2009,mclaren,McLaren,34,2,5,71.0,1.0,3.0
+2009,ferrari,Ferrari,34,1,6,70.0,1.0,4.0
+2009,toyota,Toyota,34,0,5,59.5,2.0,5.0
+2009,bmw-sauber,BMW Sauber,34,0,2,36.0,2.0,6.0
+2009,williams,Williams,34,0,0,34.5,4.0,7.0
+2009,renault,Renault,34,0,1,26.0,3.0,8.0
+2009,force-india,Force India,34,0,1,13.0,2.0,9.0
+2009,toro-rosso,Toro Rosso,34,0,0,8.0,7.0,10.0
+2010,red-bull,Red Bull,38,9,20,498.0,1.0,1.0
+2010,mclaren,McLaren,38,5,16,454.0,1.0,2.0
+2010,ferrari,Ferrari,38,5,15,396.0,1.0,3.0
+2010,mercedes,Mercedes,38,0,3,214.0,3.0,4.0
+2010,renault,Renault,38,0,3,163.0,2.0,5.0
+2010,williams,Williams,38,0,0,69.0,4.0,6.0
+2010,force-india,Force India,38,0,0,68.0,5.0,7.0
+2010,sauber,Sauber,38,0,0,44.0,6.0,8.0
+2010,toro-rosso,Toro Rosso,38,0,0,13.0,8.0,9.0
+2010,lotus-racing,Lotus Racing,38,0,0,0.0,12.0,10.0
+2010,hrt,HRT,38,0,0,0.0,14.0,11.0
+2010,virgin,Virgin,38,0,0,0.0,14.0,12.0
+2011,red-bull,Red Bull,38,12,27,650.0,1.0,1.0
+2011,mclaren,McLaren,38,6,18,497.0,1.0,2.0
+2011,ferrari,Ferrari,38,1,10,375.0,1.0,3.0
+2011,mercedes,Mercedes,38,0,0,165.0,4.0,4.0
+2011,renault,Renault,38,0,2,73.0,3.0,5.0
+2011,force-india,Force India,38,0,0,69.0,6.0,6.0
+2011,sauber,Sauber,38,0,0,44.0,5.0,7.0
+2011,toro-rosso,Toro Rosso,38,0,0,41.0,7.0,8.0
+2011,williams,Williams,38,0,0,5.0,9.0,9.0
+2011,lotus-racing,Lotus Racing,38,0,0,0.0,13.0,10.0
+2011,hrt,HRT,36,0,0,0.0,13.0,11.0
+2011,virgin,Virgin,38,0,0,0.0,14.0,12.0
+2012,red-bull,Red Bull,40,7,14,460.0,1.0,1.0
+2012,ferrari,Ferrari,40,3,15,400.0,1.0,2.0
+2012,mclaren,McLaren,40,7,13,378.0,1.0,3.0
+2012,lotus-f1,Lotus,40,1,10,303.0,1.0,4.0
+2012,mercedes,Mercedes,40,1,3,142.0,1.0,5.0
+2012,sauber,Sauber,40,0,4,126.0,2.0,6.0
+2012,force-india,Force India,40,0,0,109.0,4.0,7.0
+2012,williams,Williams,40,1,1,76.0,1.0,8.0
+2012,toro-rosso,Toro Rosso,40,0,0,26.0,8.0,9.0
+2012,caterham,Caterham,40,0,0,0.0,11.0,10.0
+2012,marussia,Marussia,40,0,0,0.0,12.0,11.0
+2012,hrt,HRT,40,0,0,0.0,15.0,12.0
+2013,red-bull,Red Bull,38,13,24,596.0,1.0,1.0
+2013,mercedes,Mercedes,38,3,9,360.0,1.0,2.0
+2013,ferrari,Ferrari,38,2,10,354.0,1.0,3.0
+2013,lotus-f1,Lotus,38,1,14,315.0,1.0,4.0
+2013,mclaren,McLaren,38,0,0,122.0,4.0,5.0
+2013,force-india,Force India,38,0,0,77.0,4.0,6.0
+2013,sauber,Sauber,38,0,0,57.0,4.0,7.0
+2013,toro-rosso,Toro Rosso,38,0,0,33.0,6.0,8.0
+2013,williams,Williams,38,0,0,5.0,8.0,9.0
+2013,marussia,Marussia,38,0,0,0.0,13.0,10.0
+2013,caterham,Caterham,38,0,0,0.0,14.0,11.0
+2014,mercedes,Mercedes,38,16,31,701.0,1.0,1.0
+2014,red-bull,Red Bull,38,3,12,405.0,1.0,2.0
+2014,williams,Williams,38,0,9,320.0,2.0,3.0
+2014,ferrari,Ferrari,38,0,2,216.0,2.0,4.0
+2014,mclaren,McLaren,38,0,2,181.0,2.0,5.0
+2014,force-india,Force India,38,0,1,155.0,3.0,6.0
+2014,toro-rosso,Toro Rosso,38,0,0,30.0,6.0,7.0
+2014,lotus-f1,Lotus,38,0,0,10.0,8.0,8.0
+2014,marussia,Marussia,31,0,0,2.0,9.0,9.0
+2014,sauber,Sauber,38,0,0,0.0,11.0,10.0
+2014,caterham,Caterham,34,0,0,0.0,11.0,11.0
+2015,mercedes,Mercedes,38,16,32,703.0,1.0,1.0
+2015,ferrari,Ferrari,38,3,16,428.0,1.0,2.0
+2015,williams,Williams,38,0,4,257.0,3.0,3.0
+2015,red-bull,Red Bull,38,0,3,187.0,2.0,4.0
+2015,force-india,Force India,38,0,1,136.0,3.0,5.0
+2015,lotus-f1,Lotus,38,0,1,78.0,3.0,6.0
+2015,toro-rosso,Toro Rosso,38,0,0,67.0,4.0,7.0
+2015,sauber,Sauber,38,0,0,36.0,5.0,8.0
+2015,mclaren,McLaren,38,0,0,27.0,5.0,9.0
+2015,marussia,Marussia,38,0,0,0.0,12.0,10.0
+2016,mercedes,Mercedes,42,19,33,765.0,1.0,1.0
+2016,red-bull,Red Bull,42,2,16,468.0,1.0,2.0
+2016,ferrari,Ferrari,42,0,11,398.0,2.0,3.0
+2016,force-india,Force India,42,0,2,173.0,3.0,4.0
+2016,williams,Williams,42,0,1,138.0,3.0,5.0
+2016,mclaren,McLaren,42,0,0,76.0,5.0,6.0
+2016,toro-rosso,Toro Rosso,42,0,0,63.0,6.0,7.0
+2016,haas,Haas,42,0,0,29.0,5.0,8.0
+2016,renault,Renault,42,0,0,8.0,7.0,9.0
+2016,sauber,Sauber,42,0,0,2.0,9.0,10.0
+2016,manor,Manor,42,0,0,1.0,10.0,11.0
+2017,mercedes,Mercedes,40,12,26,668.0,1.0,1.0
+2017,ferrari,Ferrari,40,5,20,522.0,1.0,2.0
+2017,red-bull,Red Bull,40,3,13,368.0,1.0,3.0
+2017,force-india,Force India,40,0,0,187.0,4.0,4.0
+2017,williams,Williams,40,0,1,83.0,3.0,5.0
+2017,renault,Renault,40,0,0,57.0,6.0,6.0
+2017,toro-rosso,Toro Rosso,40,0,0,53.0,4.0,7.0
+2017,haas,Haas,40,0,0,47.0,6.0,8.0
+2017,mclaren,McLaren,40,0,0,30.0,6.0,9.0
+2017,sauber,Sauber,40,0,0,5.0,8.0,10.0
+2018,mercedes,Mercedes,42,11,25,655.0,1.0,1.0
+2018,ferrari,Ferrari,42,6,24,571.0,1.0,2.0
+2018,red-bull,Red Bull,42,4,13,419.0,1.0,3.0
+2018,renault,Renault,42,0,0,122.0,5.0,4.0
+2018,haas,Haas,42,0,0,93.0,4.0,5.0
+2018,mclaren,McLaren,42,0,0,62.0,5.0,6.0
+2018,force-india,Force India,42,0,1,111.0,3.0,7.0
+2018,sauber,Sauber,42,0,0,48.0,6.0,8.0
+2018,toro-rosso,Toro Rosso,42,0,0,33.0,4.0,9.0
+2018,williams,Williams,42,0,0,7.0,8.0,10.0
+2019,mercedes,Mercedes,42,15,32,739.0,1.0,1.0
+2019,ferrari,Ferrari,42,3,19,504.0,1.0,2.0
+2019,red-bull,Red Bull,42,3,9,417.0,1.0,3.0
+2019,mclaren,McLaren,42,0,1,145.0,3.0,4.0
+2019,renault,Renault,42,0,0,91.0,4.0,5.0
+2019,toro-rosso,Toro Rosso,42,0,2,85.0,2.0,6.0
+2019,racing-point,Racing Point,42,0,0,73.0,4.0,7.0
+2019,alfa-romeo,Alfa Romeo,42,0,0,57.0,4.0,8.0
+2019,haas,Haas,42,0,0,28.0,6.0,9.0
+2019,williams,Williams,42,0,0,1.0,10.0,10.0
+2020,mercedes,Mercedes,34,13,25,573.0,1.0,1.0
+2020,red-bull,Red Bull,34,2,13,319.0,1.0,2.0
+2020,mclaren,McLaren,34,0,2,202.0,2.0,3.0
+2020,racing-point,Racing Point,34,1,4,210.0,1.0,4.0
+2020,renault,Renault,34,0,3,181.0,2.0,5.0
+2020,ferrari,Ferrari,34,0,3,131.0,2.0,6.0
+2020,alphatauri,AlphaTauri,34,1,1,107.0,1.0,7.0
+2020,alfa-romeo,Alfa Romeo,34,0,0,8.0,9.0,8.0
+2020,haas,Haas,34,0,0,3.0,9.0,9.0
+2020,williams,Williams,34,0,0,0.0,11.0,10.0
+2021,mercedes,Mercedes,44,9,28,604.5,1.0,1.0
+2021,red-bull,Red Bull,44,11,23,578.5,1.0,2.0
+2021,ferrari,Ferrari,44,0,5,322.5,2.0,3.0
+2021,mclaren,McLaren,44,1,5,274.0,1.0,4.0
+2021,alpine,Alpine,44,1,2,155.0,1.0,5.0
+2021,alphatauri,AlphaTauri,44,0,1,142.0,3.0,6.0
+2021,aston-martin,Aston Martin,44,0,1,77.0,2.0,7.0
+2021,williams,Williams,44,0,1,23.0,2.0,8.0
+2021,alfa-romeo,Alfa Romeo,44,0,0,13.0,8.0,9.0
+2021,haas,Haas,44,0,0,0.0,12.0,10.0
+2022,red-bull,Red Bull,44,17,28,724.0,1.0,1.0
+2022,ferrari,Ferrari,44,4,20,519.0,1.0,2.0
+2022,mercedes,Mercedes,44,1,17,495.0,1.0,3.0
+2022,alpine,Alpine,44,0,0,170.0,4.0,4.0
+2022,mclaren,McLaren,44,0,1,150.0,3.0,5.0
+2022,alfa-romeo,Alfa Romeo,44,0,0,53.0,5.0,6.0
+2022,aston-martin,Aston Martin,44,0,0,55.0,6.0,7.0
+2022,haas,Haas,44,0,0,33.0,5.0,8.0
+2022,alphatauri,AlphaTauri,44,0,0,35.0,5.0,9.0
+2022,williams,Williams,44,0,0,8.0,9.0,10.0
+2023,red-bull,Red Bull,44,21,30,790.0,1.0,1.0
+2023,mercedes,Mercedes,44,0,8,374.0,2.0,2.0
+2023,ferrari,Ferrari,44,1,9,363.0,1.0,3.0
+2023,mclaren,McLaren,44,0,9,266.0,2.0,4.0
+2023,aston-martin,Aston Martin,44,0,8,266.0,2.0,5.0
+2023,alpine,Alpine,44,0,2,110.0,3.0,6.0
+2023,williams,Williams,44,0,0,26.0,7.0,7.0
+2023,alphatauri,AlphaTauri,44,0,0,22.0,7.0,8.0
+2023,alfa-romeo,Alfa Romeo,44,0,0,16.0,8.0,9.0
+2023,haas,Haas,44,0,0,9.0,7.0,10.0
+2024,mclaren,McLaren,48,6,21,609.0,1.0,1.0
+2024,ferrari,Ferrari,48,5,22,595.0,1.0,2.0
+2024,red-bull,Red Bull,48,9,18,537.0,1.0,3.0
+2024,mercedes,Mercedes,48,4,9,433.0,1.0,4.0
+2024,aston-martin,Aston Martin,48,0,0,94.0,5.0,5.0
+2024,alpine,Alpine,48,0,2,63.0,2.0,6.0
+2024,haas,Haas,48,0,0,51.0,6.0,7.0
+2024,rb,RB,48,0,0,40.0,7.0,8.0
+2024,williams,Williams,47,0,0,17.0,7.0,9.0
+2024,kick-sauber,Kick Sauber,48,0,0,4.0,8.0,10.0
+2025,mclaren,McLaren,48,14,34,775.0,1.0,1.0
+2025,mercedes,Mercedes,48,2,12,424.0,1.0,2.0
+2025,red-bull,Red Bull,48,8,15,410.0,1.0,3.0
+2025,ferrari,Ferrari,48,0,7,360.0,2.0,4.0
+2025,williams,Williams,48,0,2,124.0,3.0,5.0
+2025,racing-bulls,Racing Bulls,48,0,1,88.0,3.0,6.0
+2025,aston-martin,Aston Martin,48,0,0,80.0,5.0,7.0
+2025,haas,Haas,48,0,0,73.0,4.0,8.0
+2025,kick-sauber,Kick Sauber,48,0,1,70.0,3.0,9.0
+2025,alpine,Alpine,48,0,0,20.0,6.0,10.0
+2026,mercedes,Mercedes,24,8,16,365.0,1.0,1.0
+2026,ferrari,Ferrari,24,2,9,290.0,1.0,2.0
+2026,mclaren,McLaren,24,2,6,210.0,1.0,3.0
+2026,red-bull,Red Bull,24,0,4,174.0,2.0,4.0
+2026,racing-bulls,Racing Bulls,24,0,0,62.0,6.0,5.0
+2026,alpine,Alpine,24,0,1,61.0,3.0,6.0
+2026,haas,Haas,24,0,0,20.0,5.0,7.0
+2026,audi,Audi,24,0,0,16.0,8.0,8.0
+2026,williams,Williams,24,0,0,11.0,8.0,9.0
+2026,aston-martin,Aston Martin,24,0,0,3.0,9.0,10.0
+2026,cadillac,Cadillac,24,0,0,0.0,13.0,11.0

@@ -1,0 +1,918 @@
+driver_id,driver_name,driver_code,race_entries,starts,wins,podiums,points,poles,fastest_laps,championships,race_laps,sprint_starts,sprint_wins,driver_of_the_day,grand_slams,best_championship_position,best_starting_grid,best_finish,best_sprint_finish,last_team
+lewis-hamilton,Lewis Hamilton,HAM,392,392,106,207,5201.5,104,69,7,22399,29,1,20,6,1,1,1,1,Ferrari
+michael-schumacher,Michael Schumacher,MSC,308,306,91,155,1566.0,68,77,7,16825,0,0,0,5,1,1,1,0,Mercedes
+max-verstappen,Max Verstappen,VER,245,245,71,131,3556.5,48,37,4,13270,29,13,51,6,1,1,1,1,Red Bull
+sebastian-vettel,Sebastian Vettel,VET,300,299,53,122,3098.0,57,38,4,16426,6,0,23,4,1,1,1,8,Aston Martin
+alain-prost,Alain Prost,PRO,202,199,51,106,798.5,33,41,4,10540,0,0,0,0,1,1,1,0,Williams
+ayrton-senna,Ayrton Senna,SEN,162,161,41,80,614.0,65,19,3,8219,0,0,0,4,1,1,1,0,Williams
+fernando-alonso,Fernando Alonso,ALO,440,438,32,106,2396.0,22,26,2,23684,28,0,7,1,1,1,1,5,Aston Martin
+nigel-mansell,Nigel Mansell,MAN,191,187,31,59,482.0,32,30,1,8750,0,0,0,4,1,1,1,0,McLaren
+jackie-stewart,Jackie Stewart,STE,100,99,27,43,360.0,17,15,3,5225,0,0,0,4,1,1,1,0,Tyrrell
+niki-lauda,Niki Lauda,LAU,176,171,25,54,420.5,24,24,3,8213,0,0,0,1,1,1,1,0,McLaren
+jim-clark,Jim Clark,CLA,73,72,25,32,274.0,33,28,2,3878,0,0,0,8,1,1,1,0,Lotus
+juan-manuel-fangio,Juan Manuel Fangio,FAN,51,51,24,35,277.64,29,23,5,2960,0,0,0,2,1,1,1,0,Maserati
+nelson-piquet,Nelson Piquet,PIQ,207,203,23,60,485.5,24,23,3,9870,0,0,0,3,1,1,1,0,Benetton
+nico-rosberg,Nico Rosberg,ROS,206,206,23,57,1594.5,30,20,1,11159,0,0,1,2,1,1,1,0,Mercedes
+damon-hill,Damon Hill,HIL,122,115,22,42,360.0,20,19,1,5848,0,0,0,1,1,1,1,0,Jordan
+kimi-raikkonen,Kimi Räikkönen,RAI,352,350,21,103,1873.0,18,46,1,18621,2,0,5,0,1,1,1,13,Alfa Romeo
+mika-hakkinen,Mika Häkkinen,HAK,165,161,20,51,420.0,26,25,2,7719,0,0,0,2,1,1,1,0,McLaren
+stirling-moss,Stirling Moss,MOS,67,66,16,24,186.64,16,19,0,3197,0,0,0,1,2,1,1,0,Lotus
+jenson-button,Jenson Button,BUT,309,306,15,50,1235.0,8,8,1,16271,0,0,0,0,1,1,1,0,McLaren
+graham-hill,Graham Hill,HIL,179,176,14,36,289.0,13,10,2,8791,0,0,0,0,1,1,1,0,Hill
+emerson-fittipaldi,Emerson Fittipaldi,FIT,149,144,14,35,281.0,6,6,2,7289,0,0,0,0,1,1,1,0,Fittipaldi
+jack-brabham,Jack Brabham,BRA,128,126,14,31,261.0,13,12,3,6124,0,0,0,2,1,1,1,0,Brabham
+david-coulthard,David Coulthard,COU,247,246,13,62,535.0,12,18,0,12394,0,0,0,0,2,1,1,0,Red Bull
+lando-norris,Lando Norris,NOR,164,163,13,48,1589.0,18,20,1,9309,29,4,19,0,1,1,1,1,McLaren
+alberto-ascari,Alberto Ascari,ASC,32,32,13,17,140.14,14,13,2,1609,0,0,0,5,1,1,1,0,Lancia
+carlos-reutemann,Carlos Reutemann,REU,146,146,12,45,310.0,6,6,0,6985,0,0,0,0,2,1,1,0,Williams
+alan-jones,Alan Jones,JON,117,116,12,24,206.0,6,13,1,5566,0,0,0,0,1,1,1,0,Lola
+mario-andretti,Mario Andretti,AND,131,128,12,19,180.0,18,10,1,5279,0,0,0,0,1,1,1,0,Ferrari
+rubens-barrichello,Rubens Barrichello,BAR,326,322,11,68,658.0,14,17,0,16631,0,0,0,0,2,1,1,0,Williams
+felipe-massa,Felipe Massa,MAS,271,269,11,41,1167.0,16,15,0,14852,0,0,0,0,2,1,1,0,Williams
+jacques-villeneuve,Jacques Villeneuve,VIL,165,163,11,23,235.0,13,9,1,8314,0,0,0,0,1,1,1,0,BMW Sauber
+valtteri-bottas,Valtteri Bottas,BOT,259,258,10,67,1797.0,20,19,0,14301,23,2,5,0,2,1,1,1,Cadillac
+gerhard-berger,Gerhard Berger,BER,210,210,10,48,385.0,12,21,0,9793,0,0,0,1,3,1,1,0,Benetton
+jody-scheckter,Jody Scheckter,SCH,113,112,10,33,255.0,3,5,1,6035,0,0,0,0,1,1,1,0,Ferrari
+ronnie-peterson,Ronnie Peterson,PET,123,123,10,26,206.0,14,9,0,5724,0,0,0,0,2,1,1,0,Lotus
+james-hunt,James Hunt,HUN,93,92,10,23,179.0,14,8,1,3927,0,0,0,0,1,1,1,0,Wolf
+charles-leclerc,Charles Leclerc,LEC,185,183,9,54,1827.0,27,13,0,10015,28,0,20,1,2,1,1,2,Ferrari
+mark-webber,Mark Webber,WEB,217,215,9,42,1047.5,13,19,0,10976,0,0,0,0,3,1,1,0,Red Bull
+oscar-piastri,Oscar Piastri,PIA,82,80,9,28,903.0,6,9,0,4586,23,3,6,1,3,1,1,1,McLaren
+denny-hulme,Denny Hulme,HUL,112,112,8,33,248.0,1,9,1,6237,0,0,0,0,1,1,1,0,McLaren
+daniel-ricciardo,Daniel Ricciardo,RIC,257,257,8,32,1329.0,3,17,0,14129,12,0,11,0,3,1,1,3,RB
+jacky-ickx,Jacky Ickx,ICK,122,116,8,25,181.0,13,14,0,5665,0,0,0,1,2,1,1,0,Ligier
+george-russell,George Russell,RUS,164,164,7,30,1216.0,11,11,0,9252,29,4,1,0,4,1,1,1,Mercedes
+juan-pablo-montoya,Juan Pablo Montoya,MOY,95,94,7,30,307.0,13,12,0,4917,0,0,0,0,3,1,1,0,McLaren
+rene-arnoux,René Arnoux,ARN,164,149,7,22,181.0,18,12,0,6611,0,0,0,0,3,1,1,0,Ligier
+sergio-perez,Sergio Pérez,PER,295,293,6,39,1638.0,3,12,0,16075,23,1,13,0,2,1,1,1,Cadillac
+riccardo-patrese,Riccardo Patrese,PAT,257,256,6,37,281.0,8,13,0,11346,0,0,0,0,2,1,1,0,Benetton
+jacques-laffite,Jacques Laffite,LAF,180,176,6,32,228.0,7,7,0,7997,0,0,0,1,4,1,1,0,Ligier
+ralf-schumacher,Ralf Schumacher,RSC,180,180,6,27,329.0,6,8,0,9166,0,0,0,0,4,1,1,0,Toyota
+john-surtees,John Surtees,SUR,113,111,6,24,180.0,8,11,1,4988,0,0,0,0,1,1,1,0,Surtees
+kimi-antonelli,Kimi Antonelli,ANT,36,36,6,13,392.0,6,9,0,2049,11,1,4,1,7,1,1,1,Mercedes
+jochen-rindt,Jochen Rindt,RIN,62,60,6,13,109.0,10,3,1,2521,0,0,0,0,1,1,1,0,Lotus
+gilles-villeneuve,Gilles Villeneuve,VIL,68,67,6,13,107.0,2,8,0,3283,0,0,0,1,2,1,1,0,Ferrari
+tony-brooks,Tony Brooks,BRO,39,38,6,10,75.0,3,3,0,1622,0,0,0,0,2,1,1,0,BRM
+clay-regazzoni,Clay Regazzoni,REG,139,132,5,28,212.0,5,15,0,6582,0,0,0,1,2,1,1,0,Ensign
+michele-alboreto,Michele Alboreto,ALB,215,194,5,23,186.5,2,4,0,8771,0,0,0,0,2,1,1,0,Minardi
+john-watson,John Watson,WAT,154,152,5,20,169.0,2,5,0,7391,0,0,0,0,3,1,1,0,McLaren
+nino-farina,Nino Farina,FAR,34,33,5,19,127.33,5,5,1,1767,0,0,0,0,1,1,1,0,Lancia
+keke-rosberg,Keke Rosberg,ROS,128,114,5,17,159.5,5,3,1,5306,0,0,0,0,1,1,1,0,McLaren
+carlos-sainz-jr,Carlos Sainz Jr.,SAI,244,241,4,29,1342.5,6,4,0,13042,29,0,8,0,5,1,1,2,Williams
+bruce-mclaren,Bruce McLaren,MCL,104,100,4,27,196.5,0,3,0,5079,0,0,0,0,2,2,1,0,McLaren
+eddie-irvine,Eddie Irvine,IRV,147,147,4,26,191.0,0,1,0,6846,0,0,0,0,2,2,1,0,Jaguar
+dan-gurney,Dan Gurney,GUR,87,86,4,19,133.0,3,6,0,3676,0,0,0,0,4,1,1,0,McLaren
+giancarlo-fisichella,Giancarlo Fisichella,FIS,231,229,3,19,275.0,4,2,0,11509,0,0,0,0,4,1,1,0,Ferrari
+heinz-harald-frentzen,Heinz-Harald Frentzen,FRE,159,156,3,18,174.0,2,6,0,7345,0,0,0,0,2,1,1,0,Sauber
+mike-hawthorn,Mike Hawthorn,HAW,47,45,3,18,127.64,4,6,1,2474,0,0,0,1,1,1,1,0,Ferrari
+phil-hill,Phil Hill,HIL,52,48,3,16,98.0,6,6,1,2415,0,0,0,0,1,1,1,0,Eagle
+thierry-boutsen,Thierry Boutsen,BOU,164,163,3,15,132.0,1,1,0,8046,0,0,0,0,4,1,1,0,Jordan
+didier-pironi,Didier Pironi,PIR,72,70,3,13,101.0,4,5,0,3423,0,0,0,0,2,1,1,0,Ferrari
+peter-collins,Peter Collins,COL,35,32,3,9,47.0,0,0,0,1388,0,0,0,0,3,2,1,0,Ferrari
+johnny-herbert,Johnny Herbert,HER,165,160,3,7,98.0,0,0,0,7346,0,0,0,0,4,4,1,0,Jaguar
+patrick-depailler,Patrick Depailler,DEP,95,95,2,19,141.0,1,4,0,4635,0,0,0,0,4,1,1,0,Alfa Romeo
+jose-froilan-gonzalez,José Froilán González,GON,26,26,2,15,77.64,3,6,0,1201,0,0,0,0,2,1,1,0,Ferrari
+patrick-tambay,Patrick Tambay,TAM,123,113,2,11,103.0,5,2,0,4978,0,0,0,0,4,1,1,0,Lola
+elio-de-angelis,Elio de Angelis,DEA,109,108,2,9,122.0,3,0,0,4753,0,0,0,0,3,1,1,0,Brabham
+maurice-trintignant,Maurice Trintignant,TRI,84,82,2,9,72.33,0,1,0,3555,0,0,0,0,4,3,1,0,BRM
+peter-revson,Peter Revson,REV,32,30,2,8,61.0,1,0,0,1567,0,0,0,0,5,1,1,0,Shadow
+pedro-rodriguez,Pedro Rodríguez,ROD,55,55,2,7,71.0,0,1,0,2819,0,0,0,0,6,2,1,0,BRM
+jo-siffert,Jo Siffert,SIF,100,96,2,6,68.0,2,4,0,4496,0,0,0,1,5,1,1,0,BRM
+wolfgang-von-trips,Wolfgang von Trips,VON,29,27,2,6,56.0,1,0,0,1312,0,0,0,0,2,1,1,0,Ferrari
+jean-pierre-jabouille,Jean-Pierre Jabouille,JAB,56,49,2,2,21.0,6,0,0,1669,0,0,0,0,8,1,1,0,Ligier
+bill-vukovich,Bill Vukovich,VUK,5,5,2,2,19.0,1,3,0,676,0,0,0,0,6,1,1,0,Kurtis Kraft
+jean-alesi,Jean Alesi,ALE,202,201,1,32,241.0,2,4,0,9645,0,0,0,0,4,1,1,0,Jordan
+richie-ginther,Richie Ginther,GIN,54,52,1,14,107.0,0,3,0,2932,0,0,0,0,3,2,1,0,Eagle
+francois-cevert,François Cevert,CEV,48,47,1,13,89.0,0,2,0,2379,0,0,0,0,3,2,1,0,Tyrrell
+robert-kubica,Robert Kubica,KUB,99,99,1,12,274.0,1,1,0,5505,1,0,1,0,4,1,1,18,Alfa Romeo
+jarno-trulli,Jarno Trulli,TRU,256,252,1,11,246.5,4,1,0,12368,0,0,0,0,6,1,1,0,Lotus Racing
+alessandro-nannini,Alessandro Nannini,NAN,78,76,1,9,65.0,0,2,0,2935,0,0,0,0,6,3,1,0,Benetton
+jean-pierre-beltoise,Jean-Pierre Beltoise,BEL,88,86,1,8,77.0,0,4,0,4083,0,0,0,0,5,2,1,0,BRM
+jochen-mass,Jochen Mass,MAS,114,105,1,8,71.0,0,2,0,4925,0,0,0,0,6,4,1,0,March
+lorenzo-bandini,Lorenzo Bandini,BAN,42,42,1,8,58.0,1,2,0,2264,0,0,0,0,4,1,1,0,Ferrari
+luigi-musso,Luigi Musso,MUS,25,24,1,7,44.0,0,1,0,1193,0,0,0,0,3,2,1,0,Ferrari
+pierre-gasly,Pierre Gasly,GAS,190,189,1,6,502.0,0,3,0,10303,29,0,3,0,7,2,1,3,Alpine
+carlos-pace,Carlos Pace,PAC,73,72,1,6,58.0,1,5,0,3242,0,0,0,0,6,1,1,0,Brabham
+luigi-fagioli,Luigi Fagioli,FAG,7,7,1,6,32.0,0,0,0,368,0,0,0,0,3,2,1,0,Alfa Romeo
+olivier-panis,Olivier Panis,PAN,158,157,1,5,76.0,0,0,0,7716,0,0,0,0,8,3,1,0,Toyota
+piero-taruffi,Piero Taruffi,TAR,19,18,1,5,41.0,0,1,0,838,0,0,0,0,3,2,1,0,Vanwall
+esteban-ocon,Esteban Ocon,OCO,192,192,1,4,486.0,0,1,0,10396,29,0,1,0,8,3,1,5,Haas
+heikki-kovalainen,Heikki Kovalainen,KOV,112,111,1,4,105.0,1,2,0,5975,0,0,0,0,7,1,1,0,Lotus
+innes-ireland,Innes Ireland,IRE,53,50,1,4,47.0,0,1,0,2311,0,0,0,0,4,2,1,0,BRM
+gunnar-nilsson,Gunnar Nilsson,NIL,32,31,1,4,31.0,0,1,0,1316,0,0,0,0,8,3,1,0,Lotus
+jim-rathmann,Jim Rathmann,RAT,10,10,1,4,29.0,0,2,0,1798,0,0,0,0,8,2,1,0,Watson
+sam-hanks,Sam Hanks,HAN,8,8,1,4,20.0,0,0,0,1302,0,0,0,0,7,5,1,0,Epperly
+jimmy-bryan,Jimmy Bryan,BRY,9,9,1,3,18.0,0,0,0,1411,0,0,0,0,8,3,1,0,Epperly
+rodger-ward,Rodger Ward,WAR,12,12,1,2,14.0,0,0,0,1350,0,0,0,0,10,3,1,0,Lotus
+pastor-maldonado,Pastor Maldonado,MAL,96,95,1,1,76.0,1,0,0,4505,0,0,0,0,14,1,1,0,Lotus
+jo-bonnier,Jo Bonnier,BON,108,104,1,1,39.0,1,0,0,4757,0,0,0,0,8,1,1,0,McLaren
+ludovico-scarfiotti,Ludovico Scarfiotti,SCA,12,10,1,1,17.0,0,1,0,517,0,0,0,0,10,2,1,0,Cooper
+vittorio-brambilla,Vittorio Brambilla,BRA,79,74,1,1,15.5,1,1,0,3021,0,0,0,0,11,1,1,0,Alfa Romeo
+giancarlo-baghetti,Giancarlo Baghetti,BAG,21,21,1,1,14.0,0,1,0,852,0,0,0,0,9,6,1,0,Lotus
+johnnie-parsons,Johnnie Parsons,PAR,9,9,1,1,12.0,0,1,0,1304,0,0,0,0,6,5,1,0,Kurtis Kraft
+peter-gethin,Peter Gethin,GET,31,30,1,1,11.0,0,0,0,1226,0,0,0,0,9,5,1,0,Lola
+troy-ruttman,Troy Ruttman,RUT,9,8,1,1,9.5,0,0,0,822,0,0,0,0,7,3,1,0,Watson
+lee-wallard,Lee Wallard,WAL,2,2,1,1,9.0,0,1,0,336,0,0,0,0,7,2,1,0,Kurtis Kraft
+bob-sweikert,Bob Sweikert,SWE,5,5,1,1,8.0,0,0,0,825,0,0,0,0,7,9,1,0,Kuzma
+pat-flaherty,Pat Flaherty,FLA,6,6,1,1,8.0,1,0,0,812,0,0,0,0,5,1,1,0,Watson
+nick-heidfeld,Nick Heidfeld,HEI,185,183,0,13,259.0,1,2,0,9701,0,0,0,0,5,1,2,0,Renault
+stefan-johansson,Stefan Johansson,JOH,103,80,0,12,88.0,0,0,0,3348,0,0,0,0,5,2,2,0,Footwork
+chris-amon,Chris Amon,AMO,108,96,0,11,83.0,5,3,0,4565,0,0,0,0,5,1,2,0,Wolf-Williams
+romain-grosjean,Romain Grosjean,GRO,181,179,0,10,391.0,0,1,0,8848,0,0,3,0,7,2,2,0,Haas
+martin-brundle,Martin Brundle,BRU,165,160,0,9,98.0,0,0,0,7078,0,0,0,0,6,3,2,0,Jordan
+eddie-cheever,Eddie Cheever,CHE,143,132,0,9,70.0,0,0,0,5490,0,0,0,0,7,2,2,0,Arrows
+jean-behra,Jean Behra,BEH,53,52,0,9,51.14,0,1,0,2183,0,0,0,0,4,2,2,0,Behra-Porsche
+luigi-villoresi,Luigi Villoresi,VIL,33,31,0,8,49.0,0,1,0,1530,0,0,0,0,5,2,2,0,Maserati
+andrea-de-cesaris,Andrea de Cesaris,DEC,214,207,0,5,59.0,1,1,0,7703,0,0,0,0,8,1,2,0,Sauber
+derek-warwick,Derek Warwick,WAR,162,147,0,4,71.0,0,2,0,6376,0,0,0,0,7,3,2,0,Footwork
+lance-stroll,Lance Stroll,STR,204,201,0,3,325.0,1,0,0,10849,29,0,1,0,10,1,3,4,Aston Martin
+daniil-kvyat,Daniil Kvyat,KVY,112,110,0,3,202.0,0,1,0,5828,0,0,1,0,7,4,2,0,AlphaTauri
+timo-glock,Timo Glock,GLO,95,91,0,3,51.0,0,1,0,4751,0,0,0,0,10,2,2,0,Marussia
+alexander-wurz,Alexander Wurz,WUR,69,69,0,3,45.0,0,1,0,3471,0,0,0,0,8,5,3,0,Williams
+mark-blundell,Mark Blundell,BLU,63,61,0,3,32.0,0,0,0,2777,0,0,0,0,10,4,3,0,McLaren
+jean-pierre-jarier,Jean-Pierre Jarier,JAR,143,135,0,3,31.5,3,3,0,5743,0,0,0,0,11,1,3,0,Ligier
+ivan-capelli,Ivan Capelli,CAP,98,93,0,3,31.0,0,0,0,3387,0,0,0,0,7,3,2,0,Jordan
+tony-maggs,Tony Maggs,MAG,27,25,0,3,26.0,0,0,0,1356,0,0,0,0,7,4,2,0,Lotus
+masten-gregory,Masten Gregory,GRE,43,38,0,3,21.0,0,0,0,1608,0,0,0,0,6,3,2,0,BRM
+eugenio-castellotti,Eugenio Castellotti,CAS,14,14,0,3,19.5,1,0,0,620,0,0,0,0,3,1,2,0,Ferrari
+alexander-albon,Alexander Albon,ALB,141,139,0,2,318.0,0,1,0,7532,26,0,4,0,7,4,3,6,Williams
+mika-salo,Mika Salo,SAL,111,109,0,2,33.0,0,0,0,5442,0,0,0,0,10,4,2,0,Toyota
+harry-schell,Harry Schell,SCH,57,56,0,2,32.0,0,0,0,2272,0,0,0,0,6,2,2,0,Cooper
+hans-joachim-stuck,Hans-Joachim Stuck,STU,81,74,0,2,29.0,0,0,0,2760,0,0,0,0,11,2,3,0,ATS
+mike-hailwood,Mike Hailwood,HAI,50,50,0,2,29.0,0,1,0,2178,0,0,0,0,8,4,2,0,McLaren
+teo-fabi,Teo Fabi,FAB,71,64,0,2,23.0,3,2,0,2194,0,0,0,0,9,1,3,0,Benetton
+piers-courage,Piers Courage,COU,30,28,0,2,20.0,0,0,0,1192,0,0,0,0,8,4,2,0,De Tomaso
+roy-salvadori,Roy Salvadori,SAL,50,47,0,2,19.0,0,0,0,1880,0,0,0,0,4,2,2,0,Lola
+tom-pryce,Tom Pryce,PRY,42,42,0,2,19.0,1,0,0,1919,0,0,0,0,10,1,3,0,Shadow
+louis-rosier,Louis Rosier,ROS,38,38,0,2,18.0,0,0,0,1558,0,0,0,0,4,6,3,0,Maserati
+olivier-gendebien,Olivier Gendebien,GEN,15,14,0,2,18.0,0,0,0,701,0,0,0,0,6,3,2,0,Lotus
+felice-bonetto,Felice Bonetto,BON,16,15,0,2,17.5,0,0,0,749,0,0,0,0,8,2,3,0,Maserati
+jos-verstappen,Jos Verstappen,VER,107,106,0,2,17.0,0,0,0,4497,0,0,0,0,10,6,3,0,Minardi
+karl-kling,Karl Kling,KLI,11,11,0,2,17.0,0,1,0,489,0,0,0,0,5,2,2,0,Mercedes
+stefano-modena,Stefano Modena,MOD,81,70,0,2,17.0,0,0,0,3019,0,0,0,0,8,2,2,0,Jordan
+robert-manzon,Robert Manzon,MAN,29,28,0,2,16.0,0,0,0,1001,0,0,0,0,6,3,3,0,Gordini
+stuart-lewis-evans,Stuart Lewis-Evans,LEW,14,14,0,2,16.0,2,0,0,601,0,0,0,0,9,1,3,0,Vanwall
+mike-parkes,Mike Parkes,PAR,7,6,0,2,14.0,1,0,0,224,0,0,0,0,8,1,2,0,Ferrari
+jackie-oliver,Jackie Oliver,OLI,52,50,0,2,13.0,0,1,0,1547,0,0,0,0,14,2,3,0,Shadow
+peter-arundell,Peter Arundell,ARU,13,11,0,2,12.0,0,0,0,563,0,0,0,0,8,4,3,0,Lotus
+rudi-fischer,Rudi Fischer,FIS,8,7,0,2,10.0,0,0,0,287,0,0,0,0,4,5,2,0,Ferrari
+jack-mcgrath,Jack McGrath,MCG,6,6,0,2,9.0,1,1,0,985,0,0,0,0,12,1,3,0,Kurtis Kraft
+onofre-marimon,Onofre Marimón,MAR,12,11,0,2,8.14,0,1,0,417,0,0,0,0,11,4,3,0,Maserati
+cesare-perdisa,Cesare Perdisa,PER,8,7,0,2,5.0,0,0,0,493,0,0,0,0,16,6,3,0,Ferrari
+umberto-maglioli,Umberto Maglioli,MAG,10,10,0,2,3.33,0,0,0,424,0,0,0,0,18,7,3,0,Porsche
+nico-hulkenberg,Nico Hülkenberg,HUL,266,261,0,1,628.0,1,2,0,13654,22,0,4,0,7,1,3,6,Audi
+kevin-magnussen,Kevin Magnussen,MAG,186,185,0,1,202.0,1,3,0,9898,14,0,1,0,9,4,2,7,Haas
+kamui-kobayashi,Kamui Kobayashi,KOB,76,75,0,1,125.0,0,1,0,3555,0,0,0,0,12,2,3,0,Caterham
+isack-hadjar,Isack Hadjar,HAD,35,35,0,1,119.0,0,0,0,1912,10,0,1,0,12,3,3,8,Red Bull
+vitaly-petrov,Vitaly Petrov,PET,58,57,0,1,64.0,0,1,0,2992,0,0,0,0,10,6,3,0,Caterham
+takuma-sato,Takuma Sato,SAT,91,90,0,1,44.0,0,0,0,4484,0,0,0,0,8,2,3,0,Super Aguri
+pedro-de-la-rosa,Pedro de la Rosa,DLR,107,104,0,1,35.0,0,1,0,4517,0,0,0,0,11,4,2,0,HRT
+mike-spence,Mike Spence,SPE,37,36,0,1,27.0,0,0,0,1761,0,0,0,0,8,4,3,0,BRM
+nelson-piquet-jr,Nelson Piquet Jr.,PIQ,28,28,0,1,19.0,0,0,0,1263,0,0,0,0,12,7,2,0,Renault
+roberto-moreno,Roberto Moreno,MOR,75,42,0,1,15.0,0,1,0,1746,0,0,0,0,10,5,2,0,Forti
+bruno-giacomelli,Bruno Giacomelli,GIA,82,69,0,1,14.0,1,0,0,2694,0,0,0,0,15,1,3,0,Life
+rolf-stommelen,Rolf Stommelen,STO,63,54,0,1,14.0,0,0,0,2466,0,0,0,0,11,7,3,0,Arrows
+reine-wisell,Reine Wisell,WIS,23,22,0,1,13.0,0,0,0,964,0,0,0,0,12,6,3,0,March
+henri-pescarolo,Henri Pescarolo,PES,64,57,0,1,12.0,0,1,0,2743,0,0,0,0,12,5,3,0,Surtees
+cliff-allison,Cliff Allison,ALL,18,16,0,1,11.0,0,0,0,690,0,0,0,0,12,5,2,0,Lotus
+paul-frere,Paul Frère,FRE,11,11,0,1,11.0,0,0,0,221,0,0,0,0,7,6,2,0,Ferrari
+philippe-streiff,Philippe Streiff,STR,54,54,0,1,11.0,0,0,0,2364,0,0,0,0,13,5,3,0,AGS
+richard-attwood,Richard Attwood,ATT,18,17,0,1,11.0,0,1,0,884,0,0,0,0,13,6,2,0,Brabham
+tony-bettenhausen,Tony Bettenhausen,BET,11,11,0,1,11.0,0,1,0,1682,0,0,0,0,13,2,2,0,Watson
+eric-bernard,Éric Bernard,BER,47,45,0,1,10.0,0,0,0,1969,0,0,0,0,13,8,3,0,Lotus
+hans-herrmann,Hans Herrmann,HER,21,18,0,1,10.0,0,1,0,719,0,0,0,0,7,4,3,0,Lotus
+jj-lehto,JJ Lehto,JAR,70,62,0,1,10.0,0,0,0,2797,0,0,0,0,12,4,3,0,Sauber
+johnny-thomson,Johnny Thomson,THO,8,8,0,1,10.0,1,1,0,1044,0,0,0,0,12,1,3,0,Lesovsky
+mauricio-gugelmin,Maurício Gugelmin,GUG,80,74,0,1,10.0,0,1,0,3040,0,0,0,0,13,5,3,0,Jordan
+carlos-menditeguy,Carlos Menditéguy,MEN,11,10,0,1,9.0,0,0,0,487,0,0,0,0,14,6,3,0,Cooper
+johnny-servoz-gavin,Johnny Servoz-Gavin,SER,13,12,0,1,9.0,0,0,0,607,0,0,0,0,13,2,2,0,March
+reg-parnell,Reg Parnell,PAR,7,6,0,1,9.0,0,0,0,345,0,0,0,0,9,4,3,0,Ferrari
+gianni-morbidelli,Gianni Morbidelli,MOR,70,67,0,1,8.5,0,0,0,2846,0,0,0,0,14,6,3,0,Sauber
+paul-russo,Paul Russo,RUS,8,8,0,1,8.5,0,1,0,967,0,0,0,0,13,8,2,0,Kurtis Kraft
+aguri-suzuki,Aguri Suzuki,SUZ,88,65,0,1,8.0,0,0,0,2463,0,0,0,0,12,6,3,0,Ligier
+art-cross,Art Cross,CRO,4,4,0,1,8.0,0,0,0,768,0,0,0,0,10,12,2,0,Kurtis Kraft
+bob-anderson,Bob Anderson,AND,29,25,0,1,8.0,0,0,0,1371,0,0,0,0,11,7,3,0,Brabham
+brian-redman,Brian Redman,RED,15,12,0,1,8.0,0,0,0,506,0,0,0,0,14,10,3,0,Shadow
+mark-donohue,Mark Donohue,DON,16,14,0,1,8.0,0,0,0,672,0,0,0,0,15,8,3,0,March
+mike-nazaruk,Mike Nazaruk,NAZ,3,3,0,1,8.0,0,0,0,546,0,0,0,0,9,7,2,0,Kurtis Kraft
+trevor-taylor,Trevor Taylor,TAY,29,27,0,1,8.0,0,0,0,1014,0,0,0,0,10,3,2,0,Shannon
+michael-andretti,Michael Andretti,AND,13,13,0,1,7.0,0,0,0,427,0,0,0,0,11,5,3,0,McLaren
+nicola-larini,Nicola Larini,LAR,75,49,0,1,7.0,0,0,0,2029,0,0,0,0,14,6,2,0,Sauber
+tiago-monteiro,Tiago Monteiro,MON,37,37,0,1,7.0,0,0,0,2008,0,0,0,0,16,11,3,0,Midland
+tim-schenken,Tim Schenken,SCH,36,34,0,1,7.0,0,0,0,1426,0,0,0,0,14,5,3,0,Lotus
+willy-mairesse,Willy Mairesse,MAI,13,12,0,1,7.0,0,0,0,379,0,0,0,0,14,3,3,0,BRM
+duane-carter,Duane Carter,CAR,8,8,0,1,6.5,0,0,0,1400,0,0,0,0,13,4,3,0,Kuzma
+bill-holland,Bill Holland,HOL,2,2,0,1,6.0,0,0,0,314,0,0,0,0,7,10,2,0,Kurtis Kraft
+george-amick,George Amick,AMI,1,1,0,1,6.0,0,0,0,200,0,0,0,0,15,25,2,0,Epperly
+john-love,John Love,LOV,10,9,0,1,6.0,0,0,0,545,0,0,0,0,11,5,2,0,Surtees
+lucien-bianchi,Lucien Bianchi,BIA,19,17,0,1,6.0,0,0,0,552,0,0,0,0,17,12,3,0,Cooper
+paul-goldsmith,Paul Goldsmith,GOL,3,3,0,1,6.0,0,0,0,400,0,0,0,0,15,16,3,0,Epperly
+george-follmer,George Follmer,FOL,13,12,0,1,5.0,0,0,0,534,0,0,0,0,13,11,3,0,Shadow
+ron-flockhart,Ron Flockhart,FLO,14,13,0,1,5.0,0,0,0,481,0,0,0,0,12,8,3,0,Cooper
+alfonso-de-portago,Alfonso de Portago,DEP,5,5,0,1,4.0,0,0,0,238,0,0,0,0,15,9,2,0,Ferrari
+don-freeland,Don Freeland,FRE,8,8,0,1,4.0,0,0,0,1311,0,0,0,0,12,6,3,0,Kurtis Kraft
+jimmy-davies,Jimmy Davies,DAV,5,5,0,1,4.0,0,0,0,631,0,0,0,0,12,10,3,0,Kurtis Kraft
+johnny-boyd,Johnny Boyd,BOY,6,6,0,1,4.0,0,0,0,765,0,0,0,0,16,5,3,0,Epperly
+louis-chiron,Louis Chiron,CHI,19,15,0,1,4.0,0,0,0,601,0,0,0,0,9,8,3,0,Maserati
+mauri-rose,Mauri Rose,ROS,2,2,0,1,4.0,0,0,0,263,0,0,0,0,9,3,3,0,Deidt
+peter-whitehead,Peter Whitehead,WHI,12,10,0,1,4.0,0,0,0,444,0,0,0,0,9,8,3,0,Cooper
+dorino-serafini,Dorino Serafini,SER,1,1,0,1,3.0,0,0,0,80,0,0,0,0,13,6,2,0,Ferrari
+manny-ayulo,Manny Ayulo,AYU,4,4,0,1,2.0,0,0,0,565,0,0,0,0,15,4,3,0,Kuzma
+adrian-sutil,Adrian Sutil,SUT,128,128,0,0,124.0,0,1,0,6022,0,0,0,0,9,2,4,0,Sauber
+yuki-tsunoda,Yuki Tsunoda,TSU,115,112,0,0,124.0,0,1,0,6087,25,0,2,0,12,3,4,5,Racing Bulls
+paul-di-resta,Paul di Resta,DIR,59,59,0,0,121.0,0,0,0,3284,0,0,0,0,12,5,4,0,Williams
+liam-lawson,Liam Lawson,LAW,47,47,0,0,93.0,0,0,0,2612,15,0,0,0,14,3,5,7,Red Bull
+oliver-bearman,Oliver Bearman,BEA,39,39,0,0,66.0,0,0,0,2121,12,0,2,0,13,8,4,7,Haas
+jean-eric-vergne,Jean-Éric Vergne,VER,58,58,0,0,51.0,0,0,0,2993,0,0,0,0,13,6,6,0,Toro Rosso
+bruno-senna,Bruno Senna,SEN,46,46,0,0,33.0,0,1,0,2198,0,0,0,0,16,7,6,0,Williams
+jaime-alguersuari,Jaime Alguersuari,ALG,46,46,0,0,31.0,0,0,0,2380,0,0,0,0,14,6,7,0,Toro Rosso
+felipe-nasr,Felipe Nasr,NAS,40,39,0,0,29.0,0,0,0,2224,0,0,0,0,13,8,5,0,Sauber
+gabriel-bortoleto,Gabriel Bortoleto,BOR,36,35,0,0,29.0,0,0,0,1909,11,0,2,0,19,7,6,9,Audi
+sebastien-buemi,Sébastien Buemi,BUE,55,55,0,0,29.0,0,0,0,2612,0,0,0,0,15,6,7,0,Toro Rosso
+stoffel-vandoorne,Stoffel Vandoorne,VAN,42,41,0,0,26.0,0,0,0,2207,0,0,0,0,16,7,7,0,McLaren
+vitantonio-liuzzi,Vitantonio Liuzzi,LIU,80,80,0,0,26.0,0,0,0,3800,0,0,0,0,15,5,6,0,HRT
+franco-colapinto,Franco Colapinto,COL,39,38,0,0,24.0,0,0,0,2181,12,0,0,0,19,8,6,9,Alpine
+arvid-lindblad,Arvid Lindblad,LIN,12,11,0,0,23.0,0,0,0,670,4,0,0,0,0,7,7,8,Racing Bulls
+antonio-giovinazzi,Antonio Giovinazzi,GIO,62,62,0,0,21.0,0,0,0,3416,3,0,0,0,17,7,5,8,Alfa Romeo
+marcus-ericsson,Marcus Ericsson,ERI,97,97,0,0,18.0,0,0,0,4899,0,0,0,0,17,6,8,0,Sauber
+pierluigi-martini,Pierluigi Martini,MAR,124,117,0,0,18.0,0,0,0,4879,0,0,0,0,11,2,4,0,Minardi
+marc-surer,Marc Surer,SUR,88,82,0,0,17.0,0,1,0,3955,0,0,0,0,13,5,4,0,Arrows
+guanyu-zhou,Guanyu Zhou,ZHO,68,68,0,0,16.0,0,2,0,3649,15,0,1,0,18,5,8,9,Kick Sauber
+satoru-nakajima,Satoru Nakajima,NAK,80,74,0,0,16.0,0,1,0,3078,0,0,0,0,12,6,4,0,Tyrrell
+derek-daly,Derek Daly,DAL,64,49,0,0,15.0,0,0,0,2234,0,0,0,0,11,7,4,0,Williams
+christian-klien,Christian Klien,KLI,51,49,0,0,14.0,0,0,0,2331,0,0,0,0,15,4,5,0,HRT
+jonathan-palmer,Jonathan Palmer,PAL,88,83,0,0,14.0,0,1,0,3649,0,0,0,0,11,9,4,0,Tyrrell
+karl-wendlinger,Karl Wendlinger,WEN,42,41,0,0,14.0,0,0,0,1670,0,0,0,0,12,5,4,0,Sauber
+cristiano-da-matta,Cristiano da Matta,DAM,28,28,0,0,13.0,0,0,0,1484,0,0,0,0,13,3,6,0,Toyota
+hector-rebaque,Héctor Rebaque,REB,58,41,0,0,13.0,0,0,0,1719,0,0,0,0,10,6,4,0,Brabham
+roberto-mieres,Roberto Mieres,MIE,17,17,0,0,13.0,0,1,0,820,0,0,0,0,8,6,4,0,Maserati
+christian-fittipaldi,Christian Fittipaldi,FIT,43,40,0,0,12.0,0,0,0,2141,0,0,0,0,13,6,4,0,Footwork
+mick-schumacher,Mick Schumacher,MSC,44,43,0,0,12.0,0,0,0,2277,6,0,1,0,16,6,6,9,Haas
+arturo-merzario,Arturo Merzario,MER,85,57,0,0,11.0,0,0,0,1965,0,0,0,0,12,3,4,0,Merzario
+howden-ganley,Howden Ganley,GAN,41,35,0,0,10.0,0,0,0,1851,0,0,0,0,12,4,4,0,Maki
+pedro-diniz,Pedro Diniz,DIN,99,98,0,0,10.0,0,0,0,3839,0,0,0,0,14,8,5,0,Sauber
+emmanuel-de-graffenried,Emmanuel de Graffenried,DEG,23,22,0,0,9.0,0,0,0,962,0,0,0,0,8,5,4,0,Maserati
+jolyon-palmer,Jolyon Palmer,PAL,37,35,0,0,9.0,0,0,0,1682,0,0,0,0,17,10,6,0,Renault
+kazuki-nakajima,Kazuki Nakajima,NAK,36,36,0,0,9.0,0,0,0,1972,0,0,0,0,15,5,6,0,Williams
+nicholas-latifi,Nicholas Latifi,LAT,61,61,0,0,9.0,0,0,0,3261,6,0,1,0,17,10,7,14,Williams
+antonio-pizzonia,Antônio Pizzonia,PIZ,20,20,0,0,8.0,0,0,0,857,0,0,0,0,15,6,7,0,Williams
+birabongse-bhanudej,Birabongse Bhanudej,BIR,19,19,0,0,8.0,0,0,0,904,0,0,0,0,8,5,4,0,Maserati
+vic-elford,Vic Elford,ELF,13,13,0,0,8.0,0,0,0,594,0,0,0,0,14,5,4,0,BRM
+erik-comas,Érik Comas,COM,63,59,0,0,7.0,0,0,0,2804,0,0,0,0,11,7,5,0,Larrousse
+philippe-alliot,Philippe Alliot,ALL,116,110,0,0,7.0,0,0,0,4249,0,0,0,0,17,5,5,0,Larrousse
+alex-caffi,Alex Caffi,CAF,76,56,0,0,6.0,0,0,0,2293,0,0,0,0,16,3,4,0,Andrea Moda
+andrea-de-adamich,Andrea de Adamich,DEA,36,30,0,0,6.0,0,0,0,1240,0,0,0,0,15,7,4,0,Brabham
+esteban-gutierrez,Esteban Gutiérrez,GUT,59,59,0,0,6.0,0,1,0,3053,0,0,0,0,16,8,7,0,Haas
+paco-godia,Paco Godia,GOD,14,13,0,0,6.0,0,0,0,583,0,0,0,0,9,9,4,0,Maserati
+pascal-wehrlein,Pascal Wehrlein,WEH,39,39,0,0,6.0,0,0,0,1996,0,0,0,0,18,12,8,0,Sauber
+sebastien-bourdais,Sébastien Bourdais,BOU,27,27,0,0,6.0,0,0,0,1279,0,0,0,0,17,4,7,0,Toro Rosso
+andy-linden,Andy Linden,LIN,7,7,0,0,5.0,0,0,0,878,0,0,0,0,12,2,4,0,Kurtis Kraft
+bertrand-gachot,Bertrand Gachot,GAC,84,47,0,0,5.0,0,1,0,1793,0,0,0,0,13,10,5,0,Pacific
+jack-fairman,Jack Fairman,FAI,13,12,0,0,5.0,0,0,0,525,0,0,0,0,10,11,4,0,Cooper
+marc-gene,Marc Gené,GEN,36,36,0,0,5.0,0,0,0,1738,0,0,0,0,17,5,5,0,Williams
+mauro-baldi,Mauro Baldi,BAL,41,36,0,0,5.0,0,0,0,1489,0,0,0,0,16,7,5,0,Spirit
+narain-karthikeyan,Narain Karthikeyan,KAR,47,46,0,0,5.0,0,0,0,2244,0,0,0,0,18,11,4,0,HRT
+ukyo-katayama,Ukyo Katayama,KAT,97,95,0,0,5.0,0,0,0,3509,0,0,0,0,17,5,5,0,Minardi
+yves-giraud-cabantous,Yves Giraud-Cabantous,CAB,13,13,0,0,5.0,0,0,0,522,0,0,0,0,14,5,4,0,HWM
+brendon-hartley,Brendon Hartley,HAR,25,25,0,0,4.0,0,0,0,1178,0,0,0,0,19,6,9,0,Toro Rosso
+carel-godin-de-beaufort,Carel Godin de Beaufort,DEB,31,28,0,0,4.0,0,0,0,1351,0,0,0,0,14,8,6,0,Porsche
+christian-danner,Christian Danner,DAN,47,36,0,0,4.0,0,0,0,1377,0,0,0,0,18,16,4,0,Rial
+christijan-albers,Christijan Albers,ALB,46,46,0,0,4.0,0,0,0,2194,0,0,0,0,19,13,5,0,Spyker
+ricardo-rodriguez,Ricardo Rodríguez,ROD,6,5,0,0,4.0,0,0,0,196,0,0,0,0,13,2,4,0,Ferrari
+sergio-mantovani,Sergio Mantovani,MAN,8,7,0,0,4.0,0,0,0,382,0,0,0,0,16,9,5,0,Maserati
+stefan-bellof,Stefan Bellof,BEL,22,21,0,0,4.0,0,0,0,464,0,0,0,0,16,19,4,0,Tyrrell
+bob-bondurant,Bob Bondurant,BON,9,9,0,0,3.0,0,0,0,403,0,0,0,0,14,11,4,0,Eagle
+cecil-green,Cecil Green,GRE,2,2,0,0,3.0,0,0,0,217,0,0,0,0,14,10,4,0,Kurtis Kraft
+consalvo-sanesi,Consalvo Sanesi,SAN,5,5,0,0,3.0,0,0,0,205,0,0,0,0,12,4,4,0,Alfa Romeo
+dennis-poore,Dennis Poore,POO,2,2,0,0,3.0,0,0,0,157,0,0,0,0,13,8,4,0,Connaught
+don-branson,Don Branson,BRA,2,2,0,0,3.0,0,0,0,312,0,0,0,0,19,8,4,0,Phillips
+eliseo-salazar,Eliseo Salazar,SAL,37,24,0,0,3.0,0,0,0,883,0,0,0,0,18,12,5,0,RAM
+emanuele-pirro,Emanuele Pirro,PIR,40,37,0,0,3.0,0,0,0,1368,0,0,0,0,18,7,5,0,Dallara
+gerhard-mitter,Gerhard Mitter,MIT,7,5,0,0,3.0,0,0,0,39,0,0,0,0,12,12,4,0,BMW
+giulio-cabianca,Giulio Cabianca,CAB,4,3,0,0,3.0,0,0,0,163,0,0,0,0,19,4,4,0,Cooper
+henry-taylor,Henry Taylor,TAY,11,8,0,0,3.0,0,0,0,423,0,0,0,0,19,13,4,0,Lotus
+ignazio-giunti,Ignazio Giunti,GIU,4,4,0,0,3.0,0,0,0,136,0,0,0,0,17,5,4,0,Ferrari
+jackie-lewis,Jackie Lewis,LEW,10,9,0,0,3.0,0,0,0,277,0,0,0,0,13,13,4,0,Cooper
+jean-christophe-boullion,Jean-Christophe Boullion,BOU,11,11,0,0,3.0,0,0,0,535,0,0,0,0,16,13,5,0,Sauber
+jim-hall,Jim Hall,HAL,12,11,0,0,3.0,0,0,0,621,0,0,0,0,13,12,5,0,Lotus
+johnny-dumfries,Johnny Dumfries,DUM,16,15,0,0,3.0,0,0,0,661,0,0,0,0,13,8,5,0,Lotus
+ken-wharton,Ken Wharton,WHA,16,15,0,0,3.0,0,0,0,772,0,0,0,0,13,7,4,0,Vanwall
+patrick-friesacher,Patrick Friesacher,FRI,11,11,0,0,3.0,0,0,0,412,0,0,0,0,21,13,6,0,Minardi
+philippe-etancelin,Philippe Étancelin,ETA,12,12,0,0,3.0,0,0,0,488,0,0,0,0,18,4,5,0,Maserati
+raymond-sommer,Raymond Sommer,SOM,5,5,0,0,3.0,0,0,0,189,0,0,0,0,14,5,4,0,Talbot-Lago
+ricardo-zonta,Ricardo Zonta,ZON,38,36,0,0,3.0,0,0,0,1716,0,0,0,0,14,6,6,0,Toyota
+silvio-moser,Silvio Moser,MOS,20,12,0,0,3.0,0,0,0,458,0,0,0,0,16,13,5,0,Bellasi
+wilson-fittipaldi,Wilson Fittipaldi,FIT,38,35,0,0,3.0,0,0,0,1439,0,0,0,0,16,9,5,0,Fittipaldi
+alan-brown,Alan Brown,BRO,9,8,0,0,2.0,0,0,0,458,0,0,0,0,16,9,5,0,Cooper
+andre-pilette,André Pilette,PIL,14,9,0,0,2.0,0,0,0,281,0,0,0,0,19,8,5,0,Scirocco
+bobby-ball,Bobby Ball,BAL,2,2,0,0,2.0,0,0,0,234,0,0,0,0,17,17,5,0,Stevens
+chris-irwin,Chris Irwin,IRW,10,10,0,0,2.0,0,0,0,441,0,0,0,0,16,9,5,0,BRM
+danny-sullivan,Danny Sullivan,SUL,15,15,0,0,2.0,0,0,0,678,0,0,0,0,17,9,5,0,Tyrrell
+dick-rathmann,Dick Rathmann,RAT,5,5,0,0,2.0,1,0,0,417,0,0,0,0,19,1,5,0,Watson
+elie-bayol,Élie Bayol,BAY,8,7,0,0,2.0,0,0,0,278,0,0,0,0,19,10,5,0,Gordini
+eric-thompson,Eric Thompson,THO,1,1,0,0,2.0,0,0,0,82,0,0,0,0,16,9,5,0,Connaught
+fabrizio-barbazza,Fabrizio Barbazza,BAR,20,8,0,0,2.0,0,0,0,315,0,0,0,0,19,20,6,0,Minardi
+gijs-van-lennep,Gijs van Lennep,VAN,10,8,0,0,2.0,0,0,0,421,0,0,0,0,19,20,6,0,Ensign
+hermann-lang,Hermann Lang,LAN,2,2,0,0,2.0,0,0,0,72,0,0,0,0,15,11,5,0,Mercedes
+hermano-da-silva-ramos,Hermano da Silva Ramos,DAS,7,7,0,0,2.0,0,0,0,365,0,0,0,0,19,14,5,0,Gordini
+horace-gould,Horace Gould,GOU,18,14,0,0,2.0,0,0,0,472,0,0,0,0,19,10,5,0,Maserati
+john-miles,John Miles,MIL,15,12,0,0,2.0,0,0,0,373,0,0,0,0,19,7,5,0,Lotus
+jules-bianchi,Jules Bianchi,BIA,34,34,0,0,2.0,0,0,0,1752,0,0,0,0,17,12,9,0,Marussia
+manfred-winkelhock,Manfred Winkelhock,WIN,56,47,0,0,2.0,0,0,0,1633,0,0,0,0,22,5,5,0,RAM
+nyck-de-vries,Nyck de Vries,DEV,11,11,0,0,2.0,0,0,0,614,2,0,1,0,21,8,9,14,AlphaTauri
+oscar-alfredo-galvez,Oscar Alfredo Gálvez,GAL,1,1,0,0,2.0,0,0,0,96,0,0,0,0,15,9,5,0,Maserati
+piercarlo-ghinzani,Piercarlo Ghinzani,GHI,111,72,0,0,2.0,0,0,0,2204,0,0,0,0,19,13,5,0,Osella
+ronnie-bucknum,Ronnie Bucknum,BUC,11,11,0,0,2.0,0,0,0,420,0,0,0,0,14,6,5,0,Honda
+shinji-nakano,Shinji Nakano,NAK,33,33,0,0,2.0,0,0,0,1493,0,0,0,0,18,12,6,0,Minardi
+walt-hansgen,Walt Hansgen,HAN,2,2,0,0,2.0,0,0,0,121,0,0,0,0,16,14,5,0,Lotus
+chico-landi,Chico Landi,LAN,6,6,0,0,1.5,0,0,0,324,0,0,0,0,25,11,4,0,Maserati
+fred-agabashian,Fred Agabashian,AGA,8,8,0,0,1.5,1,0,0,986,0,0,0,0,18,1,4,0,Kurtis Kraft
+gerino-gerini,Gerino Gerini,GER,7,6,0,0,1.5,0,0,0,182,0,0,0,0,25,15,4,0,Maserati
+alex-zanardi,Alex Zanardi,ZAN,44,41,0,0,1.0,0,0,0,1568,0,0,0,0,20,4,6,0,Williams
+bill-homeier,Bill Homeier,HOM,3,3,0,0,1.0,0,0,0,274,0,0,0,0,23,18,5,0,Kuzma
+chico-serra,Chico Serra,SER,33,18,0,0,1.0,0,0,0,831,0,0,0,0,26,15,6,0,Arrows
+derek-bell,Derek Bell,BEL,16,9,0,0,1.0,0,0,0,180,0,0,0,0,22,8,6,0,Surtees
+eddie-johnson,Eddie Johnson,JOH,9,9,0,0,1.0,0,0,0,1277,0,0,0,0,24,7,6,0,Trevis
+eugene-chaboud,Eugène Chaboud,CHA,3,3,0,0,1.0,0,0,0,91,0,0,0,0,20,10,5,0,Talbot-Lago
+gabriele-tarquini,Gabriele Tarquini,TAR,78,38,0,0,1.0,0,0,0,1495,0,0,0,0,26,11,6,0,Tyrrell
+giorgio-scarlatti,Giorgio Scarlatti,SCA,15,12,0,0,1.0,0,0,0,424,0,0,0,0,20,5,5,0,De Tomaso
+guy-ligier,Guy Ligier,LIG,13,12,0,0,1.0,0,0,0,613,0,0,0,0,19,11,8,0,Brabham
+jan-magnussen,Jan Magnussen,MAG,25,24,0,0,1.0,0,0,0,925,0,0,0,0,16,6,6,0,Stewart
+john-taylor,John Taylor,TAY,5,5,0,0,1.0,0,0,0,261,0,0,0,0,17,15,6,0,Brabham
+johnny-cecotto,Johnny Cecotto,CEC,23,18,0,0,1.0,0,0,0,617,0,0,0,0,19,15,6,0,Toleman
+joie-chitwood,Joie Chitwood,CHI,1,1,0,0,1.0,0,0,0,136,0,0,0,0,20,9,5,0,Kurtis Kraft
+julian-bailey,Julian Bailey,BAI,20,7,0,0,1.0,0,0,0,326,0,0,0,0,18,21,6,0,Lotus
+justin-wilson,Justin Wilson,WIL,16,16,0,0,1.0,0,0,0,670,0,0,0,0,20,10,8,0,Jaguar
+logan-sargeant,Logan Sargeant,SAR,36,36,0,0,1.0,0,0,0,1911,8,0,0,0,21,6,10,10,Williams
+luis-perez-sala,Luis Pérez-Sala,PER,32,26,0,0,1.0,0,0,0,1179,0,0,0,0,26,9,6,0,Minardi
+neville-lederle,Neville Lederle,LED,2,1,0,0,1.0,0,0,0,78,0,0,0,0,18,10,6,0,Lotus
+olivier-grouillard,Olivier Grouillard,GRO,62,41,0,0,1.0,0,0,0,1493,0,0,0,0,26,8,6,0,Tyrrell
+pedro-lamy,Pedro Lamy,LAM,32,32,0,0,1.0,0,0,0,1423,0,0,0,0,18,14,6,0,Minardi
+ralph-firman,Ralph Firman,FIR,14,14,0,0,1.0,0,0,0,639,0,0,0,0,19,14,8,0,Jordan
+renzo-zorzi,Renzo Zorzi,ZOR,7,7,0,0,1.0,0,0,0,199,0,0,0,0,19,17,6,0,Shadow
+sergey-sirotkin,Sergey Sirotkin,SIR,21,21,0,0,1.0,0,0,0,1118,0,0,0,0,20,11,10,0,Williams
+slim-borgudd,Slim Borgudd,BOR,15,10,0,0,1.0,0,0,0,521,0,0,0,0,18,20,6,0,Tyrrell
+tony-brise,Tony Brise,BRI,10,10,0,0,1.0,0,0,0,347,0,0,0,0,19,6,6,0,Hill
+walt-faulkner,Walt Faulkner,FAU,5,5,0,0,1.0,1,0,0,634,0,0,0,0,23,1,5,0,Kurtis Kraft
+zsolt-baumgartner,Zsolt Baumgartner,BAU,20,20,0,0,1.0,0,0,0,959,0,0,0,0,20,17,8,0,Minardi
+lella-lombardi,Lella Lombardi,LOM,17,12,0,0,0.5,0,0,0,363,0,0,0,0,21,21,6,0,Brabham
+adderly-fong,Adderly Fong,FON,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+adolf-brudes,Adolf Brudes,BRU,1,1,0,0,0.0,0,0,0,5,0,0,0,0,0,19,0,0,Veritas
+adolfo-schwelm-cruz,Adolfo Schwelm Cruz,SCH,1,1,0,0,0.0,0,0,0,20,0,0,0,0,0,13,0,0,Cooper
+adrian-campos,Adrián Campos,CAM,21,17,0,0,0.0,0,0,0,433,0,0,0,0,0,16,14,0,Minardi
+al-herman,Al Herman,HER,5,5,0,0,0.0,0,0,0,619,0,0,0,0,0,16,7,0,Ewing
+al-keller,Al Keller,KEL,5,5,0,0,0.0,0,0,0,687,0,0,0,0,0,8,11,0,Kuzma
+al-pease,Al Pease,PEA,3,2,0,0,0.0,0,0,0,69,0,0,0,0,0,15,0,0,Eagle
+alain-de-changy,Alain de Changy,DEC,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+alan-rees,Alan Rees,REE,3,3,0,0,0.0,0,0,0,95,0,0,0,0,0,15,7,0,Brabham
+alan-rollinson,Alan Rollinson,ROL,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+alan-stacey,Alan Stacey,STA,7,7,0,0,0.0,0,0,0,219,0,0,0,0,0,8,8,0,Lotus
+albert-scherrer,Albert Scherrer,SCH,1,1,0,0,0.0,0,0,0,49,0,0,0,0,0,18,9,0,HWM
+alberto-colombo,Alberto Colombo,COL,3,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Merzario
+alberto-crespo,Alberto Crespo,CRE,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maserati
+alberto-rodriguez-larreta,Alberto Rodriguez Larreta,ROD,1,1,0,0,0.0,0,0,0,77,0,0,0,0,0,15,9,0,Lotus
+alberto-uria,Alberto Uria,URI,2,2,0,0,0.0,0,0,0,110,0,0,0,0,0,13,6,0,Maserati
+aldo-gordini,Aldo Gordini,GOR,1,1,0,0,0.0,0,0,0,27,0,0,0,0,0,17,0,0,Simca-Gordini
+alejandro-de-tomaso,Alejandro de Tomaso,DET,2,2,0,0,0.0,0,0,0,104,0,0,0,0,0,12,9,0,Cooper
+alessandro-pesenti-rossi,Alessandro Pesenti-Rossi,PES,4,3,0,0,0.0,0,0,0,113,0,0,0,0,0,21,11,0,Tyrrell
+alex-palou,Álex Palou,PAL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+alex-ribeiro,Alex Ribeiro,RIB,20,10,0,0,0.0,0,0,0,514,0,0,0,0,0,17,8,0,Fittipaldi
+alex-soler-roig,Alex Soler-Roig,SOL,10,6,0,0,0.0,0,0,0,119,0,0,0,0,0,17,0,0,BRM
+alex-yoong,Alex Yoong,YOO,18,14,0,0,0.0,0,0,0,645,0,0,0,0,20,19,7,0,Minardi
+alexander-dunne,Alexander Dunne,DUN,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+alexander-rossi,Alexander Rossi,RSI,5,5,0,0,0.0,0,0,0,302,0,0,0,0,20,16,12,0,Marussia
+alexandre-premat,Alexandre Prémat,PRE,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+alfonso-celis-jr,Alfonso Celis Jr.,CEL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+alfonso-thiele,Alfonso Thiele,THI,1,1,0,0,0.0,0,0,0,32,0,0,0,0,0,9,0,0,Cooper
+alfredo-pian,Alfredo Pián,PIA,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,18,0,0,Maserati
+allan-mcnish,Allan McNish,MCN,17,16,0,0,0.0,0,0,0,639,0,0,0,0,19,10,7,0,Toyota
+allen-berg,Allen Berg,BER,9,9,0,0,0.0,0,0,0,285,0,0,0,0,0,25,12,0,Osella
+andre-guelfi,André Guelfi,GUE,1,1,0,0,0.0,0,0,0,48,0,0,0,0,0,25,15,0,Cooper
+andre-lotterer,André Lotterer,LOT,1,1,0,0,0.0,0,0,0,1,0,0,0,0,0,21,0,0,Caterham
+andre-milhoux,André Milhoux,MIL,1,1,0,0,0.0,0,0,0,15,0,0,0,0,0,21,0,0,Gordini
+andre-simon,André Simon,SIM,12,11,0,0,0.0,0,0,0,461,0,0,0,0,0,4,6,0,Maserati
+andre-testut,André Testut,TES,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maserati
+andrea-chiesa,Andrea Chiesa,CHI,10,3,0,0,0.0,0,0,0,59,0,0,0,0,0,20,0,0,Fondmetal
+andrea-montermini,Andrea Montermini,MON,28,19,0,0,0.0,0,0,0,581,0,0,0,0,0,19,8,0,Forti
+andy-sutcliffe,Andy Sutcliffe,SUT,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,March
+anthony-davidson,Anthony Davidson,DAV,24,24,0,0,0.0,0,0,0,1061,0,0,0,0,22,11,11,0,Super Aguri
+anthony-joseph-foyt,Anthony Joseph Foyt,FOY,3,3,0,0,0.0,0,0,0,438,0,0,0,0,0,12,10,0,Kurtis Kraft
+antonio-creus,Antonio Creus,CRE,1,1,0,0,0.0,0,0,0,16,0,0,0,0,0,22,0,0,Maserati
+antonio-fuoco,Antonio Fuoco,FUO,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+archie-scott-brown,Archie Scott Brown,SCO,1,1,0,0,0.0,0,0,0,16,0,0,0,0,0,10,0,0,Connaught
+art-bisch,Art Bisch,BIS,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,28,33,0,Kuzma
+artem-markelov,Artem Markelov,MAR,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+arthur-leclerc,Arthur Leclerc,LEL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+arthur-legat,Arthur Legat,LEG,2,2,0,0,0.0,0,0,0,31,0,0,0,0,0,19,13,0,Veritas
+arthur-owen,Arthur Owen,OWE,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,11,0,0,Cooper
+asdrubal-fontes-bayardo,Asdrúbal Fontes Bayardo,FON,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maserati
+ayumu-iwasa,Ayumu Iwasa,IWA,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+bas-leinders,Bas Leinders,LEI,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+basil-van-rooyen,Basil van Rooyen,VAN,2,2,0,0,0.0,0,0,0,34,0,0,0,0,0,9,0,0,McLaren
+bayliss-levrett,Bayliss Levrett,LEV,1,1,0,0,0.0,0,0,0,108,0,0,0,0,0,17,27,0,Adams
+ben-pon,Ben Pon,PON,1,1,0,0,0.0,0,0,0,2,0,0,0,0,0,18,0,0,Porsche
+beppe-gabbiani,Beppe Gabbiani,GAB,17,3,0,0,0.0,0,0,0,79,0,0,0,0,0,20,0,0,Osella
+bernard-collomb,Bernard Collomb,COL,6,4,0,0,0.0,0,0,0,29,0,0,0,0,0,21,10,0,Lotus
+bernard-de-dryver,Bernard de Dryver,DED,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Ensign
+bernd-schneider,Bernd Schneider,SCH,34,9,0,0,0.0,0,0,0,301,0,0,0,0,0,15,12,0,Arrows
+bernie-ecclestone,Bernie Ecclestone,ECC,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Connaught
+bertil-roos,Bertil Roos,ROO,1,1,0,0,0.0,0,0,0,2,0,0,0,0,0,23,0,0,Shadow
+bill-aston,Bill Aston,AST,3,1,0,0,0.0,0,0,0,2,0,0,0,0,0,21,0,0,Aston Butterworth
+bill-brack,Bill Brack,BRA,3,3,0,0,0.0,0,0,0,118,0,0,0,0,0,18,0,0,BRM
+bill-cantrell,Bill Cantrell,CAN,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,0,27,0,Adams
+bill-cheesbourg,Bill Cheesbourg,CHE,3,3,0,0,0.0,0,0,0,428,0,0,0,0,0,23,10,0,Kuzma
+bill-mackey,Bill Mackey,MAC,1,1,0,0,0.0,0,0,0,97,0,0,0,0,0,33,19,0,Hall
+bill-moss,Bill Moss,MOS,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+bill-schindler,Bill Schindler,SCH,3,3,0,0,0.0,0,0,0,440,0,0,0,0,0,15,13,0,Stevens
+bill-whitehouse,Bill Whitehouse,WHI,1,1,0,0,0.0,0,0,0,63,0,0,0,0,0,19,0,0,Connaught
+billy-garrett,Billy Garrett,GAR,2,2,0,0,0.0,0,0,0,274,0,0,0,0,0,15,16,0,Kurtis Kraft
+bjorn-wirdheim,Björn Wirdheim,WIR,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+bob-christie,Bob Christie,CHR,5,5,0,0,0.0,0,0,0,891,0,0,0,0,0,14,10,0,Kurtis Kraft
+bob-drake,Bob Drake,DRA,1,1,0,0,0.0,0,0,0,68,0,0,0,0,0,22,13,0,Maserati
+bob-evans,Bob Evans,EVA,12,10,0,0,0.0,0,0,0,414,0,0,0,0,0,20,9,0,Brabham
+bob-gerard,Bob Gerard,GER,8,8,0,0,0.0,0,0,0,561,0,0,0,0,0,10,6,0,Cooper
+bob-said,Bob Said,SAI,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,13,0,0,Connaught
+bob-scott,Bob Scott,SCO,3,3,0,0,0.0,0,0,0,63,0,0,0,0,0,11,12,0,Schroeder
+bob-veith,Bob Veith,VEI,5,5,0,0,0.0,0,0,0,801,0,0,0,0,0,4,7,0,Meskowski
+bobby-grim,Bobby Grim,GRI,2,2,0,0,0.0,0,0,0,279,0,0,0,0,0,5,16,0,Meskowski
+bobby-rahal,Bobby Rahal,RAH,2,2,0,0,0.0,0,0,0,74,0,0,0,0,0,20,12,0,Wolf
+bobby-unser,Bobby Unser,UNS,2,1,0,0,0.0,0,0,0,35,0,0,0,0,0,19,0,0,BRM
+boy-hayje,Boy Hayje,HAY,7,3,0,0,0.0,0,0,0,159,0,0,0,0,0,21,0,0,March
+brausch-niemann,Brausch Niemann,NIE,2,1,0,0,0.0,0,0,0,66,0,0,0,0,0,15,14,0,Lotus
+brett-lunger,Brett Lunger,LUN,43,34,0,0,0.0,0,0,0,1713,0,0,0,0,0,13,7,0,Ensign
+brian-gubby,Brian Gubby,GUB,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+brian-hart,Brian Hart,HAR,1,1,0,0,0.0,0,0,0,12,0,0,0,0,0,25,0,0,Protos
+brian-henton,Brian Henton,HEN,37,19,0,0,0.0,0,1,0,913,0,0,0,0,0,11,7,0,Tyrrell
+brian-mcguire,Brian McGuire,MCG,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,McGuire
+brian-naylor,Brian Naylor,NAY,8,7,0,0,0.0,0,0,0,178,0,0,0,0,0,7,13,0,JBW
+brian-shawe-taylor,Brian Shawe-Taylor,SHA,2,2,0,0,0.0,0,0,0,84,0,0,0,0,0,12,8,0,ERA
+bruce-halford,Bruce Halford,HAL,9,8,0,0,0.0,0,0,0,176,0,0,0,0,0,11,8,0,Cooper
+bruce-johnstone,Bruce Johnstone,JOH,1,1,0,0,0.0,0,0,0,76,0,0,0,0,0,17,9,0,BRM
+bruce-kessler,Bruce Kessler,KES,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Connaught
+bud-tingelstad,Bud Tingelstad,TIN,1,1,0,0,0.0,0,0,0,200,0,0,0,0,0,28,9,0,Trevis
+cal-niday,Cal Niday,NID,3,3,0,0,0.0,0,0,0,400,0,0,0,0,0,9,10,0,Kurtis Kraft
+callum-ilott,Callum Ilott,ILO,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+carl-forberg,Carl Forberg,FOR,1,1,0,0,0.0,0,0,0,193,0,0,0,0,0,24,7,0,Kurtis Kraft
+carl-scarborough,Carl Scarborough,SCA,2,2,0,0,0.0,0,0,0,290,0,0,0,0,0,15,12,0,Kurtis Kraft
+carlo-facetti,Carlo Facetti,FAC,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Brabham
+carlo-franchi,Carlo Franchi,FRA,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Surtees
+carroll-shelby,Carroll Shelby,SHE,8,8,0,0,0.0,0,0,0,351,0,0,0,0,0,6,4,0,Aston Martin
+chanoch-nissany,Chanoch Nissany,NIS,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+charles-de-tornaco,Charles de Tornaco,DET,4,2,0,0,0.0,0,0,0,52,0,0,0,0,0,13,7,0,Ferrari
+charles-pic,Charles Pic,PIC,39,39,0,0,0.0,0,0,0,2029,0,0,0,0,20,18,12,0,Caterham
+charles-pozzi,Charles Pozzi,POZ,1,1,0,0,0.0,0,0,0,56,0,0,0,0,0,16,6,0,Talbot-Lago
+chet-miller,Chet Miller,MIL,2,2,0,0,0.0,0,0,0,97,0,0,0,0,0,27,25,0,Kurtis Kraft
+chris-bristow,Chris Bristow,BRI,4,4,0,0,0.0,0,0,0,115,0,0,0,0,0,4,10,0,Cooper
+chris-craft,Chris Craft,CRA,2,1,0,0,0.0,0,0,0,30,0,0,0,0,0,27,0,0,Brabham
+chris-lawrence,Chris Lawrence,LAW,2,2,0,0,0.0,0,0,0,83,0,0,0,0,0,19,11,0,Cooper
+christian-goethals,Christian Goethals,GOE,1,1,0,0,0.0,0,0,0,4,0,0,0,0,0,23,0,0,Cooper
+christophe-bouchut,Christophe Bouchut,BOU,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+chuck-arnold,Chuck Arnold,ARN,1,1,0,0,0.0,0,0,0,200,0,0,0,0,0,21,15,0,Kurtis Kraft
+chuck-daigh,Chuck Daigh,DAI,6,3,0,0,0.0,0,0,0,142,0,0,0,0,0,17,10,0,Scarab
+chuck-stevenson,Chuck Stevenson,STE,5,5,0,0,0.0,0,0,0,717,0,0,0,0,0,5,9,0,Watson
+chuck-weyant,Chuck Weyant,WEY,4,4,0,0,0.0,0,0,0,475,0,0,0,0,0,25,12,0,Kurtis Kraft
+cian-shields,Cian Shields,SHI,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+claudio-langes,Claudio Langes,LAN,14,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,EuroBrun
+clemar-bucci,Clemar Bucci,BUC,5,5,0,0,0.0,0,0,0,93,0,0,0,0,0,10,0,0,Maserati
+clemente-biondetti,Clemente Biondetti,BIO,1,1,0,0,0.0,0,0,0,17,0,0,0,0,0,25,0,0,Ferrari
+cliff-griffith,Cliff Griffith,GRI,3,3,0,0,0.0,0,0,0,429,0,0,0,0,0,9,9,0,Stevens
+clive-puzey,Clive Puzey,PUZ,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+colin-chapman,Colin Chapman,CHA,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,5,0,0,Vanwall
+colin-davis,Colin Davis,DAV,2,2,0,0,0.0,0,0,0,75,0,0,0,0,0,17,11,0,Cooper
+colton-herta,Colton Herta,HER,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+conny-andersson,Conny Andersson,AND,5,1,0,0,0.0,0,0,0,9,0,0,0,0,0,26,0,0,BRM
+corrado-fabi,Corrado Fabi,FAB,18,12,0,0,0.0,0,0,0,421,0,0,0,0,0,11,7,0,Brabham
+cuth-harrison,Cuth Harrison,HAR,3,3,0,0,0.0,0,0,0,118,0,0,0,0,0,14,7,0,ERA
+damien-magee,Damien Magee,MAG,2,1,0,0,0.0,0,0,0,78,0,0,0,0,0,22,14,0,Brabham
+dani-clos,Dani Clos,CLO,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+daniel-juncadella,Daniel Juncadella,JUN,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+danny-kladis,Danny Kladis,KLA,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,0,30,0,Bromme
+danny-ongais,Danny Ongais,ONG,6,4,0,0,0.0,0,0,0,132,0,0,0,0,0,21,7,0,Shadow
+dave-charlton,Dave Charlton,CHA,14,11,0,0,0.0,0,0,0,348,0,0,0,0,0,8,12,0,McLaren
+dave-morgan,Dave Morgan,MOR,1,1,0,0,0.0,0,0,0,50,0,0,0,0,0,23,18,0,Surtees
+david-brabham,David Brabham,BRA,30,24,0,0,0.0,0,0,0,937,0,0,0,0,0,21,10,0,Simtek
+david-hampshire,David Hampshire,HAM,2,2,0,0,0.0,0,0,0,70,0,0,0,0,0,16,9,0,Maserati
+david-hobbs,David Hobbs,HOB,7,7,0,0,0.0,0,0,0,379,0,0,0,0,0,12,7,0,McLaren
+david-kennedy,David Kennedy,KEN,7,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Shadow
+david-murray,David Murray,MUR,5,4,0,0,0.0,0,0,0,159,0,0,0,0,0,15,0,0,Cooper
+david-piper,David Piper,PIP,3,2,0,0,0.0,0,0,0,91,0,0,0,0,0,22,12,0,Lotus
+david-prophet,David Prophet,PRO,2,2,0,0,0.0,0,0,0,120,0,0,0,0,0,14,14,0,Brabham
+david-purley,David Purley,PUR,11,7,0,0,0.0,0,0,0,248,0,0,0,0,0,16,9,0,LEC
+david-walker,David Walker,WAL,11,11,0,0,0.0,0,0,0,482,0,0,0,0,0,12,9,0,Lotus
+davide-valsecchi,Davide Valsecchi,VAL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+dempsey-wilson,Dempsey Wilson,WIL,2,2,0,0,0.0,0,0,0,162,0,0,0,0,0,32,15,0,Kurtis Kraft
+dennis-taylor,Dennis Taylor,TAY,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+desire-wilson,Desiré Wilson,WIL,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Williams
+desmond-titterington,Desmond Titterington,TIT,1,1,0,0,0.0,0,0,0,74,0,0,0,0,0,11,0,0,Connaught
+dick-gibson,Dick Gibson,GIB,2,2,0,0,0.0,0,0,0,5,0,0,0,0,0,18,0,0,Cooper
+dieter-quester,Dieter Quester,QUE,2,1,0,0,0.0,0,0,0,51,0,0,0,0,0,25,9,0,Surtees
+dino-beganovic,Dino Beganovic,BEG,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+divina-galica,Divina Galica,GAL,3,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Hesketh
+domenico-schiattarella,Domenico Schiattarella,SCH,7,6,0,0,0.0,0,0,0,261,0,0,0,0,0,20,9,0,Simtek
+don-beauman,Don Beauman,BEA,1,1,0,0,0.0,0,0,0,84,0,0,0,0,0,17,11,0,Connaught
+don-edmunds,Don Edmunds,EDM,1,1,0,0,0.0,0,0,0,170,0,0,0,0,0,27,19,0,Kurtis Kraft
+doug-serrurier,Doug Serrurier,SER,3,2,0,0,0.0,0,0,0,140,0,0,0,0,0,14,11,0,LDS
+dries-van-der-lof,Dries van der Lof,VAN,1,1,0,0,0.0,0,0,0,70,0,0,0,0,0,14,0,0,HWM
+duke-dinsmore,Duke Dinsmore,DIN,4,4,0,0,0.0,0,0,0,274,0,0,0,0,0,7,16,0,Kurtis Kraft
+duke-nalon,Duke Nalon,NAL,3,3,0,0,0.0,1,0,0,426,0,0,0,0,0,1,10,0,Kurtis Kraft
+duncan-hamilton,Duncan Hamilton,HAM,5,5,0,0,0.0,0,0,0,236,0,0,0,0,0,10,7,0,HWM
+ed-elisian,Ed Elisian,ELI,5,5,0,0,0.0,0,0,0,457,0,0,0,0,0,2,18,0,Watson
+eddie-keizan,Eddie Keizan,KEI,3,3,0,0,0.0,0,0,0,219,0,0,0,0,0,22,13,0,Lotus
+eddie-russo,Eddie Russo,RUS,4,4,0,0,0.0,0,0,0,196,0,0,0,0,0,13,22,0,Kurtis Kraft
+eddie-sachs,Eddie Sachs,SAC,4,4,0,0,0.0,1,0,0,487,0,0,0,0,0,1,17,0,Ewing
+edgar-barth,Edgar Barth,BAR,5,5,0,0,0.0,0,0,0,98,0,0,0,0,0,12,6,0,Cooper
+eitel-cantoni,Eitel Cantoni,CAN,3,3,0,0,0.0,0,0,0,80,0,0,0,0,0,23,11,0,Maserati
+elmer-george,Elmer George,GEO,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,9,33,0,Kurtis Kraft
+emanuele-naspetti,Emanuele Naspetti,NAS,6,6,0,0,0.0,0,0,0,242,0,0,0,0,0,21,11,0,Jordan
+emilio-de-villota,Emilio de Villota,DEV,14,2,0,0,0.0,0,0,0,120,0,0,0,0,0,23,13,0,March
+emilio-zapico,Emilio Zapico,ZAP,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Wolf-Williams
+enrico-bertaggia,Enrico Bertaggia,BER,7,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Andrea Moda
+enrico-toccacelo,Enrico Toccacelo,TOC,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+enrique-bernoldi,Enrique Bernoldi,BER,29,28,0,0,0.0,0,0,0,941,0,0,0,0,21,12,8,0,Arrows
+eppie-wietzes,Eppie Wietzes,WIE,2,2,0,0,0.0,0,0,0,102,0,0,0,0,0,16,0,0,Brabham
+eric-brandon,Eric Brandon,BRA,5,5,0,0,0.0,0,0,0,239,0,0,0,0,0,12,8,0,Cooper
+eric-van-de-poele,Eric van de Poele,VAN,29,5,0,0,0.0,0,0,0,170,0,0,0,0,0,15,9,0,Fondmetal
+ernesto-brambilla,Ernesto Brambilla,BRA,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Ferrari
+ernesto-prinoth,Ernesto Prinoth,PRI,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+ernesto-viso,Ernesto Viso,VIS,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+ernie-mccoy,Ernie McCoy,MCC,2,2,0,0,0.0,0,0,0,394,0,0,0,0,0,20,8,0,Kurtis Kraft
+ernie-pieterse,Ernie Pieterse,PIE,3,2,0,0,0.0,0,0,0,74,0,0,0,0,0,12,10,0,Lotus
+ernst-klodwig,Ernst Klodwig,KLO,2,2,0,0,0.0,0,0,0,29,0,0,0,0,0,29,12,0,Heck
+ernst-loof,Ernst Loof,LOO,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,31,0,0,Veritas
+erwin-bauer,Erwin Bauer,BAU,1,1,0,0,0.0,0,0,0,1,0,0,0,0,0,33,0,0,Veritas
+esteban-tuero,Esteban Tuero,TUE,16,16,0,0,0.0,0,0,0,613,0,0,0,0,0,17,8,0,Minardi
+ettore-chimeri,Ettore Chimeri,CHI,1,1,0,0,0.0,0,0,0,23,0,0,0,0,0,21,0,0,Maserati
+eugene-martin,Eugène Martin,MAR,2,2,0,0,0.0,0,0,0,27,0,0,0,0,0,7,0,0,Talbot-Lago
+fabio-leimer,Fabio Leimer,LEI,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+fairuz-fauzy,Fairuz Fauzy,FAU,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+felipe-drugovich,Felipe Drugovich,DRU,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+franck-lagorce,Franck Lagorce,LAG,2,2,0,0,0.0,0,0,0,89,0,0,0,0,0,20,11,0,Ligier
+franck-montagny,Franck Montagny,MON,7,7,0,0,0.0,0,0,0,240,0,0,0,0,27,19,16,0,Super Aguri
+franco-comotti,Franco Comotti,COM,2,2,0,0,0.0,0,0,0,78,0,0,0,0,0,16,12,0,Ferrari
+franco-forini,Franco Forini,FOR,3,2,0,0,0.0,0,0,0,59,0,0,0,0,0,26,0,0,Osella
+franco-rol,Franco Rol,ROL,5,5,0,0,0.0,0,0,0,137,0,0,0,0,0,7,9,0,Maserati
+francois-hesnault,François Hesnault,HES,21,19,0,0,0.0,0,0,0,464,0,0,0,0,0,13,7,0,Renault
+francois-mazet,François Mazet,MAZ,1,1,0,0,0.0,0,0,0,50,0,0,0,0,0,23,13,0,March
+francois-migault,François Migault,MIG,16,13,0,0,0.0,0,0,0,548,0,0,0,0,0,14,14,0,Frank Williams Racing Cars
+francois-picard,François Picard,PIC,1,1,0,0,0.0,0,0,0,31,0,0,0,0,0,24,0,0,Cooper
+frank-armi,Frank Armi,ARM,1,1,0,0,0.0,0,0,0,193,0,0,0,0,0,33,19,0,Kurtis Kraft
+frank-dochnal,Frank Dochnal,DOC,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+frank-gardner,Frank Gardner,GAR,9,8,0,0,0.0,0,0,0,307,0,0,0,0,0,11,8,0,BRM
+fred-gamble,Fred Gamble,GAM,1,1,0,0,0.0,0,0,0,41,0,0,0,0,0,14,10,0,Behra-Porsche
+fred-wacker,Fred Wacker,WAC,5,3,0,0,0.0,0,0,0,117,0,0,0,0,0,15,6,0,Gordini
+frederik-vesti,Frederik Vesti,VES,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+fritz-dorey,Fritz d'Orey,D'O,3,3,0,0,0.0,0,0,0,103,0,0,0,0,0,17,10,0,Tec-Mec
+fritz-riess,Fritz Riess,RIE,1,1,0,0,0.0,0,0,0,16,0,0,0,0,0,12,7,0,Veritas
+gaetano-starrabba,Gaetano Starrabba,STA,1,1,0,0,0.0,0,0,0,19,0,0,0,0,0,30,0,0,Lotus
+gary-brabham,Gary Brabham,BRA,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Life
+gaston-mazzacane,Gastón Mazzacane,MAZ,21,21,0,0,0.0,0,0,0,1047,0,0,0,0,21,19,8,0,Prost
+gene-force,Gene Force,FOR,2,2,0,0,0.0,0,0,0,216,0,0,0,0,0,20,11,0,Kurtis Kraft
+gene-hartley,Gene Hartley,HAR,8,8,0,0,0.0,0,0,0,1206,0,0,0,0,0,9,9,0,Kurtis Kraft
+geoff-lees,Geoff Lees,LEE,12,5,0,0,0.0,0,0,0,187,0,0,0,0,0,16,7,0,Lotus
+geoffrey-crossley,Geoffrey Crossley,CRO,2,2,0,0,0.0,0,0,0,73,0,0,0,0,0,12,9,0,Alta
+george-abecassis,George Abecassis,ABE,2,2,0,0,0.0,0,0,0,35,0,0,0,0,0,10,0,0,HWM
+george-connor,George Connor,CON,3,3,0,0,0.0,0,0,0,364,0,0,0,0,0,4,8,0,Kurtis Kraft
+george-constantine,George Constantine,CON,1,1,0,0,0.0,0,0,0,5,0,0,0,0,0,15,0,0,Cooper
+george-eaton,George Eaton,EAT,13,11,0,0,0.0,0,0,0,445,0,0,0,0,0,9,10,0,BRM
+george-fonder,George Fonder,FON,2,2,0,0,0.0,0,0,0,197,0,0,0,0,0,13,15,0,Schroeder
+georges-berger,Georges Berger,BER,2,2,0,0,0.0,0,0,0,12,0,0,0,0,0,20,0,0,Gordini
+georges-grignard,Georges Grignard,GRI,1,1,0,0,0.0,0,0,0,23,0,0,0,0,0,16,0,0,Talbot-Lago
+gerard-larrousse,Gérard Larrousse,LAR,2,1,0,0,0.0,0,0,0,53,0,0,0,0,0,28,0,0,Brabham
+gerry-ashmore,Gerry Ashmore,ASH,4,3,0,0,0.0,0,0,0,20,0,0,0,0,0,25,16,0,Lotus
+giacomo-russo,Giacomo Russo,RUS,3,2,0,0,0.0,0,0,0,100,0,0,0,0,0,20,9,0,Lotus
+gianfranco-brancatelli,Gianfranco Brancatelli,BRA,3,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Merzario
+gianmaria-bruni,Gianmaria Bruni,BRU,18,18,0,0,0.0,0,0,0,736,0,0,0,0,25,16,14,0,Minardi
+giedo-van-der-garde,Giedo van der Garde,VDG,19,19,0,0,0.0,0,0,0,931,0,0,0,0,22,14,14,0,Caterham
+gino-bianco,Gino Bianco,BIA,4,4,0,0,0.0,0,0,0,127,0,0,0,0,0,12,18,0,Maserati
+gino-munaron,Gino Munaron,MUN,5,4,0,0,0.0,0,0,0,182,0,0,0,0,0,8,13,0,Cooper
+giorgio-bassi,Giorgio Bassi,BAS,1,1,0,0,0.0,0,0,0,8,0,0,0,0,0,22,0,0,BRM
+giorgio-francia,Giorgio Francia,FRA,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Osella
+giorgio-mondini,Giorgio Mondini,MOD,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+giorgio-pantano,Giorgio Pantano,PAN,14,14,0,0,0.0,0,0,0,549,0,0,0,0,24,14,13,0,Jordan
+giovanna-amati,Giovanna Amati,AMA,3,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Brabham
+giovanni-de-riu,Giovanni de Riu,DER,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maserati
+giovanni-lavaggi,Giovanni Lavaggi,LAV,10,7,0,0,0.0,0,0,0,204,0,0,0,0,0,20,10,0,Minardi
+graham-mcrae,Graham McRae,MCR,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,28,0,0,Iso-Marlboro
+graham-whitehead,Graham Whitehead,WHI,1,1,0,0,0.0,0,0,0,80,0,0,0,0,0,12,12,0,Alta
+gregor-foitek,Gregor Foitek,FOI,22,7,0,0,0.0,0,0,0,299,0,0,0,0,0,20,7,0,Onyx
+gunther-seiffert,Günther Seiffert,SEI,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+gus-hutchison,Gus Hutchison,HUT,1,1,0,0,0.0,0,0,0,21,0,0,0,0,0,22,0,0,Brabham
+guy-edwards,Guy Edwards,EDW,17,11,0,0,0.0,0,0,0,544,0,0,0,0,0,14,7,0,BRM
+guy-mairesse,Guy Mairesse,MAI,3,3,0,0,0.0,0,0,0,139,0,0,0,0,0,11,9,0,Talbot-Lago
+guy-tunmer,Guy Tunmer,TUN,1,1,0,0,0.0,0,0,0,76,0,0,0,0,0,25,11,0,Lotus
+hans-binder,Hans Binder,BIN,15,13,0,0,0.0,0,0,0,629,0,0,0,0,0,18,8,0,ATS
+hans-heyer,Hans Heyer,HEY,1,1,0,0,0.0,0,0,0,9,0,0,0,0,0,0,0,0,Penske
+hans-klenk,Hans Klenk,KLE,1,1,0,0,0.0,0,0,0,14,0,0,0,0,0,8,11,0,Veritas
+hans-stuck,Hans Stuck,STU,5,3,0,0,0.0,0,0,0,71,0,0,0,0,0,14,14,0,AFM
+hap-sharp,Hap Sharp,SHA,6,6,0,0,0.0,0,0,0,376,0,0,0,0,0,14,7,0,Brabham
+harald-ertl,Harald Ertl,ERT,28,19,0,0,0.0,0,0,0,814,0,0,0,0,0,17,7,0,ATS
+harry-blanchard,Harry Blanchard,BLA,1,1,0,0,0.0,0,0,0,38,0,0,0,0,0,16,7,0,Porsche
+harry-merkel,Harry Merkel,MER,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Krakau
+heini-walter,Heini Walter,WAL,1,1,0,0,0.0,0,0,0,14,0,0,0,0,0,14,14,0,Porsche
+heinz-schiller,Heinz Schiller,SCH,1,1,0,0,0.0,0,0,0,4,0,0,0,0,0,20,0,0,Lotus
+helm-glockler,Helm Glöckler,GLO,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+helmut-marko,Helmut Marko,MAR,10,9,0,0,0.0,0,0,0,509,0,0,0,0,0,6,8,0,BRM
+helmut-niedermayr,Helmut Niedermayr,NIE,1,1,0,0,0.0,0,0,0,15,0,0,0,0,0,22,9,0,AFM
+helmuth-koinigg,Helmuth Koinigg,KOI,3,2,0,0,0.0,0,0,0,87,0,0,0,0,0,22,10,0,Surtees
+henri-louveau,Henri Louveau,LOU,2,2,0,0,0.0,0,0,0,46,0,0,0,0,0,11,0,0,Talbot-Lago
+henry-banks,Henry Banks,BAN,3,3,0,0,0.0,0,0,0,496,0,0,0,0,0,12,6,0,Lesovsky
+herbert-mackay-fraser,Herbert MacKay-Fraser,MAC,1,1,0,0,0.0,0,0,0,24,0,0,0,0,0,12,0,0,BRM
+hideki-noda,Hideki Noda,NOD,3,3,0,0,0.0,0,0,0,28,0,0,0,0,0,23,0,0,Larrousse
+hiroshi-fushida,Hiroshi Fushida,FUS,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maki
+hubert-hahne,Hubert Hahne,HAH,5,3,0,0,0.0,0,0,0,34,0,0,0,0,0,14,9,0,March
+huub-rothengatter,Huub Rothengatter,ROT,30,25,0,0,0.0,0,0,0,853,0,0,0,0,0,20,7,0,Zakspeed
+ian-ashley,Ian Ashley,ASH,11,4,0,0,0.0,0,0,0,116,0,0,0,0,0,20,14,0,Hesketh
+ian-burgess,Ian Burgess,BUR,20,16,0,0,0.0,0,0,0,595,0,0,0,0,0,11,6,0,Scirocco
+ian-raby,Ian Raby,RAB,7,3,0,0,0.0,0,0,0,169,0,0,0,0,0,17,11,0,Brabham
+ian-scheckter,Ian Scheckter,SCH,20,18,0,0,0.0,0,0,0,676,0,0,0,0,0,16,10,0,March
+ian-stewart,Ian Stewart,STE,1,1,0,0,0.0,0,0,0,26,0,0,0,0,0,20,0,0,Connaught
+ingo-hoffmann,Ingo Hoffmann,HOF,6,3,0,0,0.0,0,0,0,99,0,0,0,0,0,19,7,0,Fittipaldi
+ivor-bueb,Ivor Bueb,BUE,6,5,0,0,0.0,0,0,0,219,0,0,0,0,0,16,8,0,Cooper
+jac-nellemann,Jac Nellemann,NEL,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Brabham
+jack-aitken,Jack Aitken,AIT,1,1,0,0,0.0,0,0,0,87,0,0,0,0,22,17,16,0,Williams
+jack-doohan,Jack Doohan,DOO,7,7,0,0,0.0,0,0,0,272,2,0,0,0,21,11,13,16,Alpine
+jack-turner,Jack Turner,TUR,4,4,0,0,0.0,0,0,0,399,0,0,0,0,0,10,11,0,Christensen
+jackie-holmes,Jackie Holmes,HOL,2,2,0,0,0.0,0,0,0,123,0,0,0,0,0,30,19,0,Kurtis Kraft
+jackie-pretorius,Jackie Pretorius,PRE,4,3,0,0,0.0,0,0,0,127,0,0,0,0,0,20,0,0,Iso-Marlboro
+jacques-pollet,Jacques Pollet,POL,5,5,0,0,0.0,0,0,0,252,0,0,0,0,0,12,7,0,Gordini
+jacques-swaters,Jacques Swaters,SWA,8,7,0,0,0.0,0,0,0,117,0,0,0,0,0,13,7,0,Ferrari
+jacques-villeneuve-sr,"Jacques Villeneuve, Sr.",VIL,3,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,RAM
+jak-crawford,Jak Crawford,CRA,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+jake-dennis,Jake Dennis,DEN,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+james-calado,James Calado,CAL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+jan-charouz,Jan Charouz,CHA,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+jan-flinterman,Jan Flinterman,FLI,1,1,0,0,0.0,0,0,0,7,0,0,0,0,0,15,9,0,Maserati
+jan-lammers,Jan Lammers,LAM,41,23,0,0,0.0,0,0,0,1027,0,0,0,0,0,4,9,0,March
+jay-chamberlain,Jay Chamberlain,CHA,3,1,0,0,0.0,0,0,0,64,0,0,0,0,0,20,15,0,Lotus
+jean-claude-rudaz,Jean-Claude Rudaz,RUD,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+jean-denis-deletraz,Jean-Denis Délétraz,DEL,3,3,0,0,0.0,0,0,0,130,0,0,0,0,0,24,15,0,Pacific
+jean-louis-schlesser,Jean-Louis Schlesser,SCH,2,1,0,0,0.0,0,0,0,49,0,0,0,0,0,22,11,0,Williams
+jean-lucas,Jean Lucas,LUC,1,1,0,0,0.0,0,0,0,7,0,0,0,0,0,22,0,0,Gordini
+jean-lucienbonnet,Jean Lucienbonnet,LUC,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+jean-marc-gounon,Jean-Marc Gounon,GOU,9,9,0,0,0.0,0,0,0,362,0,0,0,0,0,22,9,0,Simtek
+jerome-dambrosio,Jérôme d'Ambrosio,DAM,20,20,0,0,0.0,0,0,0,1043,0,0,0,0,23,15,13,0,Lotus
+jerry-hoyt,Jerry Hoyt,HOY,4,4,0,0,0.0,1,0,0,402,0,0,0,0,0,1,8,0,Stevens
+jerry-unser-jr,Jerry Unser Jr.,UNS,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,24,31,0,Kurtis Kraft
+jesus-iglesias,Jesús Iglesias,IGL,1,1,0,0,0.0,0,0,0,38,0,0,0,0,0,17,0,0,Gordini
+jim-crawford,Jim Crawford,CRA,2,2,0,0,0.0,0,0,0,74,0,0,0,0,0,25,13,0,Lotus
+jim-hurtubise,Jim Hurtubise,HUR,1,1,0,0,0.0,0,0,0,185,0,0,0,0,0,23,18,0,Christensen
+jim-mcwithey,Jim McWithey,MCW,2,2,0,0,0.0,0,0,0,260,0,0,0,0,0,32,16,0,Epperly
+jim-rigsby,Jim Rigsby,RIG,1,1,0,0,0.0,0,0,0,200,0,0,0,0,0,26,12,0,Watson
+jimmy-daywalt,Jimmy Daywalt,DAY,6,6,0,0,0.0,0,0,0,898,0,0,0,0,0,2,6,0,Kurtis Kraft
+jimmy-jackson,Jimmy Jackson,JAC,2,2,0,0,0.0,0,0,0,52,0,0,0,0,0,32,15,0,Kurtis Kraft
+jimmy-reece,Jimmy Reece,REE,6,6,0,0,0.0,0,0,0,986,0,0,0,0,0,3,6,0,Watson
+jimmy-stewart,Jimmy Stewart,STE,1,1,0,0,0.0,0,0,0,79,0,0,0,0,0,15,0,0,Cooper
+jo-gartner,Jo Gartner,GAR,8,8,0,0,0.0,0,0,0,305,0,0,0,0,0,22,5,0,Osella
+jo-schlesser,Jo Schlesser,SCH,3,3,0,0,0.0,0,0,0,18,0,0,0,0,0,16,10,0,Honda
+jo-vonlanthen,Jo Vonlanthen,VON,1,1,0,0,0.0,0,0,0,14,0,0,0,0,0,28,0,0,Frank Williams Racing Cars
+joachim-winkelhock,Joachim Winkelhock,WIN,7,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,AGS
+joe-fry,Joe Fry,FRY,1,1,0,0,0.0,0,0,0,64,0,0,0,0,0,20,10,0,Maserati
+joe-james,Joe James,JAM,2,2,0,0,0.0,0,0,0,208,0,0,0,0,0,16,13,0,Kurtis Kraft
+joe-kelly,Joe Kelly,KEL,2,2,0,0,0.0,0,0,0,132,0,0,0,0,0,18,0,0,Alta
+john-barber,John Barber,BAR,1,1,0,0,0.0,0,0,0,90,0,0,0,0,0,16,8,0,Cooper
+john-campbell-jones,John Campbell-Jones,CAM,2,2,0,0,0.0,0,0,0,90,0,0,0,0,0,19,11,0,Lola
+john-cannon,John Cannon,CAN,1,1,0,0,0.0,0,0,0,56,0,0,0,0,0,24,14,0,BRM
+john-cordts,John Cordts,COR,1,1,0,0,0.0,0,0,0,10,0,0,0,0,0,19,0,0,Brabham
+john-fitch,John Fitch,FIT,2,2,0,0,0.0,0,0,0,60,0,0,0,0,0,20,9,0,Maserati
+john-james,John James,JAM,1,1,0,0,0.0,0,0,0,23,0,0,0,0,0,17,0,0,Maserati
+john-nicholson,John Nicholson,NIC,2,1,0,0,0.0,0,0,0,51,0,0,0,0,0,26,17,0,Lyncar
+john-rhodes,John Rhodes,RHO,1,1,0,0,0.0,0,0,0,38,0,0,0,0,0,21,0,0,Cooper
+john-riseley-prichard,John Riseley-Prichard,RIS,1,1,0,0,0.0,0,0,0,40,0,0,0,0,0,21,0,0,Connaught
+johnnie-tolan,Johnnie Tolan,TOL,3,3,0,0,0.0,0,0,0,511,0,0,0,0,0,30,13,0,Kuzma
+johnny-claes,Johnny Claes,CLA,25,23,0,0,0.0,0,0,0,912,0,0,0,0,0,10,7,0,Ferrari
+johnny-mantz,Johnny Mantz,MAN,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,0,17,0,Kurtis Kraft
+johnny-mcdowell,Johnny McDowell,MCD,3,3,0,0,0.0,0,0,0,325,0,0,0,0,0,26,18,0,Kurtis Kraft
+jonathan-williams,Jonathan Williams,WIL,1,1,0,0,0.0,0,0,0,63,0,0,0,0,0,16,8,0,Ferrari
+jordan-king,Jordan King,KIN,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+jorge-daponte,Jorge Daponte,DAP,2,2,0,0,0.0,0,0,0,89,0,0,0,0,0,18,11,0,Maserati
+jose-dolhem,José Dolhem,DOL,3,1,0,0,0.0,0,0,0,25,0,0,0,0,0,26,0,0,Surtees
+josef-peters,Josef Peters,PET,1,1,0,0,0.0,0,0,0,1,0,0,0,0,0,20,0,0,Veritas
+juan-jover,Juan Jover,JOV,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,18,0,0,Maserati
+juan-manuel-bordeu,Juan Manuel Bordeu,BOR,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+jud-larson,Jud Larson,LAR,2,2,0,0,0.0,0,0,0,245,0,0,0,0,0,19,8,0,Kurtis Kraft
+juri-vips,Jüri Vips,VIP,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+karl-gunther-bechem,Karl-Günther Bechem,BEC,2,2,0,0,0.0,0,0,0,7,0,0,0,0,0,30,0,0,AFM
+karun-chandhok,Karun Chandhok,CHD,11,11,0,0,0.0,0,0,0,535,0,0,0,0,22,20,14,0,Lotus Racing
+kazuyoshi-hoshino,Kazuyoshi Hoshino,HOS,2,2,0,0,0.0,0,0,0,98,0,0,0,0,0,11,11,0,Kojima
+keith-andrews,Keith Andrews,AND,2,2,0,0,0.0,0,0,0,214,0,0,0,0,0,20,20,0,Kurtis Kraft
+keith-greene,Keith Greene,GRE,5,3,0,0,0.0,0,0,0,88,0,0,0,0,0,19,15,0,Gilby
+ken-downing,Ken Downing,DOW,2,2,0,0,0.0,0,0,0,109,0,0,0,0,0,5,9,0,Connaught
+ken-kavanagh,Ken Kavanagh,KAV,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maserati
+ken-richardson,Ken Richardson,RIC,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,10,0,0,BRM
+kenneth-mcalpine,Kenneth McAlpine,MCA,7,7,0,0,0.0,0,0,0,248,0,0,0,0,0,13,13,0,Connaught
+kenny-acheson,Kenny Acheson,ACH,10,3,0,0,0.0,0,0,0,101,0,0,0,0,0,23,12,0,RAM
+kevin-cogan,Kevin Cogan,COG,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Tyrrell
+kunimitsu-takahashi,Kunimitsu Takahashi,TAK,1,1,0,0,0.0,0,0,0,71,0,0,0,0,0,22,9,0,Tyrrell
+kurt-adolff,Kurt Adolff,ADO,1,1,0,0,0.0,0,0,0,3,0,0,0,0,0,27,0,0,Ferrari
+kurt-ahrens-jr,"Kurt Ahrens, Jr.",AHR,4,4,0,0,0.0,0,0,0,33,0,0,0,0,0,17,7,0,Brabham
+kurt-kuhnke,Kurt Kuhnke,KUH,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+lamberto-leoni,Lamberto Leoni,LEO,5,1,0,0,0.0,0,0,0,28,0,0,0,0,0,17,0,0,Ensign
+lance-macklin,Lance Macklin,MAC,15,13,0,0,0.0,0,0,0,479,0,0,0,0,0,9,8,0,Maserati
+lance-reventlow,Lance Reventlow,REV,4,1,0,0,0.0,0,0,0,1,0,0,0,0,0,15,0,0,Cooper
+larry-crockett,Larry Crockett,CRO,1,1,0,0,0.0,0,0,0,200,0,0,0,0,0,25,9,0,Kurtis Kraft
+larry-perkins,Larry Perkins,PER,15,11,0,0,0.0,0,0,0,461,0,0,0,0,0,13,8,0,Surtees
+len-duncan,Len Duncan,DUN,1,1,0,0,0.0,0,0,0,101,0,0,0,0,0,26,31,0,Schroeder
+len-sutton,Len Sutton,SUT,3,3,0,0,0.0,0,0,0,81,0,0,0,0,0,5,30,0,Watson
+leo-kinnunen,Leo Kinnunen,KIN,6,1,0,0,0.0,0,0,0,8,0,0,0,0,0,25,0,0,Surtees
+leonardo-fornaroli,Leonardo Fornaroli,FOR,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+les-leston,Les Leston,LES,3,2,0,0,0.0,0,0,0,50,0,0,0,0,0,12,0,0,BRM
+leslie-johnson,Leslie Johnson,JOH,1,1,0,0,0.0,0,0,0,2,0,0,0,0,0,12,0,0,ERA
+leslie-marr,Leslie Marr,MAR,2,2,0,0,0.0,0,0,0,100,0,0,0,0,0,19,13,0,Connaught
+leslie-thorne,Leslie Thorne,THO,1,1,0,0,0.0,0,0,0,78,0,0,0,0,0,23,14,0,Connaught
+lloyd-ruby,Lloyd Ruby,RUB,2,2,0,0,0.0,0,0,0,276,0,0,0,0,0,12,7,0,Lotus
+loris-kessel,Loris Kessel,KES,6,3,0,0,0.0,0,0,0,112,0,0,0,0,0,23,12,0,Apollon
+luca-badoer,Luca Badoer,BAD,58,50,0,0,0.0,0,0,0,2364,0,0,0,0,25,12,7,0,Ferrari
+lucas-di-grassi,Lucas di Grassi,DIG,19,18,0,0,0.0,0,0,0,769,0,0,0,0,24,20,14,0,Virgin
+luciano-burti,Luciano Burti,BUR,15,15,0,0,0.0,0,0,0,668,0,0,0,0,20,14,8,0,Prost
+ludwig-fischer,Ludwig Fischer,FIS,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,AFM
+luigi-piotti,Luigi Piotti,PIO,9,5,0,0,0.0,0,0,0,198,0,0,0,0,0,12,6,0,O.S.C.A.
+luigi-taramazzo,Luigi Taramazzo,TAR,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Maserati
+luiz-bueno,Luiz Bueno,BUE,1,1,0,0,0.0,0,0,0,36,0,0,0,0,0,20,12,0,Surtees
+luiz-razia,Luiz Razia,RAZ,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+luke-browning,Luke Browning,BRO,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+luki-botha,Luki Botha,BOT,1,1,0,0,0.0,0,0,0,60,0,0,0,0,0,17,0,0,Brabham
+ma-qinghua,Qing Hua Ma,QIN,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+mack-hellings,Mack Hellings,HEL,2,2,0,0,0.0,0,0,0,150,0,0,0,0,0,23,13,0,Deidt
+marcel-balsa,Marcel Balsa,BAL,1,1,0,0,0.0,0,0,0,5,0,0,0,0,0,25,0,0,Balsa
+marco-apicella,Marco Apicella,API,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,23,0,0,Jordan
+maria-teresa-de-filippis,Maria Teresa de Filippis,DEF,5,3,0,0,0.0,0,0,0,85,0,0,0,0,0,15,10,0,Behra-Porsche
+mario-de-araujo-cabral,Mário de Araújo Cabral,DEA,5,4,0,0,0.0,0,0,0,123,0,0,0,0,0,14,10,0,Derrington-Francis
+markus-winkelhock,Markus Winkelhock,WIN,1,1,0,0,0.0,0,0,0,13,0,0,0,0,0,22,0,0,Spyker
+marshall-teague,Marshall Teague,TEA,3,3,0,0,0.0,0,0,0,369,0,0,0,0,0,22,7,0,Kurtis Kraft
+martin-donnelly,Martin Donnelly,DON,15,14,0,0,0.0,0,0,0,586,0,0,0,0,0,11,7,0,Lotus
+masahiro-hasemi,Masahiro Hasemi,HAS,1,1,0,0,0.0,0,0,0,66,0,0,0,0,0,10,11,0,Kojima
+masami-kuwashima,Masami Kuwashima,KUW,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Wolf-Williams
+massimo-natili,Massimo Natili,NAT,2,1,0,0,0.0,0,0,0,0,0,0,0,0,0,28,0,0,Cooper
+matteo-bobbi,Matteo Bobbi,BOB,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+max-chilton,Max Chilton,CHI,35,35,0,0,0.0,0,0,0,1872,0,0,0,0,21,16,13,0,Marussia
+max-de-terra,Max de Terra,DET,2,2,0,0,0.0,0,0,0,52,0,0,0,0,0,19,8,0,Ferrari
+max-jean,Max Jean,JEA,1,1,0,0,0.0,0,0,0,46,0,0,0,0,0,22,0,0,March
+max-papis,Max Papis,PAP,7,7,0,0,0.0,0,0,0,209,0,0,0,0,0,15,7,0,Footwork
+michael-ammermuller,Michael Ammermüller,AMM,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+michael-bartels,Michael Bartels,BAR,4,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lotus
+michael-bleekemolen,Michael Bleekemolen,BLE,5,1,0,0,0.0,0,0,0,43,0,0,0,0,0,25,0,0,ATS
+michael-may,Michael May,MAY,3,2,0,0,0.0,0,0,0,90,0,0,0,0,0,13,11,0,Lotus
+michel-leclere,Michel Leclère,LEC,8,7,0,0,0.0,0,0,0,371,0,0,0,0,0,18,10,0,Wolf-Williams
+miguel-angel-guerra,Miguel Ángel Guerra,GUE,4,1,0,0,0.0,0,0,0,0,0,0,0,0,0,22,0,0,Osella
+mike-beuttler,Mike Beuttler,BEU,29,28,0,0,0.0,0,0,0,1167,0,0,0,0,0,11,7,0,March
+mike-fisher,Mike Fisher,FIS,2,2,0,0,0.0,0,0,0,82,0,0,0,0,0,17,11,0,Lotus
+mike-harris,Mike Harris,HAR,1,1,0,0,0.0,0,0,0,31,0,0,0,0,0,15,0,0,Cooper
+mike-macdowel,Mike MacDowel,MAC,1,1,0,0,0.0,0,0,0,68,0,0,0,0,0,15,7,0,Cooper
+mike-magill,Mike Magill,MAG,3,3,0,0,0.0,0,0,0,282,0,0,0,0,0,18,17,0,Sutton
+mike-sparken,Mike Sparken,SPA,1,1,0,0,0.0,0,0,0,81,0,0,0,0,0,23,7,0,Gordini
+mike-taylor,Mike Taylor,TAY,2,1,0,0,0.0,0,0,0,17,0,0,0,0,0,24,0,0,Lotus
+mike-thackwell,Mike Thackwell,THA,5,3,0,0,0.0,0,0,0,29,0,0,0,0,0,23,0,0,Tyrrell
+mike-wilds,Mike Wilds,WIL,8,3,0,0,0.0,0,0,0,96,0,0,0,0,0,22,0,0,Shadow
+mikko-kozarowitzky,Mikko Kozarowitzky,KOZ,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,March
+moises-solana,Moisés Solana,SOL,8,8,0,0,0.0,0,0,0,312,0,0,0,0,0,7,10,0,Lotus
+myron-fohr,Myron Fohr,FOH,1,1,0,0,0.0,0,0,0,133,0,0,0,0,0,16,11,0,Marchese
+nanni-galli,Nanni Galli,GAL,20,17,0,0,0.0,0,0,0,506,0,0,0,0,0,15,9,0,Iso-Marlboro
+naoki-hattori,Naoki Hattori,HAT,2,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Coloni
+naoki-yamamoto,Naoki Yamamoto,YAM,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+nasif-estefano,Nasif Estéfano,EST,2,1,0,0,0.0,0,0,0,70,0,0,0,0,0,20,14,0,De Tomaso
+neel-jani,Neel Jani,JAN,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+nello-pagani,Nello Pagani,PAG,1,1,0,0,0.0,0,0,0,39,0,0,0,0,0,15,7,0,Maserati
+nicolas-kiesa,Nicolas Kiesa,KIE,5,5,0,0,0.0,0,0,0,298,0,0,0,0,23,18,11,0,Minardi
+nikita-mazepin,Nikita Mazepin,MAZ,22,21,0,0,0.0,0,0,0,1008,3,0,1,0,21,15,14,17,Haas
+nino-vaccarella,Nino Vaccarella,VAC,5,4,0,0,0.0,0,0,0,169,0,0,0,0,0,14,9,0,Ferrari
+norberto-fontana,Norberto Fontana,FON,4,4,0,0,0.0,0,0,0,210,0,0,0,0,0,18,9,0,Sauber
+noritake-takahara,Noritake Takahara,TAK,2,2,0,0,0.0,0,0,0,71,0,0,0,0,0,19,9,0,Kojima
+olivier-beretta,Olivier Beretta,BER,10,10,0,0,0.0,0,0,0,379,0,0,0,0,0,17,7,0,Larrousse
+oscar-gonzalez,Óscar González,GON,1,1,0,0,0.0,0,0,0,0,0,0,0,0,0,0,6,0,Maserati
+oscar-larrauri,Oscar Larrauri,LAR,21,8,0,0,0.0,0,0,0,229,0,0,0,0,0,18,13,0,EuroBrun
+oswald-karch,Oswald Karch,KAR,1,1,0,0,0.0,0,0,0,10,0,0,0,0,0,34,0,0,Veritas
+otto-stuppacher,Otto Stuppacher,STU,3,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Tyrrell
+ottorino-volonterio,Ottorino Volonterio,VOL,3,3,0,0,0.0,0,0,0,16,0,0,0,0,0,19,11,0,Maserati
+pablo-birger,Pablo Birger,BIR,2,2,0,0,0.0,0,0,0,22,0,0,0,0,0,9,0,0,Gordini
+paddy-driver,Paddy Driver,DRI,2,1,0,0,0.0,0,0,0,6,0,0,0,0,0,26,0,0,Lotus
+paolo-barilla,Paolo Barilla,BAR,15,9,0,0,0.0,0,0,0,406,0,0,0,0,0,14,11,0,Minardi
+pascal-fabre,Pascal Fabre,FAB,14,11,0,0,0.0,0,0,0,544,0,0,0,0,0,22,9,0,AGS
+pat-oconnor,Pat O'Connor,O'C,5,5,0,0,0.0,1,0,0,768,0,0,0,0,0,1,8,0,Kurtis Kraft
+patricio-oward,Patricio O'Ward,OWA,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+patrick-gaillard,Patrick Gaillard,GAI,5,2,0,0,0.0,0,0,0,107,0,0,0,0,0,23,13,0,Ensign
+patrick-neve,Patrick Nève,NEV,14,10,0,0,0.0,0,0,0,565,0,0,0,0,0,19,7,0,March
+paul-aron,Paul Aron,ARO,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+paul-belmondo,Paul Belmondo,BEL,27,7,0,0,0.0,0,0,0,355,0,0,0,0,0,17,9,0,Pacific
+paul-emery,Paul Emery,EME,2,1,0,0,0.0,0,0,0,12,0,0,0,0,0,23,0,0,Connaught
+paul-england,Paul England,ENG,1,1,0,0,0.0,0,0,0,4,0,0,0,0,0,23,0,0,Cooper
+paul-hawkins,Paul Hawkins,HAW,3,3,0,0,0.0,0,0,0,164,0,0,0,0,0,14,9,0,Lotus
+paul-pietsch,Paul Pietsch,PIE,3,3,0,0,0.0,0,0,0,12,0,0,0,0,0,7,0,0,Veritas
+pedro-chaves,Pedro Chaves,CHA,13,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Coloni
+perry-mccarthy,Perry McCarthy,MCC,7,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Andrea Moda
+pete-lovely,Pete Lovely,LOV,11,7,0,0,0.0,0,0,0,410,0,0,0,0,0,16,7,0,Lotus
+peter-ashdown,Peter Ashdown,ASH,1,1,0,0,0.0,0,0,0,69,0,0,0,0,0,23,12,0,Cooper
+peter-broeker,Peter Broeker,BRO,1,1,0,0,0.0,0,0,0,88,0,0,0,0,0,21,7,0,Stebro
+peter-de-klerk,Peter de Klerk,DEK,4,4,0,0,0.0,0,0,0,274,0,0,0,0,0,16,10,0,Brabham
+peter-hirt,Peter Hirt,HIR,5,5,0,0,0.0,0,0,0,76,0,0,0,0,0,16,7,0,Ferrari
+peter-ryan,Peter Ryan,RYA,1,1,0,0,0.0,0,0,0,96,0,0,0,0,0,13,9,0,Lotus
+peter-walker,Peter Walker,WAL,4,4,0,0,0.0,0,0,0,91,0,0,0,0,0,10,7,0,Connaught
+peter-westbury,Peter Westbury,WES,2,1,0,0,0.0,0,0,0,13,0,0,0,0,0,18,9,0,BRM
+phil-cade,Phil Cade,CAD,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,18,0,0,Maserati
+philip-fotheringham-parker,Philip Fotheringham-Parker,FOT,1,1,0,0,0.0,0,0,0,46,0,0,0,0,0,16,0,0,Maserati
+philippe-adams,Philippe Adams,ADA,2,2,0,0,0.0,0,0,0,82,0,0,0,0,0,25,16,0,Lotus
+piero-carini,Piero Carini,CAR,3,3,0,0,0.0,0,0,0,43,0,0,0,0,0,19,0,0,Ferrari
+piero-drogo,Piero Drogo,DRO,1,1,0,0,0.0,0,0,0,45,0,0,0,0,0,15,8,0,Cooper
+piero-dusio,Piero Dusio,DUS,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cisitalia
+piero-scotti,Piero Scotti,SCO,1,1,0,0,0.0,0,0,0,10,0,0,0,0,0,12,0,0,Connaught
+pierre-henri-raphanel,Pierre-Henri Raphanel,RAP,17,1,0,0,0.0,0,0,0,19,0,0,0,0,0,18,0,0,Rial
+pierre-levegh,Pierre Levegh,LEV,6,6,0,0,0.0,0,0,0,158,0,0,0,0,0,9,7,0,Talbot-Lago
+pietro-fittipaldi,Pietro Fittipaldi,FIT,2,2,0,0,0.0,0,0,0,140,0,0,0,0,23,17,17,0,Haas
+raffaele-marciello,Raffaele Marciello,MAR,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+raul-boesel,Raul Boesel,BOE,30,23,0,0,0.0,0,0,0,1028,0,0,0,0,0,17,7,0,Ligier
+ray-crawford,Ray Crawford,CRA,3,3,0,0,0.0,0,0,0,275,0,0,0,0,0,17,23,0,Elder
+red-amick,Red Amick,AMI,2,2,0,0,0.0,0,0,0,245,0,0,0,0,0,22,11,0,Epperly
+renato-pirocchi,Renato Pirocchi,PIR,1,1,0,0,0.0,0,0,0,38,0,0,0,0,0,29,12,0,Cooper
+ricardo-londono,Ricardo Londoño,LON,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Ensign
+ricardo-rosset,Ricardo Rosset,ROS,33,26,0,0,0.0,0,0,0,1076,0,0,0,0,0,17,8,0,Tyrrell
+ricardo-zunino,Ricardo Zunino,ZUN,11,10,0,0,0.0,0,0,0,373,0,0,0,0,0,9,7,0,Tyrrell
+riccardo-paletti,Riccardo Paletti,PAL,8,2,0,0,0.0,0,0,0,7,0,0,0,0,0,13,0,0,Osella
+richard-robarts,Richard Robarts,ROB,4,3,0,0,0.0,0,0,0,139,0,0,0,0,0,22,15,0,Iso-Marlboro
+rikky-von-opel,Rikky von Opel,VON,14,10,0,0,0.0,0,0,0,439,0,0,0,0,0,14,9,0,Brabham
+rio-haryanto,Rio Haryanto,HAR,12,12,0,0,0.0,0,0,0,611,0,0,0,0,24,16,15,0,Manor
+rob-schroeder,Rob Schroeder,SCH,1,1,0,0,0.0,0,0,0,93,0,0,0,0,0,16,10,0,Lotus
+robert-doornbos,Robert Doornbos,DOO,11,11,0,0,0.0,0,0,0,553,0,0,0,0,24,10,12,0,Red Bull
+robert-la-caze,Robert La Caze,LAC,1,1,0,0,0.0,0,0,0,48,0,0,0,0,0,23,14,0,Cooper
+robert-obrien,Robert O'Brien,O'B,1,1,0,0,0.0,0,0,0,30,0,0,0,0,0,22,14,0,Simca-Gordini
+robert-shwartzman,Robert Shwartzman,SHW,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+robert-wickens,Robert Wickens,WIC,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+roberto-bonomi,Roberto Bonomi,BON,1,1,0,0,0.0,0,0,0,76,0,0,0,0,0,17,11,0,Cooper
+roberto-bussinello,Roberto Bussinello,BUS,3,2,0,0,0.0,0,0,0,59,0,0,0,0,0,21,13,0,BRM
+roberto-guerrero,Roberto Guerrero,GUE,28,21,0,0,0.0,0,0,0,608,0,0,0,0,0,11,8,0,Theodore
+roberto-lippi,Roberto Lippi,LIP,3,1,0,0,0.0,0,0,0,1,0,0,0,0,0,32,0,0,De Tomaso
+roberto-merhi,Roberto Merhi,MER,14,13,0,0,0.0,0,0,0,737,0,0,0,0,19,14,12,0,Marussia
+robin-frijns,Robin Frijns,FRI,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+robin-montgomerie-charrington,Robin Montgomerie-Charrington,MON,1,1,0,0,0.0,0,0,0,17,0,0,0,0,0,15,0,0,Aston Butterworth
+robin-widdows,Robin Widdows,WID,1,1,0,0,0.0,0,0,0,34,0,0,0,0,0,18,0,0,Cooper
+rodney-nuckey,Rodney Nuckey,NUC,2,1,0,0,0.0,0,0,0,16,0,0,0,0,0,20,11,0,Cooper
+rodolfo-gonzalez,Rodolfo González,GON,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+roelof-wunderink,Roelof Wunderink,WUN,6,3,0,0,0.0,0,0,0,86,0,0,0,0,0,19,0,0,Ensign
+roger-laurent,Roger Laurent,LAU,2,2,0,0,0.0,0,0,0,48,0,0,0,0,0,17,6,0,Ferrari
+roger-loyer,Roger Loyer,LOY,1,1,0,0,0.0,0,0,0,19,0,0,0,0,0,16,0,0,Gordini
+roger-penske,Roger Penske,PEN,2,2,0,0,0.0,0,0,0,192,0,0,0,0,0,12,8,0,Lotus
+roger-williamson,Roger Williamson,WIL,2,2,0,0,0.0,0,0,0,7,0,0,0,0,0,18,0,0,March
+roland-ratzenberger,Roland Ratzenberger,RAT,3,1,0,0,0.0,0,0,0,78,0,0,0,0,0,26,11,0,Simtek
+roy-nissany,Roy Nissany,NIS,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+rudolf-krause,Rudolf Krause,KRA,2,2,0,0,0.0,0,0,0,19,0,0,0,0,0,23,14,0,Greifzu
+rudolf-schoeller,Rudolf Schoeller,SCH,1,1,0,0,0.0,0,0,0,3,0,0,0,0,0,24,0,0,Ferrari
+rupert-keegan,Rupert Keegan,KEE,37,25,0,0,0.0,0,0,0,1028,0,0,0,0,0,13,7,0,March
+ryan-briscoe,Ryan Briscoe,BRI,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+ryo-hirakawa,Ryō Hirakawa,HIR,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+sakon-yamamoto,Sakon Yamamoto,YAM,21,21,0,0,0.0,0,0,0,820,0,0,0,0,24,19,12,0,HRT
+sam-posey,Sam Posey,POS,2,2,0,0,0.0,0,0,0,72,0,0,0,0,0,17,12,0,Surtees
+sam-tingle,Sam Tingle,TIN,5,5,0,0,0.0,0,0,0,239,0,0,0,0,0,14,8,0,Brabham
+satoshi-motoyama,Satoshi Motoyama,MOT,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+scott-speed,Scott Speed,SPE,28,28,0,0,0.0,0,0,0,1285,0,0,0,0,20,11,9,0,Toro Rosso
+sean-gelael,Sean Gelael,GEL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+shorty-templeman,Shorty Templeman,TEM,3,3,0,0,0.0,0,0,0,449,0,0,0,0,0,19,17,0,Kurtis Kraft
+siegfried-stohr,Siegfried Stohr,STO,13,9,0,0,0.0,0,0,0,270,0,0,0,0,0,13,7,0,Arrows
+skip-barber,Skip Barber,BAR,6,5,0,0,0.0,0,0,0,206,0,0,0,0,0,20,16,0,March
+spider-webb,Spider Webb,WEB,4,4,0,0,0.0,0,0,0,558,0,0,0,0,0,14,19,0,Bromme
+stephane-sarrazin,Stéphane Sarrazin,SAR,1,1,0,0,0.0,0,0,0,31,0,0,0,0,0,17,0,0,Minardi
+stephen-south,Stephen South,SOU,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,McLaren
+susie-wolff,Susie Wolff,WOL,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+taki-inoue,Taki Inoue,INO,18,18,0,0,0.0,0,0,0,544,0,0,0,0,0,18,8,0,Footwork
+tarso-marques,Tarso Marques,MAR,26,24,0,0,0.0,0,0,0,932,0,0,0,0,22,14,9,0,Minardi
+ted-whiteaway,Ted Whiteaway,WHI,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,HWM
+teddy-pilette,Teddy Pilette,PIL,4,1,0,0,0.0,0,0,0,81,0,0,0,0,0,27,17,0,BRM
+theo-fitzau,Theo Fitzau,FIT,1,1,0,0,0.0,0,0,0,3,0,0,0,0,0,21,0,0,AFM
+theo-helfrich,Theo Helfrich,HEL,3,3,0,0,0.0,0,0,0,25,0,0,0,0,0,18,12,0,Klenk
+theo-pourchaire,Théo Pourchaire,POU,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+tiff-needell,Tiff Needell,NEE,2,1,0,0,0.0,0,0,0,12,0,0,0,0,0,23,0,0,Ensign
+tim-parnell,Tim Parnell,PAR,4,2,0,0,0.0,0,0,0,52,0,0,0,0,0,27,10,0,Lotus
+timmy-mayer,Timmy Mayer,MAY,1,1,0,0,0.0,0,0,0,31,0,0,0,0,0,11,0,0,Cooper
+tom-belso,Tom Belsø,BEL,5,2,0,0,0.0,0,0,0,79,0,0,0,0,0,21,8,0,Iso-Marlboro
+tom-bridger,Tom Bridger,BRI,1,1,0,0,0.0,0,0,0,30,0,0,0,0,0,22,0,0,Cooper
+tom-jones,Tom Jones,JON,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Cooper
+tomas-enge,Tomáš Enge,ENG,3,3,0,0,0.0,0,0,0,166,0,0,0,0,24,19,12,0,Prost
+tommy-byrne,Tommy Byrne,BYR,5,2,0,0,0.0,0,0,0,67,0,0,0,0,0,26,0,0,Theodore
+toni-branca,Toni Branca,BRA,3,3,0,0,0.0,0,0,0,67,0,0,0,0,0,13,10,0,Maserati
+toni-ulmen,Toni Ulmen,ULM,2,2,0,0,0.0,0,0,0,20,0,0,0,0,0,15,8,0,Veritas
+tony-crook,Tony Crook,CRO,2,2,0,0,0.0,0,0,0,75,0,0,0,0,0,25,21,0,Cooper
+tony-gaze,Tony Gaze,GAZ,4,3,0,0,0.0,0,0,0,56,0,0,0,0,0,14,15,0,HWM
+tony-marsh,Tony Marsh,MAR,5,4,0,0,0.0,0,0,0,70,0,0,0,0,0,14,8,0,Lotus
+tony-rolt,Tony Rolt,ROL,3,3,0,0,0.0,0,0,0,90,0,0,0,0,0,10,0,0,Connaught
+tony-settember,Tony Settember,SET,7,6,0,0,0.0,0,0,0,144,0,0,0,0,0,18,8,0,Scirocco
+tony-shelly,Tony Shelly,SHE,3,1,0,0,0.0,0,0,0,5,0,0,0,0,0,18,0,0,Lotus
+tony-trimmer,Tony Trimmer,TRI,6,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,McLaren
+toranosuke-takagi,Toranosuke Takagi,TAK,32,32,0,0,0.0,0,0,0,1274,0,0,0,0,0,13,7,0,Arrows
+torsten-palm,Torsten Palm,PAL,2,1,0,0,0.0,0,0,0,78,0,0,0,0,0,21,10,0,Hesketh
+toshio-suzuki,Toshio Suzuki,SUZ,2,2,0,0,0.0,0,0,0,125,0,0,0,0,0,23,12,0,Larrousse
+trevor-blokdyk,Trevor Blokdyk,BLO,2,1,0,0,0.0,0,0,0,77,0,0,0,0,0,19,12,0,Cooper
+vern-schuppan,Vern Schuppan,SCH,13,9,0,0,0.0,0,0,0,447,0,0,0,0,0,14,7,0,Surtees
+vic-wilson,Vic Wilson,WIL,2,1,0,0,0.0,0,0,0,23,0,0,0,0,0,16,0,0,BRM
+victor-martins,Victor Martins,MAR,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
+vincenzo-sospiri,Vincenzo Sospiri,SOS,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Lola
+volker-weidler,Volker Weidler,WEI,10,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Rial
+walt-ader,Walt Ader,ADE,1,1,0,0,0.0,0,0,0,123,0,0,0,0,0,29,22,0,Rae
+walt-brown,Walt Brown,BRO,2,2,0,0,0.0,0,0,0,182,0,0,0,0,0,13,19,0,Kurtis Kraft
+warwick-brown,Warwick Brown,BRO,1,1,0,0,0.0,0,0,0,54,0,0,0,0,0,23,14,0,Wolf-Williams
+wayne-weiler,Wayne Weiler,WEI,1,1,0,0,0.0,0,0,0,103,0,0,0,0,0,15,24,0,Epperly
+will-stevens,Will Stevens,STE,20,18,0,0,0.0,0,0,0,926,0,0,0,0,21,13,13,0,Marussia
+willi-heeks,Willi Heeks,HEE,2,2,0,0,0.0,0,0,0,15,0,0,0,0,0,9,0,0,Veritas
+willi-krakau,Willi Krakau,KRA,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,AFM
+william-ferguson,William Ferguson,FER,1,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,Brabham
+wolfgang-seidel,Wolfgang Seidel,SEI,13,10,0,0,0.0,0,0,0,210,0,0,0,0,0,13,9,0,Lotus
+xavier-perrot,Xavier Perrot,PER,1,1,0,0,0.0,0,0,0,13,0,0,0,0,0,22,10,0,Brabham
+yannick-dalmas,Yannick Dalmas,DAL,50,24,0,0,0.0,0,0,0,1157,0,0,0,0,0,15,5,0,Larrousse
+yuji-ide,Yuji Ide,IDE,4,4,0,0,0.0,0,0,0,145,0,0,0,0,25,18,13,0,Super Aguri
+zak-osullivan,Zak O'Sullivan,OSU,0,0,0,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,
