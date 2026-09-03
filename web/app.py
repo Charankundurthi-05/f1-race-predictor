@@ -1,6 +1,7 @@
 from pathlib import Path
 import subprocess
 import sys
+import json
 
 import pandas as pd
 import streamlit as st
@@ -55,8 +56,6 @@ def load_json(path):
         return None
 
     try:
-        import json
-
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
     except Exception:
@@ -98,122 +97,116 @@ def format_countdown(seconds):
 
 
 # ================================================================
-# THEME
+# CSS
 # ================================================================
 
 st.markdown(
     """
-    <style>
+<style>
+.hero {
+    padding: 32px;
+    border-radius: 18px;
+    margin-bottom: 22px;
+    background: linear-gradient(135deg, rgba(220, 0, 0, 0.95), rgba(80, 0, 0, 0.95));
+    color: white;
+}
 
-    .hero {
-        padding: 32px;
-        border-radius: 18px;
-        margin-bottom: 22px;
-        background: linear-gradient(
-            135deg,
-            rgba(220, 0, 0, 0.95),
-            rgba(80, 0, 0, 0.95)
-        );
-        color: white;
-    }
+.hero-label {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.9;
+}
 
-    .hero-label {
-        font-size: 15px;
-        font-weight: 700;
-        letter-spacing: 2px;
-        text-transform: uppercase;
-        opacity: 0.9;
-    }
+.hero-title {
+    font-size: 38px;
+    font-weight: 800;
+    margin-top: 8px;
+}
 
-    .hero-title {
-        font-size: 38px;
-        font-weight: 800;
-        margin-top: 8px;
-    }
+.hero-subtitle {
+    font-size: 17px;
+    margin-top: 8px;
+    opacity: 0.9;
+}
 
-    .hero-subtitle {
-        font-size: 17px;
-        margin-top: 8px;
-        opacity: 0.9;
-    }
+.status-card {
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid rgba(128,128,128,0.25);
+    background: rgba(128,128,128,0.10);
+    min-height: 100px;
+}
 
-    .status-card {
-        padding: 20px;
-        border-radius: 14px;
-        border: 1px solid rgba(128,128,128,0.25);
-        background: rgba(128,128,128,0.10);
-        min-height: 100px;
-    }
+.status-label {
+    font-size: 13px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
-    .status-label {
-        font-size: 13px;
-        opacity: 0.7;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
+.status-value {
+    font-size: 20px;
+    font-weight: 750;
+    margin-top: 8px;
+}
 
-    .status-value {
-        font-size: 20px;
-        font-weight: 750;
-        margin-top: 8px;
-    }
+.section-title {
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
 
-    .section-title {
-        font-size: 25px;
-        font-weight: 800;
-        margin-top: 30px;
-        margin-bottom: 15px;
-    }
+.podium-card {
+    padding: 18px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid rgba(128,128,128,0.25);
+    background: rgba(128,128,128,0.10);
+}
 
-    .podium-card {
-        padding: 18px;
-        border-radius: 16px;
-        text-align: center;
-        border: 1px solid rgba(128,128,128,0.25);
-        background: rgba(128,128,128,0.10);
-    }
+.podium-position {
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 0.7;
+}
 
-    .podium-position {
-        font-size: 15px;
-        font-weight: 700;
-        opacity: 0.7;
-    }
+.podium-driver {
+    font-size: 21px;
+    font-weight: 800;
+    margin-top: 7px;
+}
 
-    .podium-driver {
-        font-size: 21px;
-        font-weight: 800;
-        margin-top: 7px;
-    }
+.podium-team {
+    font-size: 14px;
+    opacity: 0.7;
+    margin-top: 4px;
+}
 
-    .podium-team {
-        font-size: 14px;
-        opacity: 0.7;
-        margin-top: 4px;
-    }
+.empty-prediction {
+    padding: 38px;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid rgba(128,128,128,0.25);
+    background: rgba(128,128,128,0.10);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
-    .empty-prediction {
-        padding: 38px;
-        border-radius: 16px;
-        text-align: center;
-        border: 1px solid rgba(128,128,128,0.25);
-        background: rgba(128,128,128,0.10);
-        margin-top: 25px;
-        margin-bottom: 25px;
-    }
+.empty-title {
+    font-size: 25px;
+    font-weight: 800;
+}
 
-    .empty-title {
-        font-size: 25px;
-        font-weight: 800;
-    }
-
-    .empty-text {
-        font-size: 16px;
-        opacity: 0.7;
-        margin-top: 8px;
-    }
-
-    </style>
-    """,
+.empty-text {
+    font-size: 16px;
+    opacity: 0.7;
+    margin-top: 8px;
+}
+</style>
+""",
     unsafe_allow_html=True,
 )
 
@@ -278,20 +271,12 @@ else:
 
 st.markdown(
     f"""
-    <div class="hero">
-        <div class="hero-label">
-            ROUND {round_number} • {str(weekend_format).upper()} WEEKEND
-        </div>
-
-        <div class="hero-title">
-            {display_race_name}
-        </div>
-
-        <div class="hero-subtitle">
-            {circuit_name} • {str(race_date)[:10] if race_date else "—"}
-        </div>
-    </div>
-    """,
+<div class="hero">
+<div class="hero-label">ROUND {round_number} • {str(weekend_format).upper()} WEEKEND</div>
+<div class="hero-title">{display_race_name}</div>
+<div class="hero-subtitle">{circuit_name} • {str(race_date)[:10] if race_date else "—"}</div>
+</div>
+""",
     unsafe_allow_html=True,
 )
 
@@ -305,50 +290,44 @@ c1, c2, c3, c4 = st.columns(4)
 with c1:
     st.markdown(
         f"""
-        <div class="status-card">
-            <div class="status-label">Circuit</div>
-            <div class="status-value">{circuit_name}</div>
-        </div>
-        """,
+<div class="status-card">
+<div class="status-label">Circuit</div>
+<div class="status-value">{circuit_name}</div>
+</div>
+""",
         unsafe_allow_html=True,
     )
 
 with c2:
     st.markdown(
         f"""
-        <div class="status-card">
-            <div class="status-label">Weekend</div>
-            <div class="status-value">
-                {str(weekend_format).upper()}
-            </div>
-        </div>
-        """,
+<div class="status-card">
+<div class="status-label">Weekend</div>
+<div class="status-value">{str(weekend_format).upper()}</div>
+</div>
+""",
         unsafe_allow_html=True,
     )
 
 with c3:
     st.markdown(
         f"""
-        <div class="status-card">
-            <div class="status-label">Prediction Stage</div>
-            <div class="status-value">
-                {format_stage(current_stage)}
-            </div>
-        </div>
-        """,
+<div class="status-card">
+<div class="status-label">Prediction Stage</div>
+<div class="status-value">{format_stage(current_stage)}</div>
+</div>
+""",
         unsafe_allow_html=True,
     )
 
 with c4:
     st.markdown(
         f"""
-        <div class="status-card">
-            <div class="status-label">Race Countdown</div>
-            <div class="status-value">
-                {format_countdown(countdown)}
-            </div>
-        </div>
-        """,
+<div class="status-card">
+<div class="status-label">Race Countdown</div>
+<div class="status-value">{format_countdown(countdown)}</div>
+</div>
+""",
         unsafe_allow_html=True,
     )
 
@@ -363,7 +342,6 @@ if st.button(
     "Lights out and away we go 🟢🟢🟢🟢🟢",
     use_container_width=True,
 ):
-
     st.session_state.prediction_started = True
 
     with st.spinner("Updating race prediction..."):
@@ -409,24 +387,18 @@ if st.button(
 
 
 # ================================================================
-# DO NOT SHOW PREDICTION UNTIL BUTTON IS CLICKED
+# WAITING SCREEN
 # ================================================================
 
 if not st.session_state.prediction_started:
 
     st.markdown(
         """
-        <div class="empty-prediction">
-            <div class="empty-title">
-                🏎️ Ready for Lights Out
-            </div>
-
-            <div class="empty-text">
-                Click the button above to generate the
-                current race prediction.
-            </div>
-        </div>
-        """,
+<div class="empty-prediction">
+<div class="empty-title">🏎️ Ready for Lights Out</div>
+<div class="empty-text">Click the button above to generate the current race prediction.</div>
+</div>
+""",
         unsafe_allow_html=True,
     )
 
@@ -449,7 +421,6 @@ if not prediction_path.exists():
     )
 
 prediction = load_csv(prediction_path)
-
 
 if prediction is None or prediction.empty:
 
@@ -499,60 +470,51 @@ if len(prediction) >= 3:
         [1, 1.15, 1]
     )
 
+    # ============================================================
+    # P2
+    # ============================================================
+
     with col1:
         st.markdown(
             f"""
-            <div class="podium-card"
-                 style="margin-top:35px;">
-                <div class="podium-position">
-                    P2
-                </div>
-                <div class="podium-driver">
-                    {driver_name(p2)}
-                </div>
-                <div class="podium-team">
-                    {team_name(p2)}
-                </div>
-            </div>
-            """,
+<div class="podium-card" style="margin-top:35px;">
+<div class="podium-position">🥈 P2</div>
+<div class="podium-driver">{driver_name(p2)}</div>
+<div class="podium-team">{team_name(p2)}</div>
+</div>
+""",
             unsafe_allow_html=True,
         )
+
+    # ============================================================
+    # P1
+    # ============================================================
 
     with col2:
         st.markdown(
             f"""
-            <div class="podium-card"
-                 style="min-height:180px;">
-                <div class="podium-position">
-                    🥇 P1
-                </div>
-                <div class="podium-driver">
-                    {driver_name(p1)}
-                </div>
-                <div class="podium-team">
-                    {team_name(p1)}
-                </div>
-            </div>
-            """,
+<div class="podium-card" style="min-height:180px;">
+<div class="podium-position">🥇 P1</div>
+<div class="podium-driver">{driver_name(p1)}</div>
+<div class="podium-team">{team_name(p1)}</div>
+</div>
+""",
             unsafe_allow_html=True,
         )
+
+    # ============================================================
+    # P3
+    # ============================================================
 
     with col3:
         st.markdown(
             f"""
-            <div class="podium-card"
-                 style="margin-top:35px;">
-                <div class="podium-position">
-                    P3
-                </div>
-                <div class="podium-driver">
-                    {driver_name(p3)}
-                </div>
-                <div class="podium-team">
-                    {team_name(p3)}
-                </div>
-            </div>
-            """,
+<div class="podium-card" style="margin-top:35px;">
+<div class="podium-position">🥉 P3</div>
+<div class="podium-driver">{driver_name(p3)}</div>
+<div class="podium-team">{team_name(p3)}</div>
+</div>
+""",
             unsafe_allow_html=True,
         )
 
@@ -580,7 +542,9 @@ available_grid_columns = [
     if col in prediction.columns
 ]
 
-grid = prediction[available_grid_columns].copy()
+grid = prediction[
+    available_grid_columns
+].copy()
 
 rename_grid = {
     "predicted_position": "Position",
@@ -590,7 +554,9 @@ rename_grid = {
     "predicted_total_points": "Total Points",
 }
 
-grid = grid.rename(columns=rename_grid)
+grid = grid.rename(
+    columns=rename_grid
+)
 
 st.dataframe(
     grid,
@@ -614,9 +580,7 @@ progression = load_csv(progression_path)
 if progression is not None and not progression.empty:
 
     st.markdown(
-        '<div class="section-title">'
-        '📈 Race Weekend Progression'
-        '</div>',
+        '<div class="section-title">📈 Race Weekend Progression</div>',
         unsafe_allow_html=True,
     )
 
@@ -680,7 +644,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-
 driver_standings = load_csv(
     PROCESSED_DIR
     / "driver_info_2026_with_photos.csv"
@@ -704,7 +667,9 @@ with tab1:
         and not driver_standings.empty
     ):
 
-        driver_display = driver_standings.copy()
+        driver_display = (
+            driver_standings.copy()
+        )
 
         preferred = [
             "position",
@@ -730,6 +695,7 @@ with tab1:
         )
 
     else:
+
         st.info(
             "2026 driver standings are not available."
         )
@@ -771,6 +737,7 @@ with tab2:
         )
 
     else:
+
         st.info(
             "2026 constructor standings are not available."
         )
