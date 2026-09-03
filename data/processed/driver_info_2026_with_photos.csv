@@ -1,0 +1,24 @@
+position,points,wins,driver_id,driver_code,driver_number,driver_name,constructor,driver_photo_url,profile_url,official_f1_profile_url,official_f1_profile_verified
+1,242,6,antonelli,ANT,12,Andrea Kimi Antonelli,Mercedes,,https://www.formula1.com/en/drivers/antonelli,https://www.formula1.com/en/drivers/andrea-kimi-antonelli,False
+2,183,2,russell,RUS,63,George Russell,Mercedes,,https://www.formula1.com/en/drivers/russell,https://www.formula1.com/en/drivers/george-russell,True
+3,183,1,hamilton,HAM,44,Lewis Hamilton,Ferrari,,https://www.formula1.com/en/drivers/hamilton,https://www.formula1.com/en/drivers/lewis-hamilton,True
+4,159,2,norris,NOR,1,Lando Norris,McLaren,,https://www.formula1.com/en/drivers/norris,https://www.formula1.com/en/drivers/lando-norris,True
+5,155,1,leclerc,LEC,16,Charles Leclerc,Ferrari,,https://www.formula1.com/en/drivers/leclerc,https://www.formula1.com/en/drivers/charles-leclerc,True
+6,112,0,max_verstappen,VER,3,Max Verstappen,Red Bull,,https://www.formula1.com/en/drivers/max_verstappen,https://www.formula1.com/en/drivers/max-verstappen,True
+7,104,0,piastri,PIA,81,Oscar Piastri,McLaren,,https://www.formula1.com/en/drivers/piastri,https://www.formula1.com/en/drivers/oscar-piastri,True
+8,68,0,hadjar,HAD,6,Isack Hadjar,Red Bull,,https://www.formula1.com/en/drivers/hadjar,,False
+9,49,0,lawson,LAW,30,Liam Lawson,RB F1 Team,,https://www.formula1.com/en/drivers/lawson,https://www.formula1.com/en/drivers/liam-lawson,True
+10,44,0,gasly,GAS,10,Pierre Gasly,Alpine F1 Team,,https://www.formula1.com/en/drivers/gasly,https://www.formula1.com/en/drivers/pierre-gasly,True
+11,23,0,arvid_lindblad,LIN,41,Arvid Lindblad,RB F1 Team,,https://www.formula1.com/en/drivers/arvid_lindblad,https://www.formula1.com/en/drivers/arvid-lindblad,True
+12,19,0,colapinto,COL,43,Franco Colapinto,Alpine F1 Team,,https://www.formula1.com/en/drivers/colapinto,https://www.formula1.com/en/drivers/franco-colapinto,True
+13,18,0,bearman,BEA,87,Oliver Bearman,Haas F1 Team,,https://www.formula1.com/en/drivers/bearman,https://www.formula1.com/en/drivers/oliver-bearman,True
+14,10,0,bortoleto,BOR,5,Gabriel Bortoleto,Audi,,https://www.formula1.com/en/drivers/bortoleto,https://www.formula1.com/en/drivers/gabriel-bortoleto,True
+15,6,0,hulkenberg,HUL,27,Nico Hülkenberg,Audi,,https://www.formula1.com/en/drivers/hulkenberg,https://www.formula1.com/en/drivers/nico-hulkenberg,True
+16,6,0,sainz,SAI,55,Carlos Sainz,Williams,,https://www.formula1.com/en/drivers/sainz,https://www.formula1.com/en/drivers/carlos-sainz,True
+17,5,0,albon,ALB,23,Alexander Albon,Williams,,https://www.formula1.com/en/drivers/albon,https://www.formula1.com/en/drivers/alexander-albon,True
+18,3,0,ocon,OCO,31,Esteban Ocon,Haas F1 Team,,https://www.formula1.com/en/drivers/ocon,https://www.formula1.com/en/drivers/esteban-ocon,True
+19,3,0,alonso,ALO,14,Fernando Alonso,Aston Martin,,https://www.formula1.com/en/drivers/alonso,https://www.formula1.com/en/drivers/fernando-alonso,True
+20,0,0,tsunoda,TSU,22,Yuki Tsunoda,RB F1 Team,,https://www.formula1.com/en/drivers/tsunoda,https://www.formula1.com/en/drivers/yuki-tsunoda,False
+21,0,0,stroll,STR,18,Lance Stroll,Aston Martin,,https://www.formula1.com/en/drivers/stroll,https://www.formula1.com/en/drivers/lance-stroll,True
+22,0,0,bottas,BOT,77,Valtteri Bottas,Cadillac F1 Team,,https://www.formula1.com/en/drivers/bottas,https://www.formula1.com/en/drivers/valtteri-bottas,True
+23,0,0,perez,PER,11,Sergio Pérez,Cadillac F1 Team,,https://www.formula1.com/en/drivers/perez,https://www.formula1.com/en/drivers/sergio-perez,True

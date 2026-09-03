@@ -1,0 +1,24 @@
+position,points,wins,driver_id,driver_code,driver_number,driver_name,constructor,driver_photo_url,profile_url
+1,242,6,antonelli,ANT,12,Andrea Kimi Antonelli,Mercedes,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/antonelli
+2,183,2,russell,RUS,63,George Russell,Mercedes,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/russell
+3,183,1,hamilton,HAM,44,Lewis Hamilton,Ferrari,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/hamilton
+4,159,2,norris,NOR,1,Lando Norris,McLaren,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/norris
+5,155,1,leclerc,LEC,16,Charles Leclerc,Ferrari,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/leclerc
+6,112,0,max_verstappen,VER,3,Max Verstappen,Red Bull,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/max_verstappen
+7,104,0,piastri,PIA,81,Oscar Piastri,McLaren,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/piastri
+8,68,0,hadjar,HAD,6,Isack Hadjar,Red Bull,,https://www.formula1.com/en/drivers/hadjar
+9,49,0,lawson,LAW,30,Liam Lawson,RB F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/lawson
+10,44,0,gasly,GAS,10,Pierre Gasly,Alpine F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/gasly
+11,23,0,arvid_lindblad,LIN,41,Arvid Lindblad,RB F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/arvid_lindblad
+12,19,0,colapinto,COL,43,Franco Colapinto,Alpine F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/colapinto
+13,18,0,bearman,BEA,87,Oliver Bearman,Haas F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/bearman
+14,10,0,bortoleto,BOR,5,Gabriel Bortoleto,Audi,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/bortoleto
+15,6,0,hulkenberg,HUL,27,Nico Hülkenberg,Audi,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/hulkenberg
+16,6,0,sainz,SAI,55,Carlos Sainz,Williams,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/sainz
+17,5,0,albon,ALB,23,Alexander Albon,Williams,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/albon
+18,3,0,ocon,OCO,31,Esteban Ocon,Haas F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/ocon
+19,3,0,alonso,ALO,14,Fernando Alonso,Aston Martin,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/alonso
+20,0,0,tsunoda,TSU,22,Yuki Tsunoda,RB F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/tsunoda
+21,0,0,stroll,STR,18,Lance Stroll,Aston Martin,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/stroll
+22,0,0,bottas,BOT,77,Valtteri Bottas,Cadillac F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/bottas
+23,0,0,perez,PER,11,Sergio Pérez,Cadillac F1 Team,https://upload.wikimedia.org/wikipedia/commons/,https://www.formula1.com/en/drivers/perez

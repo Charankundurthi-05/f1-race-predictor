@@ -17,7 +17,6 @@ models/*.pkl
 models/*.joblib
 
 # Processed/generated data
-data/processed/
 
 # Logs
 *.log

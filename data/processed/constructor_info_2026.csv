@@ -1,0 +1,12 @@
+position,points,wins,constructor_id,constructor_name,nationality,team_logo_url,profile_url
+1,425,8,mercedes,Mercedes,German,,https://www.formula1.com/en/teams/mercedes
+2,338,2,ferrari,Ferrari,Italian,,https://www.formula1.com/en/teams/ferrari
+3,263,2,mclaren,McLaren,British,,https://www.formula1.com/en/teams/mclaren
+4,186,0,red_bull,Red Bull,Austrian,,https://www.formula1.com/en/teams/red_bull
+5,66,0,rb,RB F1 Team,Italian,,https://www.formula1.com/en/teams/rb
+6,63,0,alpine,Alpine F1 Team,French,,https://www.formula1.com/en/teams/alpine
+7,21,0,haas,Haas F1 Team,American,,https://www.formula1.com/en/teams/haas
+8,16,0,audi,Audi,German,,https://www.formula1.com/en/teams/audi
+9,11,0,williams,Williams,British,,https://www.formula1.com/en/teams/williams
+10,3,0,aston_martin,Aston Martin,British,,https://www.formula1.com/en/teams/aston_martin
+11,0,0,cadillac,Cadillac F1 Team,American,,https://www.formula1.com/en/teams/cadillac
