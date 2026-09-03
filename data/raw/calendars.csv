@@ -1,0 +1,276 @@
+season,round,race_name,circuit_id,circuit_name,country,city,race_date,race_time,fp1_date,fp1_time,fp2_date,fp2_time,fp3_date,fp3_time,qualifying_date,qualifying_time,sprint_date,sprint_time,sprint_qualifying_date,sprint_qualifying_time,is_sprint_weekend
+2014,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2014-03-16,06:00:00Z,2014-03-14,,2014-03-14,,2014-03-15,,2014-03-15,,,,,,False
+2014,2,Malaysian Grand Prix,sepang,Sepang International Circuit,Malaysia,Kuala Lumpur,2014-03-30,08:00:00Z,2014-03-28,,2014-03-28,,2014-03-29,,2014-03-29,,,,,,False
+2014,3,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2014-04-06,15:00:00Z,2014-04-04,,2014-04-04,,2014-04-05,,2014-04-05,,,,,,False
+2014,4,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2014-04-20,07:00:00Z,2014-04-18,,2014-04-18,,2014-04-19,,2014-04-19,,,,,,False
+2014,5,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2014-05-11,12:00:00Z,2014-05-09,,2014-05-09,,2014-05-10,,2014-05-10,,,,,,False
+2014,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2014-05-25,12:00:00Z,2014-05-22,,2014-05-22,,2014-05-24,,2014-05-24,,,,,,False
+2014,7,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2014-06-08,18:00:00Z,2014-06-06,,2014-06-06,,2014-06-07,,2014-06-07,,,,,,False
+2014,8,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2014-06-22,12:00:00Z,2014-06-20,,2014-06-20,,2014-06-21,,2014-06-21,,,,,,False
+2014,9,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2014-07-06,12:00:00Z,2014-07-04,,2014-07-04,,2014-07-05,,2014-07-05,,,,,,False
+2014,10,German Grand Prix,hockenheimring,Hockenheimring,Germany,Hockenheim,2014-07-20,12:00:00Z,2014-07-18,,2014-07-18,,2014-07-19,,2014-07-19,,,,,,False
+2014,11,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2014-07-27,12:00:00Z,2014-07-25,,2014-07-25,,2014-07-26,,2014-07-26,,,,,,False
+2014,12,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2014-08-24,12:00:00Z,2014-08-22,,2014-08-22,,2014-08-23,,2014-08-23,,,,,,False
+2014,13,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2014-09-07,12:00:00Z,2014-09-05,,2014-09-05,,2014-09-06,,2014-09-06,,,,,,False
+2014,14,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2014-09-21,12:00:00Z,2014-09-19,,2014-09-19,,2014-09-20,,2014-09-20,,,,,,False
+2014,15,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2014-10-05,06:00:00Z,2014-10-03,,2014-10-03,,2014-10-04,,2014-10-04,,,,,,False
+2014,16,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2014-10-12,11:00:00Z,2014-10-10,,2014-10-10,,2014-10-11,,2014-10-11,,,,,,False
+2014,17,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2014-11-02,20:00:00Z,2014-10-31,,2014-10-31,,2014-11-01,,2014-11-01,,,,,,False
+2014,18,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2014-11-09,16:00:00Z,2014-11-07,,2014-11-07,,2014-11-08,,2014-11-08,,,,,,False
+2014,19,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2014-11-23,13:00:00Z,2014-11-21,,2014-11-21,,2014-11-22,,2014-11-22,,,,,,False
+2015,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2015-03-15,05:00:00Z,2015-03-13,,2015-03-13,,2015-03-14,,2015-03-14,,,,,,False
+2015,2,Malaysian Grand Prix,sepang,Sepang International Circuit,Malaysia,Kuala Lumpur,2015-03-29,07:00:00Z,2015-03-27,,2015-03-27,,2015-03-28,,2015-03-28,,,,,,False
+2015,3,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2015-04-12,06:00:00Z,2015-04-10,,2015-04-10,,2015-04-11,,2015-04-11,,,,,,False
+2015,4,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2015-04-19,15:00:00Z,2015-04-17,,2015-04-17,,2015-04-18,,2015-04-18,,,,,,False
+2015,5,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2015-05-10,12:00:00Z,2015-05-08,,2015-05-08,,2015-05-09,,2015-05-09,,,,,,False
+2015,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2015-05-24,12:00:00Z,2015-05-21,,2015-05-21,,2015-05-23,,2015-05-23,,,,,,False
+2015,7,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2015-06-07,18:00:00Z,2015-06-05,,2015-06-05,,2015-06-06,,2015-06-06,,,,,,False
+2015,8,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2015-06-21,12:00:00Z,2015-06-19,,2015-06-19,,2015-06-20,,2015-06-20,,,,,,False
+2015,9,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2015-07-05,12:00:00Z,2015-07-03,,2015-07-03,,2015-07-04,,2015-07-04,,,,,,False
+2015,10,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2015-07-26,12:00:00Z,2015-07-24,,2015-07-24,,2015-07-25,,2015-07-25,,,,,,False
+2015,11,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2015-08-23,12:00:00Z,2015-08-21,,2015-08-21,,2015-08-22,,2015-08-22,,,,,,False
+2015,12,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2015-09-06,12:00:00Z,2015-09-04,,2015-09-04,,2015-09-05,,2015-09-05,,,,,,False
+2015,13,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2015-09-20,12:00:00Z,2015-09-18,,2015-09-18,,2015-09-19,,2015-09-19,,,,,,False
+2015,14,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2015-09-27,05:00:00Z,2015-09-25,,2015-09-25,,2015-09-26,,2015-09-26,,,,,,False
+2015,15,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2015-10-11,11:00:00Z,2015-10-09,,2015-10-09,,2015-10-10,,2015-10-10,,,,,,False
+2015,16,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2015-10-25,19:00:00Z,2015-10-23,,2015-10-23,,2015-10-24,,2015-10-24,,,,,,False
+2015,17,Mexican Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2015-11-01,19:00:00Z,2015-10-30,,2015-10-30,,2015-10-31,,2015-10-31,,,,,,False
+2015,18,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2015-11-15,16:00:00Z,2015-11-13,,2015-11-13,,2015-11-14,,2015-11-14,,,,,,False
+2015,19,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2015-11-29,13:00:00Z,2015-11-27,,2015-11-27,,2015-11-28,,2015-11-28,,,,,,False
+2016,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2016-03-20,05:00:00Z,2016-03-18,,2016-03-18,,2016-03-19,,2016-03-19,,,,,,False
+2016,2,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2016-04-03,15:00:00Z,2016-04-01,,2016-04-01,,2016-04-02,,2016-04-02,,,,,,False
+2016,3,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2016-04-17,06:00:00Z,2016-04-15,,2016-04-15,,2016-04-16,,2016-04-16,,,,,,False
+2016,4,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2016-05-01,12:00:00Z,2016-04-29,,2016-04-29,,2016-04-30,,2016-04-30,,,,,,False
+2016,5,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2016-05-15,12:00:00Z,2016-05-13,,2016-05-13,,2016-05-14,,2016-05-14,,,,,,False
+2016,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2016-05-29,12:00:00Z,2016-05-26,,2016-05-26,,2016-05-28,,2016-05-28,,,,,,False
+2016,7,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2016-06-12,18:00:00Z,2016-06-10,,2016-06-10,,2016-06-11,,2016-06-11,,,,,,False
+2016,8,European Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2016-06-19,13:00:00Z,2016-06-17,,2016-06-17,,2016-06-18,,2016-06-18,,,,,,False
+2016,9,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2016-07-03,12:00:00Z,2016-07-01,,2016-07-01,,2016-07-02,,2016-07-02,,,,,,False
+2016,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2016-07-10,12:00:00Z,2016-07-08,,2016-07-08,,2016-07-09,,2016-07-09,,,,,,False
+2016,11,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2016-07-24,12:00:00Z,2016-07-22,,2016-07-22,,2016-07-23,,2016-07-23,,,,,,False
+2016,12,German Grand Prix,hockenheimring,Hockenheimring,Germany,Hockenheim,2016-07-31,12:00:00Z,2016-07-29,,2016-07-29,,2016-07-30,,2016-07-30,,,,,,False
+2016,13,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2016-08-28,12:00:00Z,2016-08-26,,2016-08-26,,2016-08-27,,2016-08-27,,,,,,False
+2016,14,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2016-09-04,12:00:00Z,2016-09-02,,2016-09-02,,2016-09-03,,2016-09-03,,,,,,False
+2016,15,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2016-09-18,12:00:00Z,2016-09-16,,2016-09-16,,2016-09-17,,2016-09-17,,,,,,False
+2016,16,Malaysian Grand Prix,sepang,Sepang International Circuit,Malaysia,Kuala Lumpur,2016-10-02,07:00:00Z,2016-09-30,,2016-09-30,,2016-10-01,,2016-10-01,,,,,,False
+2016,17,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2016-10-09,05:00:00Z,2016-10-07,,2016-10-07,,2016-10-08,,2016-10-08,,,,,,False
+2016,18,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2016-10-23,19:00:00Z,2016-10-21,,2016-10-21,,2016-10-22,,2016-10-22,,,,,,False
+2016,19,Mexican Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2016-10-30,19:00:00Z,2016-10-28,,2016-10-28,,2016-10-29,,2016-10-29,,,,,,False
+2016,20,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2016-11-13,16:00:00Z,2016-11-11,,2016-11-11,,2016-11-12,,2016-11-12,,,,,,False
+2016,21,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2016-11-27,13:00:00Z,2016-11-25,,2016-11-25,,2016-11-26,,2016-11-26,,,,,,False
+2017,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2017-03-26,05:00:00Z,2017-03-24,,2017-03-24,,2017-03-25,,2017-03-25,,,,,,False
+2017,2,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2017-04-09,06:00:00Z,2017-04-07,,2017-04-07,,2017-04-08,,2017-04-08,,,,,,False
+2017,3,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2017-04-16,15:00:00Z,2017-04-14,,2017-04-14,,2017-04-15,,2017-04-15,,,,,,False
+2017,4,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2017-04-30,12:00:00Z,2017-04-28,,2017-04-28,,2017-04-29,,2017-04-29,,,,,,False
+2017,5,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2017-05-14,12:00:00Z,2017-05-12,,2017-05-12,,2017-05-13,,2017-05-13,,,,,,False
+2017,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2017-05-28,12:00:00Z,2017-05-25,,2017-05-25,,2017-05-27,,2017-05-27,,,,,,False
+2017,7,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2017-06-11,18:00:00Z,2017-06-09,,2017-06-09,,2017-06-10,,2017-06-10,,,,,,False
+2017,8,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2017-06-25,13:00:00Z,2017-06-23,,2017-06-23,,2017-06-24,,2017-06-24,,,,,,False
+2017,9,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2017-07-09,12:00:00Z,2017-07-07,,2017-07-07,,2017-07-08,,2017-07-08,,,,,,False
+2017,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2017-07-16,12:00:00Z,2017-07-14,,2017-07-14,,2017-07-15,,2017-07-15,,,,,,False
+2017,11,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2017-07-30,12:00:00Z,2017-07-28,,2017-07-28,,2017-07-29,,2017-07-29,,,,,,False
+2017,12,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2017-08-27,12:00:00Z,2017-08-25,,2017-08-25,,2017-08-26,,2017-08-26,,,,,,False
+2017,13,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2017-09-03,12:00:00Z,2017-09-01,,2017-09-01,,2017-09-02,,2017-09-02,,,,,,False
+2017,14,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2017-09-17,12:00:00Z,2017-09-15,,2017-09-15,,2017-09-16,,2017-09-16,,,,,,False
+2017,15,Malaysian Grand Prix,sepang,Sepang International Circuit,Malaysia,Kuala Lumpur,2017-10-01,07:00:00Z,2017-09-29,,2017-09-29,,2017-09-30,,2017-09-30,,,,,,False
+2017,16,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2017-10-08,05:00:00Z,2017-10-06,,2017-10-06,,2017-10-07,,2017-10-07,,,,,,False
+2017,17,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2017-10-22,19:00:00Z,2017-10-20,,2017-10-20,,2017-10-21,,2017-10-21,,,,,,False
+2017,18,Mexican Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2017-10-29,19:00:00Z,2017-10-27,,2017-10-27,,2017-10-28,,2017-10-28,,,,,,False
+2017,19,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2017-11-12,16:00:00Z,2017-11-10,,2017-11-10,,2017-11-11,,2017-11-11,,,,,,False
+2017,20,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2017-11-26,13:00:00Z,2017-11-24,,2017-11-24,,2017-11-25,,2017-11-25,,,,,,False
+2018,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2018-03-25,05:10:00Z,2018-03-23,,2018-03-23,,2018-03-24,,2018-03-24,,,,,,False
+2018,2,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2018-04-08,15:10:00Z,2018-04-06,,2018-04-06,,2018-04-07,,2018-04-07,,,,,,False
+2018,3,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2018-04-15,06:10:00Z,2018-04-13,,2018-04-13,,2018-04-14,,2018-04-14,,,,,,False
+2018,4,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2018-04-29,12:10:00Z,2018-04-27,,2018-04-27,,2018-04-28,,2018-04-28,,,,,,False
+2018,5,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2018-05-13,13:10:00Z,2018-05-11,,2018-05-11,,2018-05-12,,2018-05-12,,,,,,False
+2018,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2018-05-27,13:10:00Z,2018-05-24,,2018-05-24,,2018-05-26,,2018-05-26,,,,,,False
+2018,7,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2018-06-10,18:10:00Z,2018-06-08,,2018-06-08,,2018-06-09,,2018-06-09,,,,,,False
+2018,8,French Grand Prix,ricard,Circuit Paul Ricard,France,Le Castellet,2018-06-24,14:10:00Z,2018-06-22,,2018-06-22,,2018-06-23,,2018-06-23,,,,,,False
+2018,9,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2018-07-01,13:10:00Z,2018-06-29,,2018-06-29,,2018-06-30,,2018-06-30,,,,,,False
+2018,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2018-07-08,13:10:00Z,2018-07-06,,2018-07-06,,2018-07-07,,2018-07-07,,,,,,False
+2018,11,German Grand Prix,hockenheimring,Hockenheimring,Germany,Hockenheim,2018-07-22,13:10:00Z,2018-07-20,,2018-07-20,,2018-07-21,,2018-07-21,,,,,,False
+2018,12,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2018-07-29,13:10:00Z,2018-07-27,,2018-07-27,,2018-07-28,,2018-07-28,,,,,,False
+2018,13,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2018-08-26,13:10:00Z,2018-08-24,,2018-08-24,,2018-08-25,,2018-08-25,,,,,,False
+2018,14,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2018-09-02,13:10:00Z,2018-08-31,,2018-08-31,,2018-09-01,,2018-09-01,,,,,,False
+2018,15,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2018-09-16,12:10:00Z,2018-09-14,,2018-09-14,,2018-09-15,,2018-09-15,,,,,,False
+2018,16,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2018-09-30,11:10:00Z,2018-09-28,,2018-09-28,,2018-09-29,,2018-09-29,,,,,,False
+2018,17,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2018-10-07,05:10:00Z,2018-10-05,,2018-10-05,,2018-10-06,,2018-10-06,,,,,,False
+2018,18,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2018-10-21,18:10:00Z,2018-10-19,,2018-10-19,,2018-10-20,,2018-10-20,,,,,,False
+2018,19,Mexican Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2018-10-28,19:10:00Z,2018-10-26,,2018-10-26,,2018-10-27,,2018-10-27,,,,,,False
+2018,20,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2018-11-11,17:10:00Z,2018-11-09,,2018-11-09,,2018-11-10,,2018-11-10,,,,,,False
+2018,21,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2018-11-25,13:10:00Z,2018-11-23,,2018-11-23,,2018-11-24,,2018-11-24,,,,,,False
+2019,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2019-03-17,05:10:00Z,2019-03-15,,2019-03-15,,2019-03-16,,2019-03-16,,,,,,False
+2019,2,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2019-03-31,15:10:00Z,2019-03-29,,2019-03-29,,2019-03-30,,2019-03-30,,,,,,False
+2019,3,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2019-04-14,06:10:00Z,2019-04-12,,2019-04-12,,2019-04-13,,2019-04-13,,,,,,False
+2019,4,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2019-04-28,12:10:00Z,2019-04-26,,2019-04-26,,2019-04-27,,2019-04-27,,,,,,False
+2019,5,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2019-05-12,13:10:00Z,2019-05-10,,2019-05-10,,2019-05-11,,2019-05-11,,,,,,False
+2019,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2019-05-26,13:10:00Z,2019-05-23,,2019-05-23,,2019-05-25,,2019-05-25,,,,,,False
+2019,7,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2019-06-09,18:10:00Z,2019-06-07,,2019-06-07,,2019-06-08,,2019-06-08,,,,,,False
+2019,8,French Grand Prix,ricard,Circuit Paul Ricard,France,Le Castellet,2019-06-23,13:10:00Z,2019-06-21,,2019-06-21,,2019-06-22,,2019-06-22,,,,,,False
+2019,9,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2019-06-30,13:10:00Z,2019-06-28,,2019-06-28,,2019-06-29,,2019-06-29,,,,,,False
+2019,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2019-07-14,13:10:00Z,2019-07-12,,2019-07-12,,2019-07-13,,2019-07-13,,,,,,False
+2019,11,German Grand Prix,hockenheimring,Hockenheimring,Germany,Hockenheim,2019-07-28,13:10:00Z,2019-07-26,,2019-07-26,,2019-07-27,,2019-07-27,,,,,,False
+2019,12,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2019-08-04,13:10:00Z,2019-08-02,,2019-08-02,,2019-08-03,,2019-08-03,,,,,,False
+2019,13,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2019-09-01,13:10:00Z,2019-08-30,,2019-08-30,,2019-08-31,,2019-08-31,,,,,,False
+2019,14,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2019-09-08,13:10:00Z,2019-09-06,,2019-09-06,,2019-09-07,,2019-09-07,,,,,,False
+2019,15,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2019-09-22,12:10:00Z,2019-09-20,,2019-09-20,,2019-09-21,,2019-09-21,,,,,,False
+2019,16,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2019-09-29,11:10:00Z,2019-09-27,,2019-09-27,,2019-09-28,,2019-09-28,,,,,,False
+2019,17,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2019-10-13,05:10:00Z,2019-10-11,,2019-10-11,,2019-10-12,,2019-10-12,,,,,,False
+2019,18,Mexican Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2019-10-27,19:10:00Z,2019-10-25,,2019-10-25,,2019-10-26,,2019-10-26,,,,,,False
+2019,19,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2019-11-03,19:10:00Z,2019-11-01,,2019-11-01,,2019-11-02,,2019-11-02,,,,,,False
+2019,20,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2019-11-17,17:10:00Z,2019-11-15,,2019-11-15,,2019-11-16,,2019-11-16,,,,,,False
+2019,21,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2019-12-01,13:10:00Z,2019-11-29,,2019-11-29,,2019-11-30,,2019-11-30,,,,,,False
+2020,1,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2020-07-05,13:10:00Z,2020-07-03,,2020-07-03,,2020-07-04,,2020-07-04,,,,,,False
+2020,2,Styrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2020-07-12,13:10:00Z,2020-07-10,,2020-07-10,,2020-07-11,,2020-07-11,,,,,,False
+2020,3,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2020-07-19,13:10:00Z,2020-07-17,,2020-07-17,,2020-07-18,,2020-07-18,,,,,,False
+2020,4,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2020-08-02,13:10:00Z,2020-07-31,,2020-07-31,,2020-08-01,,2020-08-01,,,,,,False
+2020,5,70th Anniversary Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2020-08-09,13:10:00Z,2020-08-07,,2020-08-07,,2020-08-08,,2020-08-08,,,,,,False
+2020,6,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2020-08-16,13:10:00Z,2020-08-14,,2020-08-14,,2020-08-15,,2020-08-15,,,,,,False
+2020,7,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2020-08-30,13:10:00Z,2020-08-28,,2020-08-28,,2020-08-29,,2020-08-29,,,,,,False
+2020,8,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2020-09-06,13:10:00Z,2020-09-04,,2020-09-04,,2020-09-05,,2020-09-05,,,,,,False
+2020,9,Tuscan Grand Prix,mugello,Autodromo Internazionale del Mugello,Italy,Mugello,2020-09-13,13:10:00Z,2020-09-11,,2020-09-11,,2020-09-12,,2020-09-12,,,,,,False
+2020,10,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2020-09-27,11:10:00Z,2020-09-25,,2020-09-25,,2020-09-26,,2020-09-26,,,,,,False
+2020,11,Eifel Grand Prix,nurburgring,Nürburgring,Germany,Nürburg,2020-10-11,13:10:00Z,2020-10-09,,2020-10-09,,2020-10-10,,2020-10-10,,,,,,False
+2020,12,Portuguese Grand Prix,portimao,Autódromo Internacional do Algarve,Portugal,Portimão,2020-10-25,12:10:00Z,2020-10-23,,2020-10-23,,2020-10-24,,2020-10-24,,,,,,False
+2020,13,Emilia Romagna Grand Prix,imola,Autodromo Enzo e Dino Ferrari,Italy,Imola,2020-11-01,12:10:00Z,2020-10-30,,2020-10-30,,2020-10-31,,2020-10-31,,,,,,False
+2020,14,Turkish Grand Prix,istanbul,Istanbul Park,Turkey,Istanbul,2020-11-15,10:10:00Z,2020-11-13,,2020-11-13,,2020-11-14,,2020-11-14,,,,,,False
+2020,15,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2020-11-29,14:10:00Z,2020-11-27,,2020-11-27,,2020-11-28,,2020-11-28,,,,,,False
+2020,16,Sakhir Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2020-12-06,17:10:00Z,2020-12-04,,2020-12-04,,2020-12-05,,2020-12-05,,,,,,False
+2020,17,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2020-12-13,13:10:00Z,2020-12-11,,2020-12-11,,2020-12-12,,2020-12-12,,,,,,False
+2021,1,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2021-03-28,15:00:00Z,2021-03-26,,2021-03-26,,2021-03-27,,2021-03-27,,,,,,False
+2021,2,Emilia Romagna Grand Prix,imola,Autodromo Enzo e Dino Ferrari,Italy,Imola,2021-04-18,13:00:00Z,2021-04-16,,2021-04-16,,2021-04-17,,2021-04-17,,,,,,False
+2021,3,Portuguese Grand Prix,portimao,Autódromo Internacional do Algarve,Portugal,Portimão,2021-05-02,14:00:00Z,2021-04-30,,2021-04-30,,2021-05-01,,2021-05-01,,,,,,False
+2021,4,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2021-05-09,13:00:00Z,2021-05-07,,2021-05-07,,2021-05-08,,2021-05-08,,,,,,False
+2021,5,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2021-05-23,13:00:00Z,2021-05-21,,2021-05-21,,2021-05-22,,2021-05-22,,,,,,False
+2021,6,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2021-06-06,12:00:00Z,2021-06-04,,2021-06-04,,2021-06-05,,2021-06-05,,,,,,False
+2021,7,French Grand Prix,ricard,Circuit Paul Ricard,France,Le Castellet,2021-06-20,13:00:00Z,2021-06-18,,2021-06-18,,2021-06-19,,2021-06-19,,,,,,False
+2021,8,Styrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2021-06-27,13:00:00Z,2021-06-25,,2021-06-25,,2021-06-26,,2021-06-26,,,,,,False
+2021,9,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2021-07-04,13:00:00Z,2021-07-02,,2021-07-02,,2021-07-03,,2021-07-03,,,,,,False
+2021,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2021-07-18,14:00:00Z,2021-07-16,,2021-07-17,,,,2021-07-16,,2021-07-17,,,,True
+2021,11,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2021-08-01,13:00:00Z,2021-07-30,,2021-07-30,,2021-07-31,,2021-07-31,,,,,,False
+2021,12,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2021-08-29,13:00:00Z,2021-08-27,,2021-08-27,,2021-08-28,,2021-08-28,,,,,,False
+2021,13,Dutch Grand Prix,zandvoort,Circuit Park Zandvoort,Netherlands,Zandvoort,2021-09-05,13:00:00Z,2021-09-03,,2021-09-03,,2021-09-04,,2021-09-04,,,,,,False
+2021,14,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2021-09-12,13:00:00Z,2021-09-10,,2021-09-11,,,,2021-09-10,,2021-09-11,,,,True
+2021,15,Russian Grand Prix,sochi,Sochi Autodrom,Russia,Sochi,2021-09-26,12:00:00Z,2021-09-24,,2021-09-24,,2021-09-25,,2021-09-25,,,,,,False
+2021,16,Turkish Grand Prix,istanbul,Istanbul Park,Turkey,Istanbul,2021-10-10,12:00:00Z,2021-10-08,,2021-10-08,,2021-10-09,,2021-10-09,,,,,,False
+2021,17,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2021-10-24,19:00:00Z,2021-10-22,,2021-10-22,,2021-10-23,,2021-10-23,,,,,,False
+2021,18,Mexico City Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2021-11-07,19:00:00Z,2021-11-05,,2021-11-05,,2021-11-06,,2021-11-06,,,,,,False
+2021,19,São Paulo Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2021-11-14,17:00:00Z,2021-11-12,,2021-11-13,,,,2021-11-12,,2021-11-13,,,,True
+2021,20,Qatar Grand Prix,losail,Losail International Circuit,Qatar,Lusail,2021-11-21,14:00:00Z,2021-11-19,,2021-11-19,,2021-11-20,,2021-11-20,,,,,,False
+2021,21,Saudi Arabian Grand Prix,jeddah,Jeddah Corniche Circuit,Saudi Arabia,Jeddah,2021-12-05,17:30:00Z,2021-12-03,,2021-12-03,,2021-12-04,,2021-12-04,,,,,,False
+2021,22,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2021-12-12,13:00:00Z,2021-12-10,,2021-12-10,,2021-12-11,,2021-12-11,,,,,,False
+2022,1,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2022-03-20,15:00:00Z,2022-03-18,12:00:00Z,2022-03-18,15:00:00Z,2022-03-19,12:00:00Z,2022-03-19,15:00:00Z,,,,,False
+2022,2,Saudi Arabian Grand Prix,jeddah,Jeddah Corniche Circuit,Saudi Arabia,Jeddah,2022-03-27,17:00:00Z,2022-03-25,14:00:00Z,2022-03-25,17:00:00Z,2022-03-26,14:00:00Z,2022-03-26,17:00:00Z,,,,,False
+2022,3,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2022-04-10,05:00:00Z,2022-04-08,03:00:00Z,2022-04-08,06:00:00Z,2022-04-09,03:00:00Z,2022-04-09,06:00:00Z,,,,,False
+2022,4,Emilia Romagna Grand Prix,imola,Autodromo Enzo e Dino Ferrari,Italy,Imola,2022-04-24,13:00:00Z,2022-04-22,11:30:00Z,2022-04-23,10:30:00Z,,,2022-04-22,15:00:00Z,2022-04-23,14:30:00Z,,,True
+2022,5,Miami Grand Prix,miami,Miami International Autodrome,USA,Miami,2022-05-08,19:30:00Z,2022-05-06,18:30:00Z,2022-05-06,21:30:00Z,2022-05-07,17:00:00Z,2022-05-07,20:00:00Z,,,,,False
+2022,6,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2022-05-22,13:00:00Z,2022-05-20,12:00:00Z,2022-05-20,15:00:00Z,2022-05-21,11:00:00Z,2022-05-21,14:00:00Z,,,,,False
+2022,7,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2022-05-29,13:00:00Z,2022-05-27,12:00:00Z,2022-05-27,15:00:00Z,2022-05-28,11:00:00Z,2022-05-28,14:00:00Z,,,,,False
+2022,8,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2022-06-12,11:00:00Z,2022-06-10,11:00:00Z,2022-06-10,14:00:00Z,2022-06-11,11:00:00Z,2022-06-11,14:00:00Z,,,,,False
+2022,9,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2022-06-19,18:00:00Z,2022-06-17,18:00:00Z,2022-06-17,21:00:00Z,2022-06-18,17:00:00Z,2022-06-18,20:00:00Z,,,,,False
+2022,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2022-07-03,14:00:00Z,2022-07-01,12:00:00Z,2022-07-01,15:00:00Z,2022-07-02,11:00:00Z,2022-07-02,14:00:00Z,,,,,False
+2022,11,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2022-07-10,13:00:00Z,2022-07-08,11:30:00Z,2022-07-09,10:30:00Z,,,2022-07-08,15:00:00Z,2022-07-09,14:30:00Z,,,True
+2022,12,French Grand Prix,ricard,Circuit Paul Ricard,France,Le Castellet,2022-07-24,13:00:00Z,2022-07-22,12:00:00Z,2022-07-22,15:00:00Z,2022-07-23,11:00:00Z,2022-07-23,14:00:00Z,,,,,False
+2022,13,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2022-07-31,13:00:00Z,2022-07-29,12:00:00Z,2022-07-29,15:00:00Z,2022-07-30,11:00:00Z,2022-07-30,14:00:00Z,,,,,False
+2022,14,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2022-08-28,13:00:00Z,2022-08-26,12:00:00Z,2022-08-26,15:00:00Z,2022-08-27,11:00:00Z,2022-08-27,14:00:00Z,,,,,False
+2022,15,Dutch Grand Prix,zandvoort,Circuit Park Zandvoort,Netherlands,Zandvoort,2022-09-04,13:00:00Z,2022-09-02,10:30:00Z,2022-09-02,14:00:00Z,2022-09-03,10:00:00Z,2022-09-03,13:00:00Z,,,,,False
+2022,16,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2022-09-11,13:00:00Z,2022-09-09,12:00:00Z,2022-09-09,15:00:00Z,2022-09-10,11:00:00Z,2022-09-10,14:00:00Z,,,,,False
+2022,17,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2022-10-02,12:00:00Z,2022-09-30,10:00:00Z,2022-09-30,13:00:00Z,2022-10-01,10:00:00Z,2022-10-01,13:00:00Z,,,,,False
+2022,18,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2022-10-09,05:00:00Z,2022-10-07,03:00:00Z,2022-10-07,06:00:00Z,2022-10-08,03:00:00Z,2022-10-08,06:00:00Z,,,,,False
+2022,19,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2022-10-23,19:00:00Z,2022-10-21,19:00:00Z,2022-10-21,22:00:00Z,2022-10-22,19:00:00Z,2022-10-22,22:00:00Z,,,,,False
+2022,20,Mexico City Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2022-10-30,20:00:00Z,2022-10-28,18:00:00Z,2022-10-28,21:00:00Z,2022-10-29,17:00:00Z,2022-10-29,20:00:00Z,,,,,False
+2022,21,São Paulo Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2022-11-13,18:00:00Z,2022-11-11,15:30:00Z,2022-11-12,15:30:00Z,,,2022-11-11,19:00:00Z,2022-11-12,19:30:00Z,,,True
+2022,22,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2022-11-20,13:00:00Z,2022-11-18,10:00:00Z,2022-11-18,13:00:00Z,2022-11-19,11:00:00Z,2022-11-19,14:00:00Z,,,,,False
+2023,1,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2023-03-05,15:00:00Z,2023-03-03,11:30:00Z,2023-03-03,15:00:00Z,2023-03-04,11:30:00Z,2023-03-04,15:00:00Z,,,,,False
+2023,2,Saudi Arabian Grand Prix,jeddah,Jeddah Corniche Circuit,Saudi Arabia,Jeddah,2023-03-19,17:00:00Z,2023-03-17,13:30:00Z,2023-03-17,17:00:00Z,2023-03-18,13:30:00Z,2023-03-18,17:00:00Z,,,,,False
+2023,3,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2023-04-02,05:00:00Z,2023-03-31,01:30:00Z,2023-03-31,05:00:00Z,2023-04-01,01:30:00Z,2023-04-01,05:00:00Z,,,,,False
+2023,4,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2023-04-30,11:00:00Z,2023-04-28,09:30:00Z,,,,,2023-04-28,13:00:00Z,2023-04-29,13:30:00Z,2023-04-29,09:30:00Z,True
+2023,5,Miami Grand Prix,miami,Miami International Autodrome,USA,Miami,2023-05-07,19:30:00Z,2023-05-05,18:00:00Z,2023-05-05,21:30:00Z,2023-05-06,16:30:00Z,2023-05-06,20:00:00Z,,,,,False
+2023,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2023-05-28,13:00:00Z,2023-05-26,11:30:00Z,2023-05-26,15:00:00Z,2023-05-27,10:30:00Z,2023-05-27,14:00:00Z,,,,,False
+2023,7,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2023-06-04,13:00:00Z,2023-06-02,11:30:00Z,2023-06-02,15:00:00Z,2023-06-03,10:30:00Z,2023-06-03,14:00:00Z,,,,,False
+2023,8,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2023-06-18,18:00:00Z,2023-06-16,17:30:00Z,2023-06-16,21:00:00Z,2023-06-17,16:30:00Z,2023-06-17,20:00:00Z,,,,,False
+2023,9,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2023-07-02,13:00:00Z,2023-06-30,11:30:00Z,,,,,2023-06-30,15:00:00Z,2023-07-01,14:30:00Z,2023-07-01,10:30:00Z,True
+2023,10,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2023-07-09,14:00:00Z,2023-07-07,11:30:00Z,2023-07-07,15:00:00Z,2023-07-08,10:30:00Z,2023-07-08,14:00:00Z,,,,,False
+2023,11,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2023-07-23,13:00:00Z,2023-07-21,11:30:00Z,2023-07-21,15:00:00Z,2023-07-22,10:30:00Z,2023-07-22,14:00:00Z,,,,,False
+2023,12,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2023-07-30,13:00:00Z,2023-07-28,11:30:00Z,,,,,2023-07-28,15:00:00Z,2023-07-29,14:30:00Z,2023-07-29,10:30:00Z,True
+2023,13,Dutch Grand Prix,zandvoort,Circuit Park Zandvoort,Netherlands,Zandvoort,2023-08-27,13:00:00Z,2023-08-25,10:30:00Z,2023-08-25,14:00:00Z,2023-08-26,09:30:00Z,2023-08-26,13:00:00Z,,,,,False
+2023,14,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2023-09-03,13:00:00Z,2023-09-01,11:30:00Z,2023-09-01,15:00:00Z,2023-09-02,10:30:00Z,2023-09-02,14:00:00Z,,,,,False
+2023,15,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2023-09-17,12:00:00Z,2023-09-15,09:30:00Z,2023-09-15,13:00:00Z,2023-09-16,09:30:00Z,2023-09-16,13:00:00Z,,,,,False
+2023,16,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2023-09-24,05:00:00Z,2023-09-22,02:30:00Z,2023-09-22,06:00:00Z,2023-09-23,02:30:00Z,2023-09-23,06:00:00Z,,,,,False
+2023,17,Qatar Grand Prix,losail,Losail International Circuit,Qatar,Lusail,2023-10-08,17:00:00Z,2023-10-06,13:30:00Z,,,,,2023-10-06,17:00:00Z,2023-10-07,17:30:00Z,2023-10-07,13:00:00Z,True
+2023,18,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2023-10-22,19:00:00Z,2023-10-20,17:30:00Z,,,,,2023-10-20,21:00:00Z,2023-10-21,22:00:00Z,2023-10-21,18:00:00Z,True
+2023,19,Mexico City Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2023-10-29,20:00:00Z,2023-10-27,18:30:00Z,2023-10-27,22:00:00Z,2023-10-28,17:30:00Z,2023-10-28,21:00:00Z,,,,,False
+2023,20,São Paulo Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2023-11-05,17:00:00Z,2023-11-03,14:30:00Z,,,,,2023-11-03,18:00:00Z,2023-11-04,18:30:00Z,2023-11-04,14:30:00Z,True
+2023,21,Las Vegas Grand Prix,vegas,Las Vegas Strip Street Circuit,USA,Las Vegas,2023-11-19,06:00:00Z,2023-11-16,04:30:00Z,2023-11-16,08:00:00Z,2023-11-17,04:30:00Z,2023-11-17,08:00:00Z,,,,,False
+2023,22,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2023-11-26,13:00:00Z,2023-11-24,09:30:00Z,2023-11-24,13:00:00Z,2023-11-25,10:30:00Z,2023-11-25,14:00:00Z,,,,,False
+2024,1,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2024-03-02,15:00:00Z,2024-02-29,11:30:00Z,2024-02-29,15:00:00Z,2024-03-01,12:30:00Z,2024-03-01,16:00:00Z,,,,,False
+2024,2,Saudi Arabian Grand Prix,jeddah,Jeddah Corniche Circuit,Saudi Arabia,Jeddah,2024-03-09,17:00:00Z,2024-03-07,13:30:00Z,2024-03-07,17:00:00Z,2024-03-08,13:30:00Z,2024-03-08,17:00:00Z,,,,,False
+2024,3,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2024-03-24,04:00:00Z,2024-03-22,01:30:00Z,2024-03-22,05:00:00Z,2024-03-23,01:30:00Z,2024-03-23,05:00:00Z,,,,,False
+2024,4,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2024-04-07,05:00:00Z,2024-04-05,02:30:00Z,2024-04-05,06:00:00Z,2024-04-06,02:30:00Z,2024-04-06,06:00:00Z,,,,,False
+2024,5,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2024-04-21,07:00:00Z,2024-04-19,03:30:00Z,,,,,2024-04-20,07:00:00Z,2024-04-20,03:00:00Z,2024-04-19,07:30:00Z,True
+2024,6,Miami Grand Prix,miami,Miami International Autodrome,USA,Miami,2024-05-05,20:00:00Z,2024-05-03,16:30:00Z,,,,,2024-05-04,20:00:00Z,2024-05-04,16:00:00Z,2024-05-03,20:30:00Z,True
+2024,7,Emilia Romagna Grand Prix,imola,Autodromo Enzo e Dino Ferrari,Italy,Imola,2024-05-19,13:00:00Z,2024-05-17,11:30:00Z,2024-05-17,15:00:00Z,2024-05-18,10:30:00Z,2024-05-18,14:00:00Z,,,,,False
+2024,8,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2024-05-26,13:00:00Z,2024-05-24,11:30:00Z,2024-05-24,15:00:00Z,2024-05-25,10:30:00Z,2024-05-25,14:00:00Z,,,,,False
+2024,9,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2024-06-09,18:00:00Z,2024-06-07,17:30:00Z,2024-06-07,21:00:00Z,2024-06-08,16:30:00Z,2024-06-08,20:00:00Z,,,,,False
+2024,10,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2024-06-23,13:00:00Z,2024-06-21,11:30:00Z,2024-06-21,15:00:00Z,2024-06-22,10:30:00Z,2024-06-22,14:00:00Z,,,,,False
+2024,11,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2024-06-30,13:00:00Z,2024-06-28,10:30:00Z,,,,,2024-06-29,14:00:00Z,2024-06-29,10:00:00Z,2024-06-28,14:30:00Z,True
+2024,12,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2024-07-07,14:00:00Z,2024-07-05,11:30:00Z,2024-07-05,15:00:00Z,2024-07-06,10:30:00Z,2024-07-06,14:00:00Z,,,,,False
+2024,13,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2024-07-21,13:00:00Z,2024-07-19,11:30:00Z,2024-07-19,15:00:00Z,2024-07-20,10:30:00Z,2024-07-20,14:00:00Z,,,,,False
+2024,14,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2024-07-28,13:00:00Z,2024-07-26,11:30:00Z,2024-07-26,15:00:00Z,2024-07-27,10:30:00Z,2024-07-27,14:00:00Z,,,,,False
+2024,15,Dutch Grand Prix,zandvoort,Circuit Park Zandvoort,Netherlands,Zandvoort,2024-08-25,13:00:00Z,2024-08-23,10:30:00Z,2024-08-23,14:00:00Z,2024-08-24,09:30:00Z,2024-08-24,13:00:00Z,,,,,False
+2024,16,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2024-09-01,13:00:00Z,2024-08-30,11:30:00Z,2024-08-30,15:00:00Z,2024-08-31,10:30:00Z,2024-08-31,14:00:00Z,,,,,False
+2024,17,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2024-09-15,11:00:00Z,2024-09-13,09:30:00Z,2024-09-13,13:00:00Z,2024-09-14,08:30:00Z,2024-09-14,12:00:00Z,,,,,False
+2024,18,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2024-09-22,12:00:00Z,2024-09-20,09:30:00Z,2024-09-20,13:00:00Z,2024-09-21,09:30:00Z,2024-09-21,13:00:00Z,,,,,False
+2024,19,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2024-10-20,19:00:00Z,2024-10-18,17:30:00Z,,,,,2024-10-19,22:00:00Z,2024-10-19,18:00:00Z,2024-10-18,21:30:00Z,True
+2024,20,Mexico City Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2024-10-27,20:00:00Z,2024-10-25,18:30:00Z,2024-10-25,22:00:00Z,2024-10-26,17:30:00Z,2024-10-26,21:00:00Z,,,,,False
+2024,21,São Paulo Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2024-11-03,17:00:00Z,2024-11-01,14:30:00Z,,,,,2024-11-02,18:00:00Z,2024-11-02,14:00:00Z,2024-11-01,18:30:00Z,True
+2024,22,Las Vegas Grand Prix,vegas,Las Vegas Strip Street Circuit,USA,Las Vegas,2024-11-23,06:00:00Z,2024-11-21,02:30:00Z,2024-11-21,06:00:00Z,2024-11-22,02:30:00Z,2024-11-22,06:00:00Z,,,,,False
+2024,23,Qatar Grand Prix,losail,Losail International Circuit,Qatar,Lusail,2024-12-01,16:00:00Z,2024-11-29,13:30:00Z,,,,,2024-11-30,18:00:00Z,2024-11-30,14:00:00Z,2024-11-29,17:30:00Z,True
+2024,24,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2024-12-08,13:00:00Z,2024-12-06,09:30:00Z,2024-12-06,13:00:00Z,2024-12-07,10:30:00Z,2024-12-07,14:00:00Z,,,,,False
+2025,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2025-03-16,04:00:00Z,2025-03-14,01:30:00Z,2025-03-14,05:00:00Z,2025-03-15,01:30:00Z,2025-03-15,05:00:00Z,,,,,False
+2025,2,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2025-03-23,07:00:00Z,2025-03-21,03:30:00Z,,,,,2025-03-22,07:00:00Z,2025-03-22,03:00:00Z,2025-03-21,07:30:00Z,True
+2025,3,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2025-04-06,05:00:00Z,2025-04-04,02:30:00Z,2025-04-04,06:00:00Z,2025-04-05,02:30:00Z,2025-04-05,06:00:00Z,,,,,False
+2025,4,Bahrain Grand Prix,bahrain,Bahrain International Circuit,Bahrain,Sakhir,2025-04-13,15:00:00Z,2025-04-11,11:30:00Z,2025-04-11,15:00:00Z,2025-04-12,12:30:00Z,2025-04-12,16:00:00Z,,,,,False
+2025,5,Saudi Arabian Grand Prix,jeddah,Jeddah Corniche Circuit,Saudi Arabia,Jeddah,2025-04-20,17:00:00Z,2025-04-18,13:30:00Z,2025-04-18,17:00:00Z,2025-04-19,13:30:00Z,2025-04-19,17:00:00Z,,,,,False
+2025,6,Miami Grand Prix,miami,Miami International Autodrome,USA,Miami,2025-05-04,20:00:00Z,2025-05-02,16:30:00Z,,,,,2025-05-03,20:00:00Z,2025-05-03,16:00:00Z,2025-05-02,20:30:00Z,True
+2025,7,Emilia Romagna Grand Prix,imola,Autodromo Enzo e Dino Ferrari,Italy,Imola,2025-05-18,13:00:00Z,2025-05-16,11:30:00Z,2025-05-16,15:00:00Z,2025-05-17,10:30:00Z,2025-05-17,14:00:00Z,,,,,False
+2025,8,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2025-05-25,13:00:00Z,2025-05-23,11:30:00Z,2025-05-23,15:00:00Z,2025-05-24,10:30:00Z,2025-05-24,14:00:00Z,,,,,False
+2025,9,Spanish Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2025-06-01,13:00:00Z,2025-05-30,11:30:00Z,2025-05-30,15:00:00Z,2025-05-31,10:30:00Z,2025-05-31,14:00:00Z,,,,,False
+2025,10,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2025-06-15,18:00:00Z,2025-06-13,17:30:00Z,2025-06-13,21:00:00Z,2025-06-14,16:30:00Z,2025-06-14,20:00:00Z,,,,,False
+2025,11,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2025-06-29,13:00:00Z,2025-06-27,11:30:00Z,2025-06-27,15:00:00Z,2025-06-28,10:30:00Z,2025-06-28,14:00:00Z,,,,,False
+2025,12,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2025-07-06,14:00:00Z,2025-07-04,11:30:00Z,2025-07-04,15:00:00Z,2025-07-05,10:30:00Z,2025-07-05,14:00:00Z,,,,,False
+2025,13,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2025-07-27,13:00:00Z,2025-07-25,10:30:00Z,,,,,2025-07-26,14:00:00Z,2025-07-26,10:00:00Z,2025-07-25,14:30:00Z,True
+2025,14,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2025-08-03,13:00:00Z,2025-08-01,11:30:00Z,2025-08-01,15:00:00Z,2025-08-02,10:30:00Z,2025-08-02,14:00:00Z,,,,,False
+2025,15,Dutch Grand Prix,zandvoort,Circuit Park Zandvoort,Netherlands,Zandvoort,2025-08-31,13:00:00Z,2025-08-29,10:30:00Z,2025-08-29,14:00:00Z,2025-08-30,09:30:00Z,2025-08-30,13:00:00Z,,,,,False
+2025,16,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2025-09-07,13:00:00Z,2025-09-05,11:30:00Z,2025-09-05,15:00:00Z,2025-09-06,10:30:00Z,2025-09-06,14:00:00Z,,,,,False
+2025,17,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2025-09-21,11:00:00Z,2025-09-19,08:30:00Z,2025-09-19,12:00:00Z,2025-09-20,08:30:00Z,2025-09-20,12:00:00Z,,,,,False
+2025,18,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2025-10-05,12:00:00Z,2025-10-03,09:30:00Z,2025-10-03,13:00:00Z,2025-10-04,09:30:00Z,2025-10-04,13:00:00Z,,,,,False
+2025,19,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2025-10-19,19:00:00Z,2025-10-17,17:30:00Z,,,,,2025-10-18,21:00:00Z,2025-10-18,17:00:00Z,2025-10-17,21:30:00Z,True
+2025,20,Mexico City Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2025-10-26,20:00:00Z,2025-10-24,18:30:00Z,2025-10-24,22:00:00Z,2025-10-25,17:30:00Z,2025-10-25,21:00:00Z,,,,,False
+2025,21,São Paulo Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2025-11-09,17:00:00Z,2025-11-07,14:30:00Z,,,,,2025-11-08,18:00:00Z,2025-11-08,14:00:00Z,2025-11-07,18:30:00Z,True
+2025,22,Las Vegas Grand Prix,vegas,Las Vegas Strip Street Circuit,USA,Las Vegas,2025-11-23,04:00:00Z,2025-11-21,00:30:00Z,2025-11-21,04:00:00Z,2025-11-22,00:30:00Z,2025-11-22,04:00:00Z,,,,,False
+2025,23,Qatar Grand Prix,losail,Losail International Circuit,Qatar,Lusail,2025-11-30,16:00:00Z,2025-11-28,13:30:00Z,,,,,2025-11-29,18:00:00Z,2025-11-29,14:00:00Z,2025-11-28,17:30:00Z,True
+2025,24,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2025-12-07,13:00:00Z,2025-12-05,09:30:00Z,2025-12-05,13:00:00Z,2025-12-06,10:30:00Z,2025-12-06,14:00:00Z,,,,,False
+2026,1,Australian Grand Prix,albert_park,Albert Park Grand Prix Circuit,Australia,Melbourne,2026-03-08,04:00:00Z,2026-03-06,01:30:00Z,2026-03-06,05:00:00Z,2026-03-07,01:30:00Z,2026-03-07,05:00:00Z,,,,,False
+2026,2,Chinese Grand Prix,shanghai,Shanghai International Circuit,China,Shanghai,2026-03-15,07:00:00Z,2026-03-13,03:30:00Z,,,,,2026-03-14,07:00:00Z,2026-03-14,03:00:00Z,2026-03-13,07:30:00Z,True
+2026,3,Japanese Grand Prix,suzuka,Suzuka Circuit,Japan,Suzuka,2026-03-29,05:00:00Z,2026-03-27,02:30:00Z,2026-03-27,06:00:00Z,2026-03-28,02:30:00Z,2026-03-28,06:00:00Z,,,,,False
+2026,4,Miami Grand Prix,miami,Miami International Autodrome,USA,Miami,2026-05-03,20:00:00Z,2026-05-01,16:00:00Z,,,,,2026-05-02,20:00:00Z,2026-05-02,16:00:00Z,2026-05-01,20:30:00Z,True
+2026,5,Canadian Grand Prix,villeneuve,Circuit Gilles Villeneuve,Canada,Montreal,2026-05-24,20:00:00Z,2026-05-22,16:30:00Z,,,,,2026-05-23,20:00:00Z,2026-05-23,16:00:00Z,2026-05-22,20:30:00Z,True
+2026,6,Monaco Grand Prix,monaco,Circuit de Monaco,Monaco,Monte Carlo,2026-06-07,13:00:00Z,2026-06-05,11:30:00Z,2026-06-05,15:00:00Z,2026-06-06,10:30:00Z,2026-06-06,14:00:00Z,,,,,False
+2026,7,Barcelona Grand Prix,catalunya,Circuit de Barcelona-Catalunya,Spain,Barcelona,2026-06-14,13:00:00Z,2026-06-12,11:30:00Z,2026-06-12,15:00:00Z,2026-06-13,10:30:00Z,2026-06-13,14:00:00Z,,,,,False
+2026,8,Austrian Grand Prix,red_bull_ring,Red Bull Ring,Austria,Spielberg,2026-06-28,13:00:00Z,2026-06-26,11:30:00Z,2026-06-26,15:00:00Z,2026-06-27,10:30:00Z,2026-06-27,14:00:00Z,,,,,False
+2026,9,British Grand Prix,silverstone,Silverstone Circuit,UK,Silverstone,2026-07-05,14:00:00Z,2026-07-03,11:30:00Z,,,,,2026-07-04,15:00:00Z,2026-07-04,11:00:00Z,2026-07-03,15:30:00Z,True
+2026,10,Belgian Grand Prix,spa,Circuit de Spa-Francorchamps,Belgium,Spa,2026-07-19,13:00:00Z,2026-07-17,11:30:00Z,2026-07-17,15:00:00Z,2026-07-18,10:30:00Z,2026-07-18,14:00:00Z,,,,,False
+2026,11,Hungarian Grand Prix,hungaroring,Hungaroring,Hungary,Budapest,2026-07-26,13:00:00Z,2026-07-24,11:30:00Z,2026-07-24,15:00:00Z,2026-07-25,10:30:00Z,2026-07-25,14:00:00Z,,,,,False
+2026,12,Dutch Grand Prix,zandvoort,Circuit Park Zandvoort,Netherlands,Zandvoort,2026-08-23,13:00:00Z,2026-08-21,10:30:00Z,,,,,2026-08-22,14:00:00Z,2026-08-22,10:00:00Z,2026-08-21,14:30:00Z,True
+2026,13,Italian Grand Prix,monza,Autodromo Nazionale di Monza,Italy,Monza,2026-09-06,13:00:00Z,2026-09-04,10:30:00Z,2026-09-04,14:00:00Z,2026-09-05,10:30:00Z,2026-09-05,14:00:00Z,,,,,False
+2026,14,Spanish Grand Prix,madring,Madring,Spain,Madrid,2026-09-13,13:00:00Z,2026-09-11,11:30:00Z,2026-09-11,15:00:00Z,2026-09-12,10:30:00Z,2026-09-12,14:00:00Z,,,,,False
+2026,15,Azerbaijan Grand Prix,baku,Baku City Circuit,Azerbaijan,Baku,2026-09-26,11:00:00Z,2026-09-24,08:30:00Z,2026-09-24,12:00:00Z,2026-09-25,08:30:00Z,2026-09-25,12:00:00Z,,,,,False
+2026,16,Bahrain Grand Prix in Malaysia,sepang,Sepang International Circuit,Malaysia,Kuala Lumpur,2026-10-04,07:00:00Z,2026-10-02,04:30:00Z,2026-10-02,08:00:00Z,2026-10-03,04:30:00Z,2026-10-03,08:00:00Z,,,,,False
+2026,17,Singapore Grand Prix,marina_bay,Marina Bay Street Circuit,Singapore,Marina Bay,2026-10-11,12:00:00Z,2026-10-09,08:30:00Z,,,,,2026-10-10,13:00:00Z,2026-10-10,09:00:00Z,2026-10-09,12:30:00Z,True
+2026,18,United States Grand Prix,americas,Circuit of the Americas,USA,Austin,2026-10-25,20:00:00Z,2026-10-23,17:30:00Z,2026-10-23,21:00:00Z,2026-10-24,17:30:00Z,2026-10-24,21:00:00Z,,,,,False
+2026,19,Mexico City Grand Prix,rodriguez,Autódromo Hermanos Rodríguez,Mexico,Mexico City,2026-11-01,20:00:00Z,2026-10-30,18:30:00Z,2026-10-30,22:00:00Z,2026-10-31,17:30:00Z,2026-10-31,21:00:00Z,,,,,False
+2026,20,Brazilian Grand Prix,interlagos,Autódromo José Carlos Pace,Brazil,São Paulo,2026-11-08,17:00:00Z,2026-11-06,15:30:00Z,2026-11-06,19:00:00Z,2026-11-07,14:30:00Z,2026-11-07,18:00:00Z,,,,,False
+2026,21,Las Vegas Grand Prix,vegas,Las Vegas Strip Street Circuit,USA,Las Vegas,2026-11-22,04:00:00Z,2026-11-20,00:30:00Z,2026-11-20,04:00:00Z,2026-11-21,00:30:00Z,2026-11-21,04:00:00Z,,,,,False
+2026,22,Qatar Grand Prix,losail,Losail International Circuit,Qatar,Lusail,2026-11-29,16:00:00Z,2026-11-27,13:30:00Z,2026-11-27,17:00:00Z,2026-11-28,14:30:00Z,2026-11-28,18:00:00Z,,,,,False
+2026,23,Abu Dhabi Grand Prix,yas_marina,Yas Marina Circuit,UAE,Abu Dhabi,2026-12-06,13:00:00Z,2026-12-04,09:30:00Z,2026-12-04,13:00:00Z,2026-12-05,10:30:00Z,2026-12-05,14:00:00Z,,,,,False

@@ -1,0 +1,12 @@
+position,points,wins,constructor_id,constructor_name,nationality
+1,425,8,mercedes,Mercedes,German
+2,338,2,ferrari,Ferrari,Italian
+3,263,2,mclaren,McLaren,British
+4,186,0,red_bull,Red Bull,Austrian
+5,66,0,rb,RB F1 Team,Italian
+6,63,0,alpine,Alpine F1 Team,French
+7,21,0,haas,Haas F1 Team,American
+8,16,0,audi,Audi,German
+9,11,0,williams,Williams,British
+10,3,0,aston_martin,Aston Martin,British
+11,0,0,cadillac,Cadillac F1 Team,American

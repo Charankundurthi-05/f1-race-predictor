@@ -1,0 +1,52 @@
+{
+    "stage": "pre_practice",
+    "best_model": "gradient_boosting",
+    "features": [
+        "season",
+        "round",
+        "number",
+        "driver_previous_finish",
+        "driver_avg_finish_last_3",
+        "driver_avg_finish_last_5",
+        "driver_previous_points",
+        "driver_avg_points_last_5",
+        "team_avg_finish_last_5",
+        "team_avg_points_last_5",
+        "driver_circuit_avg_finish",
+        "driver_circuit_races",
+        "driver_name",
+        "team_name"
+    ],
+    "numeric_features": [
+        "season",
+        "round",
+        "number",
+        "driver_previous_finish",
+        "driver_avg_finish_last_3",
+        "driver_avg_finish_last_5",
+        "driver_previous_points",
+        "driver_avg_points_last_5",
+        "team_avg_finish_last_5",
+        "team_avg_points_last_5",
+        "driver_circuit_avg_finish",
+        "driver_circuit_races"
+    ],
+    "categorical_features": [
+        "driver_name",
+        "team_name"
+    ],
+    "training_rows": 4626,
+    "validation_rows": 479,
+    "final_training_rows": 5105,
+    "test_rows": 264,
+    "validation_metrics": {
+        "mae": 3.715025691020933,
+        "rmse": 4.772071641382068,
+        "r2": 0.31263962189949424
+    },
+    "test_metrics": {
+        "mae": 4.190774551522798,
+        "rmse": 5.40559979728496,
+        "r2": 0.2740246169339825
+    }
+}

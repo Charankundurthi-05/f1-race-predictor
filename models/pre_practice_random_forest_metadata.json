@@ -1,0 +1,47 @@
+{
+  "stage": "pre_practice",
+  "model_name": "random_forest",
+  "target": "finish_position",
+  "features": [
+    "season",
+    "round",
+    "number",
+    "driver_previous_finish",
+    "driver_avg_finish_last_3",
+    "driver_avg_finish_last_5",
+    "driver_previous_points",
+    "driver_avg_points_last_5",
+    "team_avg_finish_last_5",
+    "team_avg_points_last_5",
+    "driver_circuit_avg_finish",
+    "driver_circuit_races",
+    "circuit_latitude",
+    "circuit_longitude",
+    "circuit_length_km",
+    "circuit_turns",
+    "circuit_total_races_held",
+    "circuit_type",
+    "circuit_direction",
+    "regulation_era",
+    "driver_name",
+    "team_name"
+  ],
+  "feature_count": 22,
+  "train_until_season": 2025,
+  "validation_season": 2025,
+  "test_season": 2026,
+  "metrics_2025": {
+    "mae": 3.7825743067759188,
+    "rmse": 4.694895740938695,
+    "r2": 0.33469239303702847,
+    "top3_overlap": 0.006263048016701462,
+    "top10_overlap": 0.3173277661795407
+  },
+  "metrics_2026": {
+    "mae": 4.112204163839004,
+    "rmse": 5.167753584819521,
+    "r2": 0.3365049164368942,
+    "top3_overlap": 0.0,
+    "top10_overlap": 0.29924242424242425
+  }
+}

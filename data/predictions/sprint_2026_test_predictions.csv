@@ -1,0 +1,103 @@
+season,round,race_name,driver_name,team_name,sprint_finish_position,predicted_sprint_finish
+2026,2,Chinese Grand Prix,Alexander Albon,Williams,16.0,15.980262023349292
+2026,2,Chinese Grand Prix,Andrea Kimi Antonelli,Mercedes,5.0,3.9999981174527277
+2026,2,Chinese Grand Prix,Carlos Sainz,Williams,12.0,14.704916396965062
+2026,2,Chinese Grand Prix,Charles Leclerc,Ferrari,2.0,7.720064041538815
+2026,2,Chinese Grand Prix,Esteban Ocon,Haas F1 Team,10.0,14.206472976462237
+2026,2,Chinese Grand Prix,Fernando Alonso,Aston Martin,17.0,15.627238707123041
+2026,2,Chinese Grand Prix,Franco Colapinto,Alpine F1 Team,14.0,12.067679105392003
+2026,2,Chinese Grand Prix,Gabriel Bortoleto,Audi,13.0,12.28489615714038
+2026,2,Chinese Grand Prix,George Russell,Mercedes,1.0,3.688575311716242
+2026,2,Chinese Grand Prix,Isack Hadjar,Red Bull,15.0,5.875345358242559
+2026,2,Chinese Grand Prix,Lance Stroll,Aston Martin,18.0,15.815584737834094
+2026,2,Chinese Grand Prix,Lando Norris,McLaren,4.0,4.809496025244802
+2026,2,Chinese Grand Prix,Lewis Hamilton,Ferrari,3.0,9.800556240401058
+2026,2,Chinese Grand Prix,Liam Lawson,RB F1 Team,7.0,13.586398958737426
+2026,2,Chinese Grand Prix,Max Verstappen,Red Bull,9.0,5.1760534863530046
+2026,2,Chinese Grand Prix,Oliver Bearman,Haas F1 Team,8.0,14.504121744444435
+2026,2,Chinese Grand Prix,Oscar Piastri,McLaren,6.0,4.616693205654939
+2026,2,Chinese Grand Prix,Pierre Gasly,Alpine F1 Team,11.0,10.16951817018864
+2026,2,Chinese Grand Prix,Sergio Pérez,Cadillac F1 Team,19.0,16.125570678252558
+2026,4,Miami Grand Prix,Alexander Albon,Williams,18.0,11.371182999535973
+2026,4,Miami Grand Prix,Andrea Kimi Antonelli,Mercedes,6.0,4.257411840099737
+2026,4,Miami Grand Prix,Carlos Sainz,Williams,13.0,12.869479113635471
+2026,4,Miami Grand Prix,Charles Leclerc,Ferrari,3.0,5.35539207372096
+2026,4,Miami Grand Prix,Esteban Ocon,Haas F1 Team,11.0,13.805617161805289
+2026,4,Miami Grand Prix,Fernando Alonso,Aston Martin,15.0,15.68233829662846
+2026,4,Miami Grand Prix,Franco Colapinto,Alpine F1 Team,10.0,14.165093982336623
+2026,4,Miami Grand Prix,George Russell,Mercedes,4.0,4.248387150624445
+2026,4,Miami Grand Prix,Isack Hadjar,Red Bull,9.0,11.249756423670398
+2026,4,Miami Grand Prix,Lance Stroll,Aston Martin,17.0,16.20756559882602
+2026,4,Miami Grand Prix,Lando Norris,McLaren,1.0,5.3700352866557965
+2026,4,Miami Grand Prix,Lewis Hamilton,Ferrari,7.0,5.803892369146411
+2026,4,Miami Grand Prix,Liam Lawson,RB F1 Team,14.0,13.97798393146679
+2026,4,Miami Grand Prix,Max Verstappen,Red Bull,5.0,7.2514685397921
+2026,4,Miami Grand Prix,Oliver Bearman,Haas F1 Team,12.0,10.484481904866957
+2026,4,Miami Grand Prix,Oscar Piastri,McLaren,2.0,6.244831899603883
+2026,4,Miami Grand Prix,Pierre Gasly,Alpine F1 Team,8.0,12.52972305829269
+2026,4,Miami Grand Prix,Sergio Pérez,Cadillac F1 Team,16.0,16.20223699620197
+2026,4,Miami Grand Prix,Valtteri Bottas,Cadillac F1 Team,19.0,15.270545169433658
+2026,5,Canadian Grand Prix,Alexander Albon,Williams,19.0,10.738053674791935
+2026,5,Canadian Grand Prix,Andrea Kimi Antonelli,Mercedes,3.0,2.219294899761767
+2026,5,Canadian Grand Prix,Arvid Lindblad,RB F1 Team,8.0,14.424425546749056
+2026,5,Canadian Grand Prix,Carlos Sainz,Williams,10.0,12.562133366791345
+2026,5,Canadian Grand Prix,Charles Leclerc,Ferrari,5.0,5.109386439055868
+2026,5,Canadian Grand Prix,Esteban Ocon,Haas F1 Team,13.0,12.476385963617219
+2026,5,Canadian Grand Prix,Franco Colapinto,Alpine F1 Team,9.0,13.619398557649685
+2026,5,Canadian Grand Prix,Gabriel Bortoleto,Audi,12.0,9.663538306739232
+2026,5,Canadian Grand Prix,George Russell,Mercedes,1.0,4.142736219360377
+2026,5,Canadian Grand Prix,Isack Hadjar,Red Bull,21.0,9.835294727219543
+2026,5,Canadian Grand Prix,Lance Stroll,Aston Martin,16.0,16.269870425276437
+2026,5,Canadian Grand Prix,Lando Norris,McLaren,2.0,3.7103088130188926
+2026,5,Canadian Grand Prix,Lewis Hamilton,Ferrari,6.0,5.18939016628603
+2026,5,Canadian Grand Prix,Liam Lawson,RB F1 Team,11.0,13.80515236767017
+2026,5,Canadian Grand Prix,Max Verstappen,Red Bull,7.0,8.202124533885007
+2026,5,Canadian Grand Prix,Nico Hülkenberg,Audi,15.0,12.89151152626879
+2026,5,Canadian Grand Prix,Oliver Bearman,Haas F1 Team,18.0,16.03794083513998
+2026,5,Canadian Grand Prix,Oscar Piastri,McLaren,4.0,6.10587496464597
+2026,5,Canadian Grand Prix,Pierre Gasly,Alpine F1 Team,20.0,12.309730923954413
+2026,5,Canadian Grand Prix,Sergio Pérez,Cadillac F1 Team,14.0,17.115937542330283
+2026,5,Canadian Grand Prix,Valtteri Bottas,Cadillac F1 Team,17.0,17.69684431395229
+2026,9,British Grand Prix,Alexander Albon,Williams,18.0,14.636509928560805
+2026,9,British Grand Prix,Andrea Kimi Antonelli,Mercedes,1.0,5.27075970164976
+2026,9,British Grand Prix,Arvid Lindblad,RB F1 Team,10.0,12.757183282718248
+2026,9,British Grand Prix,Carlos Sainz,Williams,17.0,12.105303137566366
+2026,9,British Grand Prix,Charles Leclerc,Ferrari,5.0,10.373187293700976
+2026,9,British Grand Prix,Esteban Ocon,Haas F1 Team,16.0,15.034501983369138
+2026,9,British Grand Prix,Fernando Alonso,Aston Martin,20.0,17.293596240047975
+2026,9,British Grand Prix,Franco Colapinto,Alpine F1 Team,12.0,13.390305284599833
+2026,9,British Grand Prix,Gabriel Bortoleto,Audi,13.0,11.955325655291775
+2026,9,British Grand Prix,George Russell,Mercedes,4.0,3.8778535404014294
+2026,9,British Grand Prix,Isack Hadjar,Red Bull,9.0,4.90976227897174
+2026,9,British Grand Prix,Lance Stroll,Aston Martin,21.0,16.884684532733242
+2026,9,British Grand Prix,Lando Norris,McLaren,3.0,4.450113093657766
+2026,9,British Grand Prix,Lewis Hamilton,Ferrari,2.0,3.819129800837953
+2026,9,British Grand Prix,Liam Lawson,RB F1 Team,8.0,12.411770409572343
+2026,9,British Grand Prix,Max Verstappen,Red Bull,6.0,4.817296485590888
+2026,9,British Grand Prix,Nico Hülkenberg,Audi,15.0,14.17300678220498
+2026,9,British Grand Prix,Oliver Bearman,Haas F1 Team,14.0,11.833118780776303
+2026,9,British Grand Prix,Oscar Piastri,McLaren,7.0,5.435467085356719
+2026,9,British Grand Prix,Pierre Gasly,Alpine F1 Team,11.0,14.029411654514762
+2026,9,British Grand Prix,Sergio Pérez,Cadillac F1 Team,22.0,17.81319793886153
+2026,9,British Grand Prix,Valtteri Bottas,Cadillac F1 Team,19.0,17.748488831462474
+2026,12,Dutch Grand Prix,Alexander Albon,Williams,16.0,16.721242275469347
+2026,12,Dutch Grand Prix,Andrea Kimi Antonelli,Mercedes,4.0,4.7310462612287925
+2026,12,Dutch Grand Prix,Arvid Lindblad,RB F1 Team,10.0,10.75949782654292
+2026,12,Dutch Grand Prix,Carlos Sainz,Williams,20.0,17.02285925329397
+2026,12,Dutch Grand Prix,Charles Leclerc,Ferrari,2.0,4.43087054967729
+2026,12,Dutch Grand Prix,Esteban Ocon,Haas F1 Team,14.0,15.956935540441572
+2026,12,Dutch Grand Prix,Fernando Alonso,Aston Martin,18.0,15.850083421799141
+2026,12,Dutch Grand Prix,Franco Colapinto,Alpine F1 Team,12.0,11.752980457267613
+2026,12,Dutch Grand Prix,Gabriel Bortoleto,Audi,9.0,10.396941803354322
+2026,12,Dutch Grand Prix,George Russell,Mercedes,1.0,4.133696117654656
+2026,12,Dutch Grand Prix,Lance Stroll,Aston Martin,17.0,16.364269369755476
+2026,12,Dutch Grand Prix,Lando Norris,McLaren,3.0,3.0246552111812823
+2026,12,Dutch Grand Prix,Lewis Hamilton,Ferrari,7.0,4.31136870126708
+2026,12,Dutch Grand Prix,Liam Lawson,Red Bull,11.0,7.678034652605865
+2026,12,Dutch Grand Prix,Max Verstappen,Red Bull,6.0,2.3606195467652684
+2026,12,Dutch Grand Prix,Oliver Bearman,Haas F1 Team,15.0,16.904674745946426
+2026,12,Dutch Grand Prix,Oscar Piastri,McLaren,5.0,8.066320986213798
+2026,12,Dutch Grand Prix,Pierre Gasly,Alpine F1 Team,8.0,11.046085728958186
+2026,12,Dutch Grand Prix,Sergio Pérez,Cadillac F1 Team,21.0,17.365778158757273
+2026,12,Dutch Grand Prix,Valtteri Bottas,Cadillac F1 Team,19.0,16.20657041351106
+2026,12,Dutch Grand Prix,Yuki Tsunoda,RB F1 Team,13.0,10.922106244044219

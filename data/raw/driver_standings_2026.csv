@@ -1,0 +1,24 @@
+position,points,wins,driver_id,driver_code,driver_number,driver_name,constructor
+1,242,6,antonelli,ANT,12,Andrea Kimi Antonelli,Mercedes
+2,183,2,russell,RUS,63,George Russell,Mercedes
+3,183,1,hamilton,HAM,44,Lewis Hamilton,Ferrari
+4,159,2,norris,NOR,1,Lando Norris,McLaren
+5,155,1,leclerc,LEC,16,Charles Leclerc,Ferrari
+6,112,0,max_verstappen,VER,3,Max Verstappen,Red Bull
+7,104,0,piastri,PIA,81,Oscar Piastri,McLaren
+8,68,0,hadjar,HAD,6,Isack Hadjar,Red Bull
+9,49,0,lawson,LAW,30,Liam Lawson,RB F1 Team
+10,44,0,gasly,GAS,10,Pierre Gasly,Alpine F1 Team
+11,23,0,arvid_lindblad,LIN,41,Arvid Lindblad,RB F1 Team
+12,19,0,colapinto,COL,43,Franco Colapinto,Alpine F1 Team
+13,18,0,bearman,BEA,87,Oliver Bearman,Haas F1 Team
+14,10,0,bortoleto,BOR,5,Gabriel Bortoleto,Audi
+15,6,0,hulkenberg,HUL,27,Nico Hülkenberg,Audi
+16,6,0,sainz,SAI,55,Carlos Sainz,Williams
+17,5,0,albon,ALB,23,Alexander Albon,Williams
+18,3,0,ocon,OCO,31,Esteban Ocon,Haas F1 Team
+19,3,0,alonso,ALO,14,Fernando Alonso,Aston Martin
+20,0,0,tsunoda,TSU,22,Yuki Tsunoda,RB F1 Team
+21,0,0,stroll,STR,18,Lance Stroll,Aston Martin
+22,0,0,bottas,BOT,77,Valtteri Bottas,Cadillac F1 Team
+23,0,0,perez,PER,11,Sergio Pérez,Cadillac F1 Team

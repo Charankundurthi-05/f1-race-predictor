@@ -1,0 +1,32 @@
+{
+  "stage": "pre_practice",
+  "model": "gb_shallow",
+  "target": "finish_position",
+  "training_seasons": "2014-2026",
+  "feature_count": 22,
+  "features": [
+    "season",
+    "round",
+    "number",
+    "driver_previous_finish",
+    "driver_avg_finish_last_3",
+    "driver_avg_finish_last_5",
+    "driver_previous_points",
+    "driver_avg_points_last_5",
+    "team_avg_finish_last_5",
+    "team_avg_points_last_5",
+    "driver_circuit_avg_finish",
+    "driver_circuit_races",
+    "circuit_latitude",
+    "circuit_longitude",
+    "circuit_length_km",
+    "circuit_turns",
+    "circuit_total_races_held",
+    "circuit_type",
+    "circuit_direction",
+    "regulation_era",
+    "driver_name",
+    "team_name"
+  ],
+  "training_rows": 5369
+}
