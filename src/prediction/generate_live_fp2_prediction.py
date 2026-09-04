@@ -1,6 +1,8 @@
 from pathlib import Path
 import json
+
 import joblib
+import numpy as np
 import pandas as pd
 
 
@@ -9,16 +11,13 @@ ROOT = Path(__file__).resolve().parents[2]
 PREDICTION_DIR = ROOT / "data" / "predictions"
 MODEL_DIR = ROOT / "models"
 
-MODEL_PATH = MODEL_DIR / "fp2_extra_trees_final_model.joblib"
-METADATA_PATH = MODEL_DIR / "fp2_extra_trees_final_metadata.json"
+INPUT_FILE = PREDICTION_DIR / "current_2026_fp2_features.csv"
 
-INPUT_PATH = (
-    PREDICTION_DIR / "current_2026_fp2_features.csv"
-)
+MODEL_FILE = MODEL_DIR / "fp2_extra_trees_final_model.joblib"
+METADATA_FILE = MODEL_DIR / "fp2_extra_trees_final_metadata.json"
 
-OUTPUT_PATH = (
-    PREDICTION_DIR / "current_2026_fp2_prediction.csv"
-)
+OUTPUT_FILE = PREDICTION_DIR / "current_2026_fp2_prediction.csv"
+CURRENT_OUTPUT_FILE = PREDICTION_DIR / "current_prediction.csv"
 
 
 RACE_POINTS = {
@@ -36,143 +35,219 @@ RACE_POINTS = {
 
 
 def main():
+
     print("=" * 80)
     print("F1 RACE PREDICTOR")
     print("CURRENT FP2 RACE PREDICTION")
     print("=" * 80)
     print()
 
-    if not INPUT_PATH.exists():
-        print("No live FP2 feature file exists yet.")
-        print("Run build_live_fp2_features.py after FP2.")
-        return
-
-    if not MODEL_PATH.exists():
+    if not INPUT_FILE.exists():
         raise FileNotFoundError(
-            f"Model not found: {MODEL_PATH}"
+            f"FP2 feature file does not exist:\n{INPUT_FILE}\n"
+            "Run build_live_fp2_features.py first."
         )
 
-    if not METADATA_PATH.exists():
+    if not MODEL_FILE.exists():
         raise FileNotFoundError(
-            f"Metadata not found: {METADATA_PATH}"
+            f"FP2 model does not exist:\n{MODEL_FILE}"
         )
 
-    df = pd.read_csv(INPUT_PATH)
+    if not METADATA_FILE.exists():
+        raise FileNotFoundError(
+            f"FP2 model metadata does not exist:\n{METADATA_FILE}"
+        )
 
-    with open(METADATA_PATH, "r", encoding="utf-8") as f:
+    df = pd.read_csv(INPUT_FILE)
+
+    with open(METADATA_FILE, "r", encoding="utf-8") as f:
         metadata = json.load(f)
 
-    features = metadata["features"]
+    model_features = metadata["features"]
 
     print(f"Input rows: {len(df)}")
-    print(f"Model features: {len(features)}")
+    print(f"Model features: {len(model_features)}")
     print()
 
-    missing = [
-        feature
-        for feature in features
-        if feature not in df.columns
-    ]
-
-    if missing:
-        raise ValueError(
-            "Missing model features:\n"
-            + "\n".join(f"  - {x}" for x in missing)
-        )
+    # ------------------------------------------------------------------
+    # Validate current race
+    # ------------------------------------------------------------------
 
     if len(df) != 22:
         raise ValueError(
             f"Expected 22 drivers, found {len(df)}."
         )
 
+    if "driver_name" not in df.columns:
+        raise ValueError(
+            "driver_name column is missing."
+        )
+
     if df["driver_name"].nunique() != 22:
         raise ValueError(
-            "Driver uniqueness check failed."
+            "Driver uniqueness validation failed."
         )
 
-    if "practice_2_position" not in df.columns:
+    # IMPORTANT:
+    # The FP2 feature builder creates fp2_position.
+    # Do not use practice_2_position here.
+    if "fp2_position" not in df.columns:
         raise ValueError(
-            "FP2 practice position is missing."
+            "FP2 model feature column 'fp2_position' is missing."
         )
 
-    if df["practice_2_position"].isna().all():
+    if df["fp2_position"].notna().sum() != 22:
         raise ValueError(
-            "No FP2 results are available."
+            "FP2 practice positions are incomplete. "
+            f"Found {df['fp2_position'].notna().sum()}/22."
         )
 
-    model = joblib.load(MODEL_PATH)
+    # ------------------------------------------------------------------
+    # Validate model features
+    # ------------------------------------------------------------------
 
-    X = df[features].copy()
+    missing_features = [
+        feature
+        for feature in model_features
+        if feature not in df.columns
+    ]
+
+    if missing_features:
+        raise ValueError(
+            "Missing required FP2 model features:\n"
+            + "\n".join(
+                f"  - {feature}"
+                for feature in missing_features
+            )
+        )
+
+    # Exact training feature order
+    X = df[model_features].copy()
+
+    print("FP2 practice position validation: PASS")
+    print(
+        f"FP2 positions available: "
+        f"{df['fp2_position'].notna().sum()}/22"
+    )
+    print()
+
+    # ------------------------------------------------------------------
+    # Load model
+    # ------------------------------------------------------------------
+
+    model = joblib.load(MODEL_FILE)
+
+    # ------------------------------------------------------------------
+    # Predict finishing position
+    # ------------------------------------------------------------------
 
     predictions = model.predict(X)
 
-    result = df.copy()
+    predictions = np.asarray(predictions, dtype=float)
 
-    result["predicted_finish_raw"] = predictions
+    # Smaller predicted finish position = better result.
+    df["predicted_finish_raw"] = predictions
 
-    result = result.sort_values(
+    df = df.sort_values(
         "predicted_finish_raw",
         ascending=True
     ).reset_index(drop=True)
 
-    result["predicted_position"] = range(
-        1,
-        len(result) + 1
+    df["predicted_position"] = (
+        np.arange(1, len(df) + 1)
     )
 
-    result["predicted_race_points"] = (
-        result["predicted_position"]
+    # ------------------------------------------------------------------
+    # Calculate predicted race points
+    # ------------------------------------------------------------------
+
+    df["predicted_race_points"] = (
+        df["predicted_position"]
         .map(RACE_POINTS)
         .fillna(0)
         .astype(int)
     )
 
-    result["predicted_sprint_points"] = 0
+    # Normal weekend currently being processed.
+    df["predicted_sprint_points"] = 0
 
-    result["predicted_total_points"] = (
-        result["predicted_race_points"]
-        + result["predicted_sprint_points"]
+    df["predicted_total_points"] = (
+        df["predicted_race_points"]
+        + df["predicted_sprint_points"]
     )
 
-    race = result.iloc[0]
+    # ------------------------------------------------------------------
+    # Save detailed FP2 prediction
+    # ------------------------------------------------------------------
 
-    print(f"Race: {race['race_name']}")
-    print(f"Round: {int(race['round'])}")
-    print(f"Circuit: {race['circuit_name']}")
+    df.to_csv(
+        OUTPUT_FILE,
+        index=False
+    )
 
-    print()
-    print("PREDICTED RACE GRID AFTER FP2")
+    # ------------------------------------------------------------------
+    # Save the compact file consumed by the dashboard
+    # ------------------------------------------------------------------
+
+    current_columns = [
+        column
+        for column in [
+            "season",
+            "round",
+            "race_name",
+            "race_date",
+            "circuit_name",
+            "driver_name",
+            "team_name",
+            "driver_code",
+            "fp1_position",
+            "fp2_position",
+            "predicted_position",
+            "predicted_race_points",
+            "predicted_sprint_points",
+            "predicted_total_points",
+            "predicted_finish_raw",
+        ]
+        if column in df.columns
+    ]
+
+    current_prediction = df[current_columns].copy()
+
+    current_prediction.to_csv(
+        CURRENT_OUTPUT_FILE,
+        index=False
+    )
+
+    # ------------------------------------------------------------------
+    # Display prediction
+    # ------------------------------------------------------------------
+
+    print("PREDICTED GRID AFTER FP2")
     print("-" * 80)
 
-    for _, row in result.iterrows():
+    for _, row in df.iterrows():
+
+        driver = str(row["driver_name"])
+        team = str(row["team_name"])
+
+        position = int(row["predicted_position"])
+        fp2_position = int(row["fp2_position"])
+        points = int(row["predicted_race_points"])
+
         print(
-            f"{int(row['predicted_position']):2d}. "
-            f"{row['driver_name']:<28} "
-            f"{row['team_name']:<22} "
-            f"{int(row['predicted_race_points']):2d} pts"
+            f"{position:2d}. "
+            f"{driver:<30} "
+            f"{team:<22} "
+            f"FP2: {fp2_position:2d}  "
+            f"Pts: {points:2d}"
         )
 
-    result.to_csv(
-        OUTPUT_PATH,
-        index=False
-    )
-
-    result.to_csv(
-        PREDICTION_DIR / "current_prediction.csv",
-        index=False
-    )
-
-    result.to_csv(
-        PREDICTION_DIR / "current_prediction_with_points.csv",
-        index=False
-    )
-
     print()
-    print(f"Saved -> {OUTPUT_PATH}")
-
+    print(f"Saved -> {OUTPUT_FILE}")
+    print(f"Saved -> {CURRENT_OUTPUT_FILE}")
     print()
     print("=" * 80)
-    print("FP2 PREDICTION COMPLETE")
+    print("CURRENT FP2 PREDICTION COMPLETE")
     print("=" * 80)
 
 

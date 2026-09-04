@@ -1,6 +1,8 @@
 from pathlib import Path
 import json
+
 import joblib
+import numpy as np
 import pandas as pd
 
 
@@ -9,23 +11,34 @@ ROOT = Path(__file__).resolve().parents[2]
 PREDICTION_DIR = ROOT / "data" / "predictions"
 MODEL_DIR = ROOT / "models"
 
-MODEL_PATH = MODEL_DIR / "fp1_rf_small_final_model.joblib"
-METADATA_PATH = MODEL_DIR / "fp1_rf_small_final_metadata.json"
+MODEL_PATH = (
+    MODEL_DIR
+    / "fp1_rf_small_final_model.joblib"
+)
+
+METADATA_PATH = (
+    MODEL_DIR
+    / "fp1_rf_small_final_metadata.json"
+)
 
 INPUT_PATH = (
-    PREDICTION_DIR / "current_2026_fp1_features.csv"
+    PREDICTION_DIR
+    / "current_2026_fp1_features.csv"
 )
 
 OUTPUT_PATH = (
-    PREDICTION_DIR / "current_2026_fp1_prediction.csv"
+    PREDICTION_DIR
+    / "current_2026_fp1_prediction.csv"
 )
 
 STANDARD_OUTPUT = (
-    PREDICTION_DIR / "current_prediction.csv"
+    PREDICTION_DIR
+    / "current_prediction.csv"
 )
 
 POINTS_OUTPUT = (
-    PREDICTION_DIR / "current_prediction_with_points.csv"
+    PREDICTION_DIR
+    / "current_prediction_with_points.csv"
 )
 
 
@@ -44,6 +57,7 @@ RACE_POINTS = {
 
 
 def main():
+
     print("=" * 80)
     print("F1 RACE PREDICTOR")
     print("CURRENT FP1 RACE PREDICTION")
@@ -67,7 +81,11 @@ def main():
 
     df = pd.read_csv(INPUT_PATH)
 
-    with open(METADATA_PATH, "r", encoding="utf-8") as f:
+    with open(
+        METADATA_PATH,
+        "r",
+        encoding="utf-8",
+    ) as f:
         metadata = json.load(f)
 
     features = metadata["features"]
@@ -75,6 +93,60 @@ def main():
     print(f"Input rows: {len(df)}")
     print(f"Model features: {len(features)}")
     print()
+
+    # ------------------------------------------------------------
+    # Validate structure
+    # ------------------------------------------------------------
+
+    if len(df) != 22:
+        raise ValueError(
+            f"Expected 22 drivers, found {len(df)}."
+        )
+
+    if "driver_name" not in df.columns:
+        raise ValueError(
+            "driver_name column is missing."
+        )
+
+    if df["driver_name"].nunique() != 22:
+        raise ValueError(
+            "Driver uniqueness check failed."
+        )
+
+    # IMPORTANT:
+    # The FP1 feature builder creates fp1_position.
+    #
+    # We do NOT require all 22 drivers to have an FP1 result.
+    # Drivers who did not participate in FP1 retain NaN and are
+    # handled by the trained preprocessing pipeline.
+    if "fp1_position" not in df.columns:
+        raise ValueError(
+            "FP1 model feature 'fp1_position' is missing."
+        )
+
+    fp1_count = int(
+        df["fp1_position"].notna().sum()
+    )
+
+    if fp1_count == 0:
+        raise ValueError(
+            "No FP1 results are available."
+        )
+
+    print(
+        f"FP1 positions available: "
+        f"{fp1_count}/22"
+    )
+
+    if fp1_count < 22:
+        print(
+            "Some drivers did not participate in FP1; "
+            "missing FP1 values will be handled by the model."
+        )
+
+    # ------------------------------------------------------------
+    # Validate exact features
+    # ------------------------------------------------------------
 
     missing = [
         feature
@@ -85,47 +157,49 @@ def main():
     if missing:
         raise ValueError(
             "Missing model features:\n"
-            + "\n".join(f"  - {x}" for x in missing)
+            + "\n".join(
+                f"  - {feature}"
+                for feature in missing
+            )
         )
 
-    if len(df) != 22:
-        raise ValueError(
-            f"Expected 22 drivers, found {len(df)}."
-        )
-
-    if df["driver_name"].nunique() != 22:
-        raise ValueError(
-            "Driver uniqueness check failed."
-        )
-
-    if "practice_1_position" not in df.columns:
-        raise ValueError(
-            "FP1 practice position is missing."
-        )
-
-    if df["practice_1_position"].isna().all():
-        raise ValueError(
-            "No FP1 results are available."
-        )
+    # ------------------------------------------------------------
+    # Load model
+    # ------------------------------------------------------------
 
     model = joblib.load(MODEL_PATH)
 
     X = df[features].copy()
 
+    # ------------------------------------------------------------
+    # Predict
+    # ------------------------------------------------------------
+
     predictions = model.predict(X)
+
+    predictions = np.asarray(
+        predictions,
+        dtype=float,
+    )
 
     result = df.copy()
 
+    # Add all prediction columns together to avoid unnecessary
+    # DataFrame fragmentation warnings.
     result["predicted_finish_raw"] = predictions
 
     result = result.sort_values(
         "predicted_finish_raw",
-        ascending=True
-    ).reset_index(drop=True)
+        ascending=True,
+    ).reset_index(
+        drop=True
+    )
 
-    result["predicted_position"] = range(
-        1,
-        len(result) + 1
+    result["predicted_position"] = (
+        np.arange(
+            1,
+            len(result) + 1,
+        )
     )
 
     result["predicted_race_points"] = (
@@ -142,37 +216,55 @@ def main():
         + result["predicted_sprint_points"]
     )
 
+    # ------------------------------------------------------------
+    # Display
+    # ------------------------------------------------------------
+
     race = result.iloc[0]
 
-    print(f"Race: {race['race_name']}")
-    print(f"Round: {int(race['round'])}")
-    print(f"Circuit: {race['circuit_name']}")
+    print()
+    print(
+        f"Race: {race['race_name']}"
+    )
+    print(
+        f"Round: {int(race['round'])}"
+    )
+    print(
+        f"Circuit: {race['circuit_name']}"
+    )
 
     print()
     print("PREDICTED RACE GRID AFTER FP1")
     print("-" * 80)
 
     for _, row in result.iterrows():
+
         print(
             f"{int(row['predicted_position']):2d}. "
-            f"{row['driver_name']:<28} "
+            f"{row['driver_name']:<30} "
             f"{row['team_name']:<22} "
+            f"FP1: "
+            f"{str(row['fp1_position']):>4}  "
             f"{int(row['predicted_race_points']):2d} pts"
         )
 
+    # ------------------------------------------------------------
+    # Save
+    # ------------------------------------------------------------
+
     result.to_csv(
         OUTPUT_PATH,
-        index=False
+        index=False,
     )
 
     result.to_csv(
         STANDARD_OUTPUT,
-        index=False
+        index=False,
     )
 
     result.to_csv(
         POINTS_OUTPUT,
-        index=False
+        index=False,
     )
 
     print()

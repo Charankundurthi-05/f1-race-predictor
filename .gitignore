@@ -15,7 +15,11 @@ __pycache__/
 # Machine learning generated files
 models/*.pkl
 models/*.joblib
-
+!models/pre_practice_gb_shallow_final_model.joblib
+!models/fp1_rf_small_final_model.joblib
+!models/fp2_extra_trees_final_model.joblib
+!models/fp3_rf_small_final_model.joblib
+!models/qualifying_gb_shallow_final_model.joblib
 # Processed/generated data
 
 # Logs

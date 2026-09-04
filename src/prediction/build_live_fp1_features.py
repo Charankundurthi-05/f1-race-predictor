@@ -1,5 +1,8 @@
 from pathlib import Path
 import json
+import re
+import unicodedata
+
 import pandas as pd
 import numpy as np
 
@@ -12,13 +15,9 @@ MODEL_DIR = ROOT / "models"
 BASE_FILE = PREDICTION_DIR / "current_2026_pre_practice_features.csv"
 LIVE_FILE = PREDICTION_DIR / "live_practice_results.csv"
 
-METADATA_FILE = (
-    MODEL_DIR / "fp1_rf_small_final_metadata.json"
-)
+METADATA_FILE = MODEL_DIR / "fp1_rf_small_final_metadata.json"
 
-OUTPUT_FILE = (
-    PREDICTION_DIR / "current_2026_fp1_features.csv"
-)
+OUTPUT_FILE = PREDICTION_DIR / "current_2026_fp1_features.csv"
 
 
 def clean_number(value):
@@ -27,8 +26,164 @@ def clean_number(value):
 
     try:
         return float(value)
-    except:
+    except Exception:
         return np.nan
+
+
+def find_column(df, possible_names):
+    for name in possible_names:
+        if name in df.columns:
+            return name
+    return None
+
+
+def normalize_text(value):
+    if pd.isna(value):
+        return ""
+
+    value = str(value).strip().lower()
+
+    value = unicodedata.normalize("NFKD", value)
+    value = "".join(
+        char
+        for char in value
+        if not unicodedata.combining(char)
+    )
+
+    value = re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        value,
+    )
+
+    value = re.sub(
+        r"\s+",
+        " ",
+        value,
+    ).strip()
+
+    return value
+
+
+def normalize_code(value):
+    if pd.isna(value):
+        return ""
+
+    return re.sub(
+        r"[^A-Z0-9]",
+        "",
+        str(value).strip().upper(),
+    )
+
+
+def surname_key(value):
+    normalized = normalize_text(value)
+
+    if not normalized:
+        return ""
+
+    parts = normalized.split()
+
+    return parts[-1]
+
+
+def build_lookup(
+    df,
+    driver_column,
+    code_column,
+):
+    lookup = {
+        "code": {},
+        "name": {},
+        "surname": {},
+    }
+
+    for _, row in df.iterrows():
+
+        if code_column is not None:
+            code = normalize_code(
+                row[code_column]
+            )
+
+            if code:
+                lookup["code"].setdefault(
+                    code,
+                    []
+                ).append(row)
+
+        if driver_column is not None:
+            name = normalize_text(
+                row[driver_column]
+            )
+
+            if name:
+                lookup["name"].setdefault(
+                    name,
+                    []
+                ).append(row)
+
+            surname = surname_key(
+                row[driver_column]
+            )
+
+            if surname:
+                lookup["surname"].setdefault(
+                    surname,
+                    []
+                ).append(row)
+
+    return lookup
+
+
+def match_driver(
+    base_row,
+    lookup,
+):
+    if "driver_code" in base_row.index:
+
+        base_code = normalize_code(
+            base_row["driver_code"]
+        )
+
+        if base_code:
+
+            matches = lookup["code"].get(
+                base_code,
+                [],
+            )
+
+            if len(matches) == 1:
+                return matches[0]
+
+    base_name = normalize_text(
+        base_row["driver_name"]
+    )
+
+    if base_name:
+
+        matches = lookup["name"].get(
+            base_name,
+            [],
+        )
+
+        if len(matches) == 1:
+            return matches[0]
+
+    base_surname = surname_key(
+        base_row["driver_name"]
+    )
+
+    if base_surname:
+
+        matches = lookup["surname"].get(
+            base_surname,
+            [],
+        )
+
+        if len(matches) == 1:
+            return matches[0]
+
+    return None
 
 
 def main():
@@ -52,7 +207,11 @@ def main():
     base = pd.read_csv(BASE_FILE)
     live = pd.read_csv(LIVE_FILE)
 
-    with open(METADATA_FILE, "r", encoding="utf-8") as f:
+    with open(
+        METADATA_FILE,
+        "r",
+        encoding="utf-8",
+    ) as f:
         metadata = json.load(f)
 
     model_features = metadata["features"]
@@ -67,11 +226,18 @@ def main():
             "live_practice_results.csv is missing session_name."
         )
 
-    fp1 = live[
+    live["session_name"] = (
         live["session_name"]
         .astype(str)
         .str.lower()
-        .str.contains("practice 1")
+    )
+
+    fp1 = live[
+        live["session_name"]
+        .str.contains(
+            "practice 1",
+            na=False,
+        )
     ].copy()
 
     if fp1.empty:
@@ -79,110 +245,142 @@ def main():
         return
 
     print(f"FP1 result rows: {len(fp1)}")
+    print()
 
     result = base.copy()
 
-    # ------------------------------------------------------------------
-    # Identify the driver-name column in the live data
-    # ------------------------------------------------------------------
+    # ------------------------------------------------------------
+    # Identify columns
+    # ------------------------------------------------------------
 
-    driver_column = None
+    driver_column = find_column(
+        fp1,
+        [
+            "driver_name",
+            "full_name",
+            "name",
+            "driver",
+        ],
+    )
 
-    for column in [
-        "driver_name",
-        "full_name",
-        "name",
-        "driver"
-    ]:
-        if column in fp1.columns:
-            driver_column = column
-            break
+    code_column = find_column(
+        fp1,
+        [
+            "driver_code",
+            "code",
+            "abbreviation",
+        ],
+    )
+
+    position_column = find_column(
+        fp1,
+        [
+            "position",
+            "position_number",
+            "positionDisplayOrder",
+        ],
+    )
 
     if driver_column is None:
         raise ValueError(
             "Could not identify driver name in live FP1 results."
         )
 
-    # ------------------------------------------------------------------
+    if position_column is None:
+        raise ValueError(
+            "Could not identify FP1 position in live results."
+        )
+
+    # ------------------------------------------------------------
     # Initialize exact model features
-    # ------------------------------------------------------------------
+    # ------------------------------------------------------------
 
-    if "fp1_position" not in result.columns:
-        result["fp1_position"] = np.nan
+    result["fp1_position"] = np.nan
 
-    # These are historical practice aggregates.
-    # They remain whatever was calculated in the base dataset.
-    if "practice_avg_position" not in result.columns:
-        result["practice_avg_position"] = np.nan
+    result["practice_avg_position"] = np.nan
 
-    if "practice_best_position" not in result.columns:
-        result["practice_best_position"] = np.nan
+    result["practice_best_position"] = np.nan
 
-    if "practice_sessions_available" not in result.columns:
-        result["practice_sessions_available"] = 0
+    result["practice_sessions_available"] = 0
 
-    # ------------------------------------------------------------------
-    # Match live FP1 result to driver
-    # ------------------------------------------------------------------
+    # ------------------------------------------------------------
+    # Build robust lookup
+    # ------------------------------------------------------------
+
+    lookup = build_lookup(
+        fp1,
+        driver_column,
+        code_column,
+    )
 
     matched = 0
 
+    unmatched = []
+
+    # ------------------------------------------------------------
+    # Match live FP1 to current 22 drivers
+    # ------------------------------------------------------------
+
     for index, row in result.iterrows():
 
-        driver_name = str(row["driver_name"]).strip().lower()
+        live_row = match_driver(
+            row,
+            lookup,
+        )
 
-        matches = fp1[
-            fp1[driver_column]
-            .astype(str)
-            .str.strip()
-            .str.lower()
-            == driver_name
-        ]
-
-        if matches.empty:
+        if live_row is None:
+            unmatched.append(
+                str(row["driver_name"])
+            )
             continue
 
-        live_row = matches.iloc[0]
+        position = clean_number(
+            live_row[position_column]
+        )
 
-        position = None
+        if pd.isna(position):
+            continue
 
-        for column in [
-            "position",
-            "position_number",
-            "positionDisplayOrder"
-        ]:
-            if column in live_row.index:
-                position = clean_number(live_row[column])
-                break
+        result.at[
+            index,
+            "fp1_position",
+        ] = position
 
-        if pd.notna(position):
-            result.at[index, "fp1_position"] = position
+        result.at[
+            index,
+            "practice_avg_position",
+        ] = position
 
-            # FP1 becomes the first available live practice session.
-            result.at[index, "practice_avg_position"] = position
-            result.at[index, "practice_best_position"] = position
-            result.at[index, "practice_sessions_available"] = 1
+        result.at[
+            index,
+            "practice_best_position",
+        ] = position
 
-            matched += 1
+        result.at[
+            index,
+            "practice_sessions_available",
+        ] = 1
 
-    print(f"Drivers matched to FP1: {matched}")
+        matched += 1
 
-    if matched == 0:
+    print(
+        f"Drivers matched to FP1: "
+        f"{matched}"
+    )
+
+    if unmatched:
         print()
-        print("No drivers could be matched.")
-        print("Check the live practice result format.")
-        return
+        print("FP1 unmatched drivers:")
 
-    # ------------------------------------------------------------------
-    # Live weather is not historical weather.
+        for driver in unmatched:
+            print(f"  - {driver}")
+
+    # ------------------------------------------------------------
+    # Weather
     #
-    # We deliberately do NOT load historical race weather here because
-    # that would introduce information that would not have been known
-    # during the live prediction stage.
-    #
-    # Missing weather values are left as NaN and handled by the trained
-    # model pipeline's preprocessing.
-    # ------------------------------------------------------------------
+    # No future historical weather is inserted here.
+    # Missing values are handled by the trained model pipeline.
+    # ------------------------------------------------------------
 
     weather_features = [
         "weather_fp1_temperature_avg",
@@ -203,71 +401,57 @@ def main():
         if column not in result.columns:
             result[column] = np.nan
 
-    # ------------------------------------------------------------------
-    # Ensure every exact model feature exists
-    # ------------------------------------------------------------------
-
-    missing = []
+    # ------------------------------------------------------------
+    # Ensure exact model feature set
+    # ------------------------------------------------------------
 
     for feature in model_features:
+
         if feature not in result.columns:
             result[feature] = np.nan
-            missing.append(feature)
 
-    if missing:
-        print()
-        print("Added missing model features:")
-        for feature in missing:
-            print(f"  {feature}")
-
-    # ------------------------------------------------------------------
-    # Remove anything that should never reach the FP1 model
-    # ------------------------------------------------------------------
+    # ------------------------------------------------------------
+    # Remove future information
+    # ------------------------------------------------------------
 
     forbidden = [
         "qualifying_position",
         "q1",
         "q2",
         "q3",
+        "qualifying_available",
         "grid_position",
         "finish_position",
         "race_points",
+        "sprint_qualifying_position",
         "sprint_finish_position",
         "sprint_grid_position",
         "sprint_points",
     ]
 
     for column in forbidden:
+
         if column in result.columns:
             result[column] = np.nan
 
-    # ------------------------------------------------------------------
-    # Validate exact model feature set
-    # ------------------------------------------------------------------
+    # ------------------------------------------------------------
+    # Validate model features
+    # ------------------------------------------------------------
 
-    missing_after = [
+    missing = [
         feature
         for feature in model_features
         if feature not in result.columns
     ]
 
-    if missing_after:
+    if missing:
         raise ValueError(
-            "Model features still missing:\n"
-            + "\n".join(missing_after)
+            "Missing required FP1 model features:\n"
+            + "\n".join(
+                f"  - {feature}"
+                for feature in missing
+            )
         )
-
-    output_columns = list(
-        dict.fromkeys(
-            list(result.columns) + model_features
-        )
-    )
-
-    result = result[output_columns]
-
-    # ------------------------------------------------------------------
-    # Final validation
-    # ------------------------------------------------------------------
 
     if len(result) != 22:
         raise ValueError(
@@ -279,23 +463,24 @@ def main():
             "Driver uniqueness validation failed."
         )
 
-    if result["fp1_position"].notna().sum() != 22:
-        print(
-            f"WARNING: only "
-            f"{result['fp1_position'].notna().sum()}/22 "
-            f"drivers have FP1 positions."
-        )
+    if result["fp1_position"].notna().sum() == 0:
+        print("No valid FP1 positions detected.")
+        return
 
-    # Exact model-feature validation
-    for feature in model_features:
-        if feature not in result.columns:
-            raise ValueError(
-                f"Missing required feature: {feature}"
-            )
+    # 18/22 is valid for the current FP1 session because
+    # four race drivers were not participating.
+    matched_count = int(
+        result["fp1_position"].notna().sum()
+    )
+
+    if matched_count < 1:
+        raise ValueError(
+            "No FP1 drivers were matched."
+        )
 
     result.to_csv(
         OUTPUT_FILE,
-        index=False
+        index=False,
     )
 
     print()
@@ -303,11 +488,18 @@ def main():
     print("-" * 80)
     print("Driver count: PASS")
     print("Driver uniqueness: PASS")
-    print("FP1 positions detected: PASS")
-    print(f"Model features available: {len(model_features)}/{len(model_features)}")
+    print(
+        f"FP1 positions: "
+        f"{matched_count}/22"
+    )
+    print(
+        f"Model features available: "
+        f"{len(model_features)}/{len(model_features)}"
+    )
     print("Qualifying/race leakage: PASS")
     print()
     print(f"Saved -> {OUTPUT_FILE}")
+
     print()
     print("=" * 80)
     print("FP1 FEATURE BUILD COMPLETE")

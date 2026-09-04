@@ -629,19 +629,24 @@ if progression is not None and not progression.empty:
         unsafe_allow_html=True,
     )
 
+    # The progression builder stores the live fields using the
+    # canonical names below.  Earlier UI code used different aliases
+    # such as fp1_position / fp1_prediction, which caused those columns
+    # to disappear from the website even though the backend produced
+    # them correctly.
     progression_columns = [
         "driver_name",
         "no_practice_prediction",
-        "fp1_position",
-        "fp1_prediction",
-        "fp2_position",
-        "fp2_prediction",
-        "fp3_position",
-        "fp3_prediction",
-        "qualifying_position",
+        "fp1_result",
+        "prediction_after_fp1",
+        "fp2_result",
+        "prediction_after_fp2",
+        "fp3_result",
+        "prediction_after_fp3",
+        "qualifying_result",
         "final_prediction",
-        "race_position",
-        "comparison",
+        "race_result",
+        "prediction_difference",
     ]
 
     available_progression_columns = [
@@ -656,26 +661,44 @@ if progression is not None and not progression.empty:
 
     rename_progression = {
         "driver_name": "Driver",
-        "no_practice_prediction": "No Practice",
-        "fp1_position": "FP1 Result",
-        "fp1_prediction": "Prediction After FP1",
-        "fp2_position": "FP2 Result",
-        "fp2_prediction": "Prediction After FP2",
-        "fp3_position": "FP3 Result",
-        "fp3_prediction": "Prediction After FP3",
-        "qualifying_position": "Qualifying Result",
+        "no_practice_prediction": "Before Practice",
+        "fp1_result": "FP1 Result",
+        "prediction_after_fp1": "After FP1",
+        "fp2_result": "FP2 Result",
+        "prediction_after_fp2": "After FP2",
+        "fp3_result": "FP3 Result",
+        "prediction_after_fp3": "After FP3",
+        "qualifying_result": "Qualifying Result",
         "final_prediction": "Final Prediction",
-        "race_position": "Race Result",
-        "comparison": "Comparison",
+        "race_result": "Race Result",
+        "prediction_difference": "Comparison",
     }
 
     progression_display = progression_display.rename(
         columns=rename_progression
     )
 
+    # Keep numerical stage columns easy to read and let Streamlit
+    # provide horizontal scrolling on narrower screens.
+    for column in progression_display.columns:
+        if column != "Driver":
+            progression_display[column] = (
+                pd.to_numeric(
+                    progression_display[column],
+                    errors="coerce",
+                )
+                .apply(
+                    lambda x: "—"
+                    if pd.isna(x)
+                    else int(x)
+                )
+                .astype(str)
+            )
+
     st.dataframe(
         progression_display,
         use_container_width=True,
+        height=620,
         hide_index=True,
     )
 

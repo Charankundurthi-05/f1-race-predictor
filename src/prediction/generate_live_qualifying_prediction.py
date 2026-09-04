@@ -1,5 +1,6 @@
 from pathlib import Path
 import json
+
 import joblib
 import pandas as pd
 
@@ -9,11 +10,25 @@ ROOT = Path(__file__).resolve().parents[2]
 PREDICTION_DIR = ROOT / "data" / "predictions"
 MODEL_DIR = ROOT / "models"
 
-MODEL_PATH = MODEL_DIR / "qualifying_gb_shallow_final_model.joblib"
-METADATA_PATH = MODEL_DIR / "qualifying_gb_shallow_final_metadata.json"
+MODEL_PATH = (
+    MODEL_DIR
+    / "qualifying_gb_shallow_final_model.joblib"
+)
 
-INPUT_PATH = PREDICTION_DIR / "current_2026_qualifying_features.csv"
-OUTPUT_PATH = PREDICTION_DIR / "current_2026_qualifying_prediction.csv"
+METADATA_PATH = (
+    MODEL_DIR
+    / "qualifying_gb_shallow_final_metadata.json"
+)
+
+INPUT_PATH = (
+    PREDICTION_DIR
+    / "current_2026_qualifying_features.csv"
+)
+
+OUTPUT_PATH = (
+    PREDICTION_DIR
+    / "current_2026_qualifying_prediction.csv"
+)
 
 RACE_POINTS = {
     1: 25,
@@ -30,6 +45,7 @@ RACE_POINTS = {
 
 
 def main():
+
     print("=" * 80)
     print("F1 RACE PREDICTOR")
     print("CURRENT QUALIFYING RACE PREDICTION")
@@ -37,27 +53,46 @@ def main():
     print()
 
     if not INPUT_PATH.exists():
-        print("No live qualifying feature file exists yet.")
-        print("Run build_live_qualifying_features.py after qualifying.")
+        print(
+            "No live qualifying feature file exists yet."
+        )
+        print(
+            "Run build_live_qualifying_features.py "
+            "after qualifying."
+        )
         return
 
     if not MODEL_PATH.exists():
-        raise FileNotFoundError(f"Model not found: {MODEL_PATH}")
+        raise FileNotFoundError(
+            f"Model not found: {MODEL_PATH}"
+        )
 
     if not METADATA_PATH.exists():
         raise FileNotFoundError(
             f"Metadata not found: {METADATA_PATH}"
         )
 
-    df = pd.read_csv(INPUT_PATH)
+    df = pd.read_csv(
+        INPUT_PATH
+    )
 
-    with open(METADATA_PATH, "r", encoding="utf-8") as f:
+    with open(
+        METADATA_PATH,
+        "r",
+        encoding="utf-8",
+    ) as f:
         metadata = json.load(f)
 
     features = metadata["features"]
 
-    print(f"Input rows: {len(df)}")
-    print(f"Model features: {len(features)}")
+    print(
+        f"Input rows: {len(df)}"
+    )
+
+    print(
+        f"Model features: {len(features)}"
+    )
+
     print()
 
     missing = [
@@ -69,41 +104,73 @@ def main():
     if missing:
         raise ValueError(
             "Missing model features:\n"
-            + "\n".join(f"  - {feature}" for feature in missing)
+            + "\n".join(
+                f"  - {feature}"
+                for feature in missing
+            )
         )
 
     if len(df) != 22:
         raise ValueError(
-            f"Expected 22 drivers, found {len(df)}."
+            f"Expected 22 drivers, "
+            f"found {len(df)}."
         )
 
-    if df["driver_name"].nunique() != 22:
-        raise ValueError("Driver uniqueness check failed.")
+    if (
+        df["driver_name"].nunique()
+        != 22
+    ):
+        raise ValueError(
+            "Driver uniqueness check failed."
+        )
 
     if "qualifying_position" not in df.columns:
-        raise ValueError("Qualifying position is missing.")
+        raise ValueError(
+            "Qualifying position is missing."
+        )
 
-    if df["qualifying_position"].isna().all():
-        raise ValueError("No qualifying results are available.")
+    qualifying_available = pd.to_numeric(
+        df.get(
+            "qualifying_available",
+            0,
+        ),
+        errors="coerce",
+    ).fillna(0)
 
-    model = joblib.load(MODEL_PATH)
+    if (
+        df["qualifying_position"].isna().all()
+        or qualifying_available.max() == 0
+    ):
+        raise ValueError(
+            "No qualifying results are available."
+        )
+
+    model = joblib.load(
+        MODEL_PATH
+    )
 
     X = df[features].copy()
 
-    predictions = model.predict(X)
+    predictions = model.predict(
+        X
+    )
 
     result = df.copy()
 
-    result["predicted_finish_raw"] = predictions
+    result["predicted_finish_raw"] = (
+        predictions
+    )
 
     result = result.sort_values(
         "predicted_finish_raw",
-        ascending=True
-    ).reset_index(drop=True)
+        ascending=True,
+    ).reset_index(
+        drop=True
+    )
 
     result["predicted_position"] = range(
         1,
-        len(result) + 1
+        len(result) + 1,
     )
 
     result["predicted_race_points"] = (
@@ -122,43 +189,62 @@ def main():
 
     race = result.iloc[0]
 
-    print(f"Race: {race['race_name']}")
-    print(f"Round: {int(race['round'])}")
-    print(f"Circuit: {race['circuit_name']}")
+    print(
+        f"Race: {race['race_name']}"
+    )
+
+    print(
+        f"Round: {int(race['round'])}"
+    )
+
+    print(
+        f"Circuit: {race['circuit_name']}"
+    )
 
     print()
-    print("PREDICTED RACE FINISH AFTER QUALIFYING")
+    print(
+        "PREDICTED RACE FINISH AFTER QUALIFYING"
+    )
     print("-" * 80)
 
     for _, row in result.iterrows():
+
         print(
             f"{int(row['predicted_position']):2d}. "
             f"{row['driver_name']:<28} "
             f"{row['team_name']:<22} "
+            f"Grid: "
+            f"{int(row['qualifying_position']):2d}  "
             f"{int(row['predicted_race_points']):2d} pts"
         )
 
     result.to_csv(
         OUTPUT_PATH,
-        index=False
+        index=False,
     )
 
     result.to_csv(
-        PREDICTION_DIR / "current_prediction.csv",
-        index=False
+        PREDICTION_DIR
+        / "current_prediction.csv",
+        index=False,
     )
 
     result.to_csv(
-        PREDICTION_DIR / "current_prediction_with_points.csv",
-        index=False
+        PREDICTION_DIR
+        / "current_prediction_with_points.csv",
+        index=False,
     )
 
     print()
-    print(f"Saved -> {OUTPUT_PATH}")
+    print(
+        f"Saved -> {OUTPUT_PATH}"
+    )
 
     print()
     print("=" * 80)
-    print("QUALIFYING PREDICTION COMPLETE")
+    print(
+        "QUALIFYING PREDICTION COMPLETE"
+    )
     print("=" * 80)
 
 

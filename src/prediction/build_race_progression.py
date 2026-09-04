@@ -1,6 +1,7 @@
 from pathlib import Path
 import json
 import re
+import unicodedata
 
 import pandas as pd
 
@@ -9,7 +10,6 @@ ROOT = Path(__file__).resolve().parents[2]
 
 PREDICTION_DIR = ROOT / "data" / "predictions"
 RAW_DIR = ROOT / "data" / "raw"
-PROCESSED_DIR = ROOT / "data" / "processed"
 
 
 # ================================================================
@@ -39,12 +39,19 @@ def load_json(path):
         return None
 
 
-def normalise_name(value):
-
+def normalise_text(value):
     if pd.isna(value):
         return ""
 
     value = str(value).strip().lower()
+
+    value = unicodedata.normalize("NFKD", value)
+
+    value = "".join(
+        char
+        for char in value
+        if not unicodedata.combining(char)
+    )
 
     value = (
         value
@@ -63,13 +70,32 @@ def normalise_name(value):
         r"\s+",
         " ",
         value,
-    )
+    ).strip()
 
     return value
 
 
-def find_column(df, candidates):
+def normalise_code(value):
+    if pd.isna(value):
+        return ""
 
+    return re.sub(
+        r"[^A-Z0-9]",
+        "",
+        str(value).strip().upper(),
+    )
+
+
+def surname_key(value):
+    text = normalise_text(value)
+
+    if not text:
+        return ""
+
+    return text.split()[-1]
+
+
+def find_column(df, candidates):
     if df is None:
         return None
 
@@ -89,7 +115,6 @@ def find_column(df, candidates):
 
 
 def clean_position(value):
-
     if pd.isna(value):
         return pd.NA
 
@@ -115,50 +140,88 @@ def clean_position(value):
     return pd.NA
 
 
-def make_driver_key(driver_id=None, driver_name=None):
+def canonical_code(value):
+    code = normalise_code(value)
 
-    if driver_id is not None and pd.notna(driver_id):
-
-        value = normalise_name(driver_id)
-
-        if value:
-            return f"id:{value}"
-
-    if driver_name is not None and pd.notna(driver_name):
-
-        value = normalise_name(driver_name)
-
-        if value:
-            return f"name:{value}"
+    if code:
+        return code
 
     return ""
 
 
 # ================================================================
-# PREDICTIONS
+# CURRENT DRIVER NAME MATCHING
 # ================================================================
 
-def load_prediction_stage(
+def build_name_aliases(name):
+    aliases = set()
+
+    normalized = normalise_text(name)
+
+    if normalized:
+        aliases.add(normalized)
+
+        parts = normalized.split()
+
+        if len(parts) >= 2:
+            aliases.add(
+                " ".join(parts[::-1])
+            )
+
+        aliases.add(parts[-1])
+
+    return aliases
+
+
+def match_name(
+    target_name,
+    candidate_names,
+):
+    target_aliases = build_name_aliases(
+        target_name
+    )
+
+    # Exact normalized/full-name match
+    for name, row in candidate_names:
+
+        aliases = build_name_aliases(name)
+
+        if target_aliases.intersection(aliases):
+            return row
+
+    return None
+
+
+# ================================================================
+# PREDICTION FILE LOADER
+# ================================================================
+
+def load_prediction_file(
     filename,
     season,
     round_number,
 ):
-
     path = PREDICTION_DIR / filename
 
     df = load_csv(path)
 
-    if df is None:
+    if df is None or df.empty:
         return {}
 
     season_col = find_column(
         df,
-        ["season", "year"],
+        [
+            "season",
+            "year",
+        ],
     )
 
     round_col = find_column(
         df,
-        ["round"],
+        [
+            "round",
+            "race_round",
+        ],
     )
 
     position_col = find_column(
@@ -169,122 +232,257 @@ def load_prediction_stage(
         ],
     )
 
-    driver_id_col = find_column(
-        df,
-        [
-            "driver_id",
-            "driverId",
-        ],
-    )
-
     driver_name_col = find_column(
         df,
         [
             "driver_name",
             "driverName",
             "full_name",
+            "name",
         ],
     )
 
-    if position_col is None:
+    team_col = find_column(
+        df,
+        [
+            "team_name",
+            "constructor_name",
+            "constructor",
+            "team",
+        ],
+    )
+
+    if (
+        position_col is None
+        or driver_name_col is None
+    ):
         return {}
+
+    filtered = df.copy()
 
     if season_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[season_col],
+                filtered[season_col],
                 errors="coerce",
             )
             == season
         ]
 
+        if not temp.empty:
+            filtered = temp
+
     if round_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[round_col],
+                filtered[round_col],
                 errors="coerce",
             )
             == round_number
         ]
 
-    if df.empty:
+        if not temp.empty:
+            filtered = temp
+
+    if filtered.empty:
         return {}
 
-    result = {}
+    # IMPORTANT:
+    # For progression joins we deliberately use normalized
+    # driver names rather than source-specific driver IDs/codes.
+    rows = []
 
-    for _, row in df.iterrows():
-
-        driver_key = make_driver_key(
-            row[driver_id_col]
-            if driver_id_col
-            else None,
-            row[driver_name_col]
-            if driver_name_col
-            else None,
-        )
-
-        if not driver_key:
-            continue
+    for _, row in filtered.iterrows():
 
         position = clean_position(
             row[position_col]
         )
 
-        if pd.notna(position):
+        if pd.isna(position):
+            continue
 
-            result[driver_key] = int(position)
+        rows.append(
+            (
+                row[driver_name_col],
+                {
+                    "position": int(position),
+                    "driver_name": str(
+                        row[driver_name_col]
+                    ),
+                    "team_name": (
+                        str(row[team_col])
+                        if team_col
+                        else "—"
+                    ),
+                },
+            )
+        )
 
-    return result
+    if not rows:
+        return {}
+
+    return {
+        normalise_text(name): info
+        for name, info in rows
+        if normalise_text(name)
+    }
 
 
 # ================================================================
-# CURRENT PREDICTION
+# PRE-PRACTICE
 # ================================================================
 
-def load_current_prediction(
+def load_no_practice_prediction(
     season,
     round_number,
 ):
-
-    files = [
-        "current_prediction_with_points.csv",
-        "current_prediction.csv",
+    candidates = [
+        "pre_practice_live_predictions.csv",
+        "pre_practice_predictions_with_points.csv",
+        "pre_practice_predictions.csv",
     ]
 
-    for filename in files:
+    for filename in candidates:
+
+        raw = load_prediction_file(
+            filename,
+            season,
+            round_number,
+        )
+
+        if not raw:
+            continue
+
+        # Convert name-keyed source into a clean lookup.
+        result = {}
+
+        for source_name, info in raw.items():
+
+            key = normalise_text(
+                source_name
+            )
+
+            if key:
+                result[key] = info
+
+                # Also allow reversed names.
+                parts = key.split()
+
+                if len(parts) >= 2:
+                    result[
+                        " ".join(parts[::-1])
+                    ] = info
+
+                # Surname fallback where unique.
+                if len(parts) >= 2:
+                    surname = parts[-1]
+
+                    existing = result.get(
+                        f"__surname__{surname}"
+                    )
+
+                    if existing is None:
+                        result[
+                            f"__surname__{surname}"
+                        ] = info
+                    else:
+                        result[
+                            f"__surname__{surname}"
+                        ] = None
+
+        print(
+            f"Loaded pre-practice prediction: "
+            f"{filename}"
+        )
+
+        return result
+
+    return {}
+
+
+def find_pre_practice_for_driver(
+    driver_name,
+    prediction_lookup,
+):
+    normalized = normalise_text(
+        driver_name
+    )
+
+    if normalized in prediction_lookup:
+
+        return prediction_lookup[
+            normalized
+        ]
+
+    parts = normalized.split()
+
+    if len(parts) >= 2:
+
+        reversed_name = " ".join(
+            parts[::-1]
+        )
+
+        if reversed_name in prediction_lookup:
+
+            return prediction_lookup[
+                reversed_name
+            ]
+
+    if parts:
+
+        surname = parts[-1]
+
+        key = f"__surname__{surname}"
+
+        if key in prediction_lookup:
+
+            value = prediction_lookup[key]
+
+            if value is not None:
+                return value
+
+    return None
+
+
+# ================================================================
+# CURRENT DRIVERS
+# ================================================================
+
+def load_current_drivers(
+    season,
+    round_number,
+):
+    candidates = [
+        "current_prediction.csv",
+        "current_prediction_with_points.csv",
+        "current_2026_fp2_prediction.csv",
+        "current_2026_fp1_prediction.csv",
+    ]
+
+    for filename in candidates:
 
         path = PREDICTION_DIR / filename
 
         df = load_csv(path)
 
-        if df is None:
+        if df is None or df.empty:
             continue
 
         season_col = find_column(
             df,
-            ["season", "year"],
+            [
+                "season",
+                "year",
+            ],
         )
 
         round_col = find_column(
             df,
-            ["round"],
-        )
-
-        position_col = find_column(
-            df,
             [
-                "predicted_position",
-                "prediction_position",
-            ],
-        )
-
-        driver_id_col = find_column(
-            df,
-            [
-                "driver_id",
-                "driverId",
+                "round",
+                "race_round",
             ],
         )
 
@@ -294,6 +492,7 @@ def load_current_prediction(
                 "driver_name",
                 "driverName",
                 "full_name",
+                "name",
             ],
         )
 
@@ -307,26 +506,27 @@ def load_current_prediction(
             ],
         )
 
-        if position_col is None:
+        if driver_name_col is None:
             continue
+
+        filtered = df.copy()
 
         if season_col:
 
-            filtered = df[
+            temp = filtered[
                 pd.to_numeric(
-                    df[season_col],
+                    filtered[season_col],
                     errors="coerce",
                 )
                 == season
             ]
 
-        else:
-
-            filtered = df.copy()
+            if not temp.empty:
+                filtered = temp
 
         if round_col:
 
-            filtered = filtered[
+            temp = filtered[
                 pd.to_numeric(
                     filtered[round_col],
                     errors="coerce",
@@ -334,79 +534,56 @@ def load_current_prediction(
                 == round_number
             ]
 
+            if not temp.empty:
+                filtered = temp
+
         if filtered.empty:
             continue
 
-        result = {}
+        drivers = {}
 
         for _, row in filtered.iterrows():
 
-            driver_key = make_driver_key(
-                row[driver_id_col]
-                if driver_id_col
-                else None,
+            name = str(
                 row[driver_name_col]
-                if driver_name_col
-                else None,
             )
 
-            if not driver_key:
+            key = normalise_text(name)
+
+            if not key:
                 continue
 
-            position = clean_position(
-                row[position_col]
-            )
-
-            if pd.isna(position):
-                continue
-
-            result[driver_key] = {
-                "driver_name":
-                    str(
-                        row[driver_name_col]
-                    )
-                    if driver_name_col
-                    else driver_key,
-                "team_name":
-                    str(
-                        row[team_col]
-                    )
+            drivers[key] = {
+                "driver_name": name,
+                "team_name": (
+                    str(row[team_col])
                     if team_col
-                    else "—",
-                "position":
-                    int(position),
+                    else "—"
+                ),
             }
 
-        if result:
-            return result
+        if len(drivers) == 22:
+            return drivers
 
     return {}
 
 
 # ================================================================
-# PRACTICE RESULTS
+# LIVE PRACTICE RESULTS
 # ================================================================
 
-def load_practice_results(
+def load_live_practice_results(
     season,
-    round_number,
 ):
+    path = (
+        PREDICTION_DIR
+        / "live_practice_results.csv"
+    )
 
-    files = [
-        RAW_DIR / "practice_results.csv",
-        PROCESSED_DIR / "practice_results.csv",
-    ]
+    df = load_csv(path)
 
-    df = None
+    if df is None or df.empty:
 
-    for path in files:
-
-        df = load_csv(path)
-
-        if df is not None:
-            break
-
-    if df is None:
         return {
             "fp1": {},
             "fp2": {},
@@ -415,21 +592,18 @@ def load_practice_results(
 
     season_col = find_column(
         df,
-        ["season", "year"],
-    )
-
-    round_col = find_column(
-        df,
-        ["round"],
+        [
+            "season",
+            "year",
+        ],
     )
 
     session_col = find_column(
         df,
         [
-            "session",
             "session_name",
+            "session",
             "sessionName",
-            "practice_session",
         ],
     )
 
@@ -439,16 +613,7 @@ def load_practice_results(
             "position",
             "position_number",
             "positionNumber",
-            "position_display_order",
             "positionDisplayOrder",
-        ],
-    )
-
-    driver_id_col = find_column(
-        df,
-        [
-            "driver_id",
-            "driverId",
         ],
     )
 
@@ -458,6 +623,7 @@ def load_practice_results(
             "driver_name",
             "driverName",
             "full_name",
+            "name",
         ],
     )
 
@@ -467,111 +633,140 @@ def load_practice_results(
         "fp3": {},
     }
 
-    if position_col is None:
+    if (
+        session_col is None
+        or position_col is None
+        or driver_name_col is None
+    ):
         return result
+
+    filtered = df.copy()
 
     if season_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[season_col],
+                filtered[season_col],
                 errors="coerce",
             )
             == season
         ]
 
-    if round_col:
+        if not temp.empty:
+            filtered = temp
 
-        df = df[
-            pd.to_numeric(
-                df[round_col],
-                errors="coerce",
-            )
-            == round_number
-        ]
+    for _, row in filtered.iterrows():
 
-    if df.empty or session_col is None:
-        return result
-
-    for _, row in df.iterrows():
-
-        session = normalise_name(
+        session = normalise_text(
             row[session_col]
         )
 
-        if (
-            "practice 1" in session
-            or session == "fp1"
-        ):
-
+        if "practice 1" in session:
             stage = "fp1"
 
-        elif (
-            "practice 2" in session
-            or session == "fp2"
-        ):
-
+        elif "practice 2" in session:
             stage = "fp2"
 
-        elif (
-            "practice 3" in session
-            or session == "fp3"
-        ):
-
+        elif "practice 3" in session:
             stage = "fp3"
 
         else:
-            continue
-
-        driver_key = make_driver_key(
-            row[driver_id_col]
-            if driver_id_col
-            else None,
-            row[driver_name_col]
-            if driver_name_col
-            else None,
-        )
-
-        if not driver_key:
             continue
 
         position = clean_position(
             row[position_col]
         )
 
-        if pd.notna(position):
+        if pd.isna(position):
+            continue
 
-            result[stage][driver_key] = int(
-                position
-            )
+        name = str(
+            row[driver_name_col]
+        )
+
+        result[stage][
+            normalise_text(name)
+        ] = {
+            "position": int(position),
+            "driver_name": name,
+        }
 
     return result
 
 
+def find_practice_result_for_driver(
+    driver_name,
+    stage_results,
+):
+    normalized = normalise_text(
+        driver_name
+    )
+
+    if normalized in stage_results:
+        return stage_results[normalized]
+
+    parts = normalized.split()
+
+    if len(parts) >= 2:
+
+        reversed_name = " ".join(
+            parts[::-1]
+        )
+
+        if reversed_name in stage_results:
+            return stage_results[
+                reversed_name
+            ]
+
+    # Surname fallback
+    if parts:
+
+        surname = parts[-1]
+
+        matches = [
+            info
+            for key, info in stage_results.items()
+            if key.split()[-1] == surname
+        ]
+
+        if len(matches) == 1:
+            return matches[0]
+
+    return None
+
+
 # ================================================================
-# QUALIFYING
+# QUALIFYING RESULT
 # ================================================================
 
-def load_qualifying_results(
+def load_qualifying_result(
     season,
     round_number,
 ):
-
-    path = RAW_DIR / "qualifying_results.csv"
+    path = (
+        PREDICTION_DIR
+        / "live_qualifying_results.csv"
+    )
 
     df = load_csv(path)
 
-    if df is None:
+    if df is None or df.empty:
         return {}
 
     season_col = find_column(
         df,
-        ["season", "year"],
+        [
+            "season",
+            "year",
+        ],
     )
 
     round_col = find_column(
         df,
-        ["round"],
+        [
+            "round",
+            "race_round",
+        ],
     )
 
     position_col = find_column(
@@ -582,71 +777,66 @@ def load_qualifying_results(
         ],
     )
 
-    driver_id_col = find_column(
-        df,
-        [
-            "driver_id",
-            "driverId",
-        ],
-    )
-
     driver_name_col = find_column(
         df,
         [
             "driver_name",
             "driverName",
             "full_name",
+            "name",
         ],
     )
 
-    if position_col is None:
+    if (
+        position_col is None
+        or driver_name_col is None
+    ):
         return {}
+
+    filtered = df.copy()
 
     if season_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[season_col],
+                filtered[season_col],
                 errors="coerce",
             )
             == season
         ]
 
+        if not temp.empty:
+            filtered = temp
+
     if round_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[round_col],
+                filtered[round_col],
                 errors="coerce",
             )
             == round_number
         ]
 
+        if not temp.empty:
+            filtered = temp
+
     result = {}
 
-    for _, row in df.iterrows():
-
-        driver_key = make_driver_key(
-            row[driver_id_col]
-            if driver_id_col
-            else None,
-            row[driver_name_col]
-            if driver_name_col
-            else None,
-        )
-
-        if not driver_key:
-            continue
+    for _, row in filtered.iterrows():
 
         position = clean_position(
             row[position_col]
         )
 
-        if pd.notna(position):
+        if pd.isna(position):
+            continue
 
-            result[driver_key] = int(
-                position
+        result[
+            normalise_text(
+                row[driver_name_col]
             )
+        ] = int(position)
 
     return result
 
@@ -655,26 +845,34 @@ def load_qualifying_results(
 # RACE RESULT
 # ================================================================
 
-def load_race_results(
+def load_race_result(
     season,
     round_number,
 ):
-
-    path = RAW_DIR / "race_results.csv"
+    path = (
+        PREDICTION_DIR
+        / "live_race_results.csv"
+    )
 
     df = load_csv(path)
 
-    if df is None:
+    if df is None or df.empty:
         return {}
 
     season_col = find_column(
         df,
-        ["season", "year"],
+        [
+            "season",
+            "year",
+        ],
     )
 
     round_col = find_column(
         df,
-        ["round"],
+        [
+            "round",
+            "race_round",
+        ],
     )
 
     position_col = find_column(
@@ -686,73 +884,147 @@ def load_race_results(
         ],
     )
 
-    driver_id_col = find_column(
-        df,
-        [
-            "driver_id",
-            "driverId",
-        ],
-    )
-
     driver_name_col = find_column(
         df,
         [
             "driver_name",
             "driverName",
             "full_name",
+            "name",
         ],
     )
 
-    if position_col is None:
+    if (
+        position_col is None
+        or driver_name_col is None
+    ):
         return {}
+
+    filtered = df.copy()
 
     if season_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[season_col],
+                filtered[season_col],
                 errors="coerce",
             )
             == season
         ]
 
+        if not temp.empty:
+            filtered = temp
+
     if round_col:
 
-        df = df[
+        temp = filtered[
             pd.to_numeric(
-                df[round_col],
+                filtered[round_col],
                 errors="coerce",
             )
             == round_number
         ]
 
+        if not temp.empty:
+            filtered = temp
+
     result = {}
 
-    for _, row in df.iterrows():
-
-        driver_key = make_driver_key(
-            row[driver_id_col]
-            if driver_id_col
-            else None,
-            row[driver_name_col]
-            if driver_name_col
-            else None,
-        )
-
-        if not driver_key:
-            continue
+    for _, row in filtered.iterrows():
 
         position = clean_position(
             row[position_col]
         )
 
-        if pd.notna(position):
+        if pd.isna(position):
+            continue
 
-            result[driver_key] = int(
-                position
+        result[
+            normalise_text(
+                row[driver_name_col]
             )
+        ] = int(position)
 
     return result
+
+
+# ================================================================
+# CURRENT STAGE
+# ================================================================
+
+def get_current_stage(state):
+    stage = state.get(
+        "current_stage",
+        state.get(
+            "stage",
+            "pre_practice",
+        ),
+    )
+
+    stage = normalise_text(stage)
+
+    if (
+        stage in {
+            "prepractice",
+            "pre practice",
+            "pre_practice",
+            "before practice",
+        }
+    ):
+        return "pre_practice"
+
+    if (
+        "practice 1" in stage
+        or stage == "fp1"
+    ):
+        return "fp1"
+
+    if (
+        "practice 2" in stage
+        or stage == "fp2"
+    ):
+        return "fp2"
+
+    if (
+        "practice 3" in stage
+        or stage == "fp3"
+    ):
+        return "fp3"
+
+    if "qualifying" in stage:
+        return "qualifying"
+
+    if (
+        "race" in stage
+        or "complete" in stage
+    ):
+        return "race"
+
+    return "pre_practice"
+
+
+def stage_number(stage):
+    return {
+        "pre_practice": 0,
+        "fp1": 1,
+        "fp2": 2,
+        "fp3": 3,
+        "qualifying": 4,
+        "race": 5,
+    }.get(
+        stage,
+        0,
+    )
+
+
+def stage_has_happened(
+    current_stage,
+    required_stage,
+):
+    return (
+        stage_number(current_stage)
+        >= stage_number(required_stage)
+    )
 
 
 # ================================================================
@@ -762,15 +1034,12 @@ def load_race_results(
 def build_progression():
 
     state = load_json(
-        PREDICTION_DIR / "weekend_state.json"
+        PREDICTION_DIR
+        / "weekend_state.json"
     )
 
     if state is None:
-
-        print(
-            "weekend_state.json not found."
-        )
-
+        print("weekend_state.json not found.")
         return
 
     season = int(
@@ -797,169 +1066,254 @@ def build_progression():
         "normal",
     )
 
+    current_stage = get_current_stage(
+        state
+    )
 
-    print("")
+    print()
     print("F1 RACE PREDICTOR")
     print("BUILD RACE WEEKEND PROGRESSION")
-    print("")
+    print()
+
     print(
         f"Season: {season}"
     )
+
     print(
         f"Round: {round_number}"
     )
+
     print(
         f"Race: {race_name}"
     )
-    print(
-        f"Weekend: {str(weekend_format).upper()}"
-    )
-    print("")
-
-
-    # ------------------------------------------------------------
-    # BASE DRIVER LIST
-    # ------------------------------------------------------------
 
     print(
-        "Loading current prediction..."
+        f"Weekend: "
+        f"{str(weekend_format).upper()}"
     )
 
-    current_prediction = load_current_prediction(
+    print(
+        f"Current stage: "
+        f"{current_stage.upper()}"
+    )
+
+    print()
+
+    # ------------------------------------------------------------
+    # DRIVERS
+    # ------------------------------------------------------------
+
+    print(
+        "Loading current driver list..."
+    )
+
+    drivers = load_current_drivers(
         season,
         round_number,
     )
 
-
-    # ------------------------------------------------------------
-    # STAGE PREDICTIONS
-    # ------------------------------------------------------------
-
-    print(
-        "Loading prediction stages..."
-    )
-
-    predictions = {
-
-        "no_practice":
-            load_prediction_stage(
-                "pre_practice_live_predictions.csv",
-                season,
-                round_number,
-            ),
-
-        "after_fp1":
-            load_prediction_stage(
-                "fp1_live_predictions.csv",
-                season,
-                round_number,
-            ),
-
-        "after_fp2":
-            load_prediction_stage(
-                "fp2_live_predictions.csv",
-                season,
-                round_number,
-            ),
-
-        "after_fp3":
-            load_prediction_stage(
-                "fp3_live_predictions.csv",
-                season,
-                round_number,
-            ),
-
-        "after_qualifying":
-            load_prediction_stage(
-                "qualifying_live_predictions.csv",
-                season,
-                round_number,
-            ),
-    }
-
-
-    # ------------------------------------------------------------
-    # ACTUAL RESULTS
-    # ------------------------------------------------------------
-
-    print(
-        "Loading actual practice results..."
-    )
-
-    practice = load_practice_results(
-        season,
-        round_number,
-    )
-
-    print(
-        "Loading qualifying result..."
-    )
-
-    qualifying = load_qualifying_results(
-        season,
-        round_number,
-    )
-
-    print(
-        "Loading race result..."
-    )
-
-    race = load_race_results(
-        season,
-        round_number,
-    )
-
-
-    # ------------------------------------------------------------
-    # DRIVER INFORMATION FROM CURRENT PREDICTION
-    # ------------------------------------------------------------
-
-    driver_information = {}
-
-    for key, info in current_prediction.items():
-
-        driver_information[key] = {
-            "driver_name":
-                info["driver_name"],
-            "team_name":
-                info["team_name"],
-        }
-
-
-    # ------------------------------------------------------------
-    # ADD DRIVERS FROM EVERY AVAILABLE SOURCE
-    # ------------------------------------------------------------
-
-    all_keys = set(
-        current_prediction.keys()
-    )
-
-    for prediction_dict in predictions.values():
-
-        all_keys.update(
-            prediction_dict.keys()
+    if len(drivers) != 22:
+        raise ValueError(
+            f"Expected 22 current drivers, "
+            f"found {len(drivers)}."
         )
 
-    all_keys.update(
-        practice["fp1"].keys()
+    # ------------------------------------------------------------
+    # PRE-PRACTICE
+    # ------------------------------------------------------------
+
+    print(
+        "Loading no-practice prediction..."
     )
 
-    all_keys.update(
-        practice["fp2"].keys()
+    no_practice = (
+        load_no_practice_prediction(
+            season,
+            round_number,
+        )
     )
 
-    all_keys.update(
-        practice["fp3"].keys()
+    # ------------------------------------------------------------
+    # FP1
+    # ------------------------------------------------------------
+
+    after_fp1 = {}
+
+    if stage_has_happened(
+        current_stage,
+        "fp1",
+    ):
+
+        print(
+            "Loading FP1 prediction..."
+        )
+
+        after_fp1 = load_prediction_file(
+            "current_2026_fp1_prediction.csv",
+            season,
+            round_number,
+        )
+
+    # ------------------------------------------------------------
+    # FP2
+    # ------------------------------------------------------------
+
+    after_fp2 = {}
+
+    if stage_has_happened(
+        current_stage,
+        "fp2",
+    ):
+
+        print(
+            "Loading FP2 prediction..."
+        )
+
+        after_fp2 = load_prediction_file(
+            "current_2026_fp2_prediction.csv",
+            season,
+            round_number,
+        )
+
+    # ------------------------------------------------------------
+    # FP3
+    # ------------------------------------------------------------
+
+    after_fp3 = {}
+
+    if stage_has_happened(
+        current_stage,
+        "fp3",
+    ):
+
+        print(
+            "Loading FP3 prediction..."
+        )
+
+        after_fp3 = load_prediction_file(
+            "current_2026_fp3_prediction.csv",
+            season,
+            round_number,
+        )
+
+    # ------------------------------------------------------------
+    # QUALIFYING
+    # ------------------------------------------------------------
+
+    after_qualifying = {}
+
+    if stage_has_happened(
+        current_stage,
+        "qualifying",
+    ):
+
+        print(
+            "Loading qualifying prediction..."
+        )
+
+        after_qualifying = (
+            load_prediction_file(
+                "current_2026_qualifying_prediction.csv",
+                season,
+                round_number,
+            )
+        )
+
+    # ------------------------------------------------------------
+    # PRACTICE RESULTS
+    # ------------------------------------------------------------
+
+    print(
+        "Loading live practice results..."
     )
 
-    all_keys.update(
-        qualifying.keys()
+    live_practice = (
+        load_live_practice_results(
+            season
+        )
     )
 
-    all_keys.update(
-        race.keys()
-    )
+    practice = {
+        "fp1": {},
+        "fp2": {},
+        "fp3": {},
+    }
 
+    if stage_has_happened(
+        current_stage,
+        "fp1",
+    ):
+        practice["fp1"] = (
+            live_practice["fp1"]
+        )
+
+    if stage_has_happened(
+        current_stage,
+        "fp2",
+    ):
+        practice["fp2"] = (
+            live_practice["fp2"]
+        )
+
+    if stage_has_happened(
+        current_stage,
+        "fp3",
+    ):
+        practice["fp3"] = (
+            live_practice["fp3"]
+        )
+
+    # ------------------------------------------------------------
+    # QUALIFYING RESULT
+    # ------------------------------------------------------------
+
+    qualifying = {}
+
+    if stage_has_happened(
+        current_stage,
+        "qualifying",
+    ):
+
+        print(
+            "Loading qualifying result..."
+        )
+
+        qualifying = load_qualifying_result(
+            season,
+            round_number,
+        )
+
+    else:
+
+        print(
+            "Qualifying has not occurred yet."
+        )
+
+    # ------------------------------------------------------------
+    # RACE RESULT
+    # ------------------------------------------------------------
+
+    race = {}
+
+    if stage_has_happened(
+        current_stage,
+        "race",
+    ):
+
+        print(
+            "Loading race result..."
+        )
+
+        race = load_race_result(
+            season,
+            round_number,
+        )
+
+    else:
+
+        print(
+            "Race has not occurred yet."
+        )
 
     # ------------------------------------------------------------
     # BUILD ROWS
@@ -967,216 +1321,228 @@ def build_progression():
 
     rows = []
 
-    for driver_key in all_keys:
+    for driver_key, driver_info in drivers.items():
 
-        info = driver_information.get(
-            driver_key,
-            {
-                "driver_name":
-                    driver_key.replace(
-                        "id:",
-                        ""
-                    ).replace(
-                        "name:",
-                        ""
-                    ),
-                "team_name":
-                    "—",
-            },
+        driver_name = (
+            driver_info["driver_name"]
         )
-
 
         # --------------------------------------------------------
-        # GET PREDICTIONS
+        # PRE-PRACTICE
         # --------------------------------------------------------
 
-        no_practice = predictions[
-            "no_practice"
-        ].get(
-            driver_key,
-            pd.NA,
+        no_practice_position = pd.NA
+
+        pre_info = find_pre_practice_for_driver(
+            driver_name,
+            no_practice,
         )
 
-        if pd.isna(no_practice):
-
-            if driver_key in current_prediction:
-
-                no_practice = (
-                    current_prediction[
-                        driver_key
-                    ]["position"]
-                )
-
-
-        after_fp1 = predictions[
-            "after_fp1"
-        ].get(
-            driver_key,
-            pd.NA,
-        )
-
-        after_fp2 = predictions[
-            "after_fp2"
-        ].get(
-            driver_key,
-            pd.NA,
-        )
-
-        after_fp3 = predictions[
-            "after_fp3"
-        ].get(
-            driver_key,
-            pd.NA,
-        )
-
-        final_prediction = predictions[
-            "after_qualifying"
-        ].get(
-            driver_key,
-            pd.NA,
-        )
-
+        if pre_info is not None:
+            no_practice_position = (
+                pre_info["position"]
+            )
 
         # --------------------------------------------------------
-        # ACTUAL SESSION RESULTS
+        # LIVE PREDICTIONS
         # --------------------------------------------------------
 
-        fp1_result = practice[
-            "fp1"
-        ].get(
-            driver_key,
-            pd.NA,
+        fp1_prediction = pd.NA
+        fp2_prediction = pd.NA
+        fp3_prediction = pd.NA
+        qualifying_prediction = pd.NA
+
+        normalized_driver = normalise_text(
+            driver_name
         )
 
-        fp2_result = practice[
-            "fp2"
-        ].get(
-            driver_key,
-            pd.NA,
-        )
+        if normalized_driver in after_fp1:
+            fp1_prediction = (
+                after_fp1[
+                    normalized_driver
+                ]["position"]
+            )
 
-        fp3_result = practice[
-            "fp3"
-        ].get(
-            driver_key,
-            pd.NA,
-        )
+        if normalized_driver in after_fp2:
+            fp2_prediction = (
+                after_fp2[
+                    normalized_driver
+                ]["position"]
+            )
 
-        qualifying_result = qualifying.get(
-            driver_key,
-            pd.NA,
-        )
+        if normalized_driver in after_fp3:
+            fp3_prediction = (
+                after_fp3[
+                    normalized_driver
+                ]["position"]
+            )
 
-        race_result = race.get(
-            driver_key,
-            pd.NA,
-        )
-
+        if normalized_driver in after_qualifying:
+            qualifying_prediction = (
+                after_qualifying[
+                    normalized_driver
+                ]["position"]
+            )
 
         # --------------------------------------------------------
-        # FINAL PREDICTION
+        # ACTUAL RESULTS
         # --------------------------------------------------------
 
-        # Until qualifying prediction exists,
-        # keep the latest available prediction as the
-        # temporary displayed prediction.
+        fp1_result = pd.NA
+        fp2_result = pd.NA
+        fp3_result = pd.NA
+        qualifying_result = pd.NA
+        race_result = pd.NA
 
-        if pd.isna(final_prediction):
+        info = find_practice_result_for_driver(
+            driver_name,
+            practice["fp1"],
+        )
 
-            if pd.notna(after_fp3):
+        if info is not None:
+            fp1_result = info["position"]
 
-                final_prediction = after_fp3
+        info = find_practice_result_for_driver(
+            driver_name,
+            practice["fp2"],
+        )
 
-            elif pd.notna(after_fp2):
+        if info is not None:
+            fp2_result = info["position"]
 
-                final_prediction = after_fp2
+        info = find_practice_result_for_driver(
+            driver_name,
+            practice["fp3"],
+        )
 
-            elif pd.notna(after_fp1):
+        if info is not None:
+            fp3_result = info["position"]
 
-                final_prediction = after_fp1
+        if normalized_driver in qualifying:
+            qualifying_result = (
+                qualifying[
+                    normalized_driver
+                ]
+            )
 
-            elif pd.notna(no_practice):
-
-                final_prediction = no_practice
-
+        if normalized_driver in race:
+            race_result = (
+                race[
+                    normalized_driver
+                ]
+            )
 
         # --------------------------------------------------------
-        # DIFFERENCE
+        # LATEST AVAILABLE PREDICTION
         # --------------------------------------------------------
+
+        latest_prediction = pd.NA
+
+        if pd.notna(
+            qualifying_prediction
+        ):
+
+            latest_prediction = (
+                qualifying_prediction
+            )
+
+        elif pd.notna(
+            fp3_prediction
+        ):
+
+            latest_prediction = (
+                fp3_prediction
+            )
+
+        elif pd.notna(
+            fp2_prediction
+        ):
+
+            latest_prediction = (
+                fp2_prediction
+            )
+
+        elif pd.notna(
+            fp1_prediction
+        ):
+
+            latest_prediction = (
+                fp1_prediction
+            )
+
+        elif pd.notna(
+            no_practice_position
+        ):
+
+            latest_prediction = (
+                no_practice_position
+            )
+
+        # --------------------------------------------------------
+        # FINAL COMPARISON
+        # --------------------------------------------------------
+
+        comparison = pd.NA
 
         if (
             pd.notna(
-                predictions[
-                    "after_qualifying"
-                ].get(
-                    driver_key,
-                    pd.NA,
-                )
+                qualifying_prediction
             )
             and pd.notna(race_result)
         ):
 
-            difference = (
+            comparison = (
                 int(race_result)
-                -
-                int(
-                    predictions[
-                        "after_qualifying"
-                    ][driver_key]
+                - int(
+                    qualifying_prediction
                 )
             )
-
-        else:
-
-            difference = pd.NA
-
 
         rows.append(
             {
                 "driver_name":
-                    info["driver_name"],
+                    driver_name,
 
                 "team_name":
-                    info["team_name"],
+                    driver_info["team_name"],
 
                 "no_practice_prediction":
-                    no_practice,
+                    no_practice_position,
 
                 "fp1_result":
                     fp1_result,
 
                 "prediction_after_fp1":
-                    after_fp1,
+                    fp1_prediction,
 
                 "fp2_result":
                     fp2_result,
 
                 "prediction_after_fp2":
-                    after_fp2,
+                    fp2_prediction,
 
                 "fp3_result":
                     fp3_result,
 
                 "prediction_after_fp3":
-                    after_fp3,
+                    fp3_prediction,
 
                 "qualifying_result":
                     qualifying_result,
 
                 "final_prediction":
-                    final_prediction,
+                    latest_prediction,
 
                 "race_result":
                     race_result,
 
                 "prediction_difference":
-                    difference,
+                    comparison,
             }
         )
 
-
     # ------------------------------------------------------------
-    # CREATE DATAFRAME
+    # DATAFRAME
     # ------------------------------------------------------------
 
     result = pd.DataFrame(
@@ -1198,29 +1564,31 @@ def build_progression():
         ],
     )
 
-
     # ------------------------------------------------------------
-    # SORT
+    # SORT BY LATEST AVAILABLE PREDICTION
     # ------------------------------------------------------------
 
-    if not result.empty:
+    result["_sort"] = pd.to_numeric(
+        result["final_prediction"],
+        errors="coerce",
+    )
 
-        result["_sort"] = pd.to_numeric(
-            result["final_prediction"],
-            errors="coerce",
-        )
-
-        result = result.sort_values(
+    result = (
+        result
+        .sort_values(
             [
                 "_sort",
                 "driver_name",
             ],
             na_position="last",
         )
-
-        result = result.drop(
+        .drop(
             columns="_sort"
         )
+        .reset_index(
+            drop=True
+        )
+    )
 
     result.insert(
         0,
@@ -1230,7 +1598,6 @@ def build_progression():
             len(result) + 1,
         ),
     )
-
 
     # ------------------------------------------------------------
     # SAVE
@@ -1246,12 +1613,11 @@ def build_progression():
         index=False,
     )
 
-
     # ------------------------------------------------------------
     # SUMMARY
     # ------------------------------------------------------------
 
-    print("")
+    print()
     print(
         f"Drivers: {len(result)}"
     )
@@ -1311,19 +1677,16 @@ def build_progression():
         f"{result['prediction_difference'].notna().sum()}"
     )
 
-    print("")
+    print()
     print(
         f"Saved -> {output_path}"
     )
-    print("")
+
+    print()
     print(
         "RACE PROGRESSION COMPLETE"
     )
 
-
-# ================================================================
-# MAIN
-# ================================================================
 
 if __name__ == "__main__":
     build_progression()

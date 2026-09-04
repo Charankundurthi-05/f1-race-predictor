@@ -41,10 +41,14 @@ def main():
         return
 
     if not MODEL_PATH.exists():
-        raise FileNotFoundError(f"Model not found: {MODEL_PATH}")
+        raise FileNotFoundError(
+            f"Model not found: {MODEL_PATH}"
+        )
 
     if not METADATA_PATH.exists():
-        raise FileNotFoundError(f"Metadata not found: {METADATA_PATH}")
+        raise FileNotFoundError(
+            f"Metadata not found: {METADATA_PATH}"
+        )
 
     df = pd.read_csv(INPUT_PATH)
 
@@ -58,14 +62,18 @@ def main():
     print()
 
     missing = [
-        feature for feature in features
+        feature
+        for feature in features
         if feature not in df.columns
     ]
 
     if missing:
         raise ValueError(
             "Missing model features:\n"
-            + "\n".join(f"  - {feature}" for feature in missing)
+            + "\n".join(
+                f"  - {feature}"
+                for feature in missing
+            )
         )
 
     if len(df) != 22:
@@ -74,13 +82,20 @@ def main():
         )
 
     if df["driver_name"].nunique() != 22:
-        raise ValueError("Driver uniqueness check failed.")
+        raise ValueError(
+            "Driver uniqueness check failed."
+        )
 
-    if "practice_3_position" not in df.columns:
-        raise ValueError("FP3 practice position is missing.")
+    # FP3 feature builder stores the actual session result here.
+    if "fp3_position" not in df.columns:
+        raise ValueError(
+            "FP3 position is missing."
+        )
 
-    if df["practice_3_position"].isna().all():
-        raise ValueError("No FP3 results are available.")
+    if df["fp3_position"].isna().all():
+        raise ValueError(
+            "No FP3 results are available."
+        )
 
     model = joblib.load(MODEL_PATH)
 
@@ -134,7 +149,10 @@ def main():
             f"{int(row['predicted_race_points']):2d} pts"
         )
 
-    result.to_csv(OUTPUT_PATH, index=False)
+    result.to_csv(
+        OUTPUT_PATH,
+        index=False
+    )
 
     result.to_csv(
         PREDICTION_DIR / "current_prediction.csv",

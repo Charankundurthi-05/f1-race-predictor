@@ -24,6 +24,17 @@ def find_column(df, names):
     return None
 
 
+def normalize_name(value):
+    return (
+        str(value)
+        .strip()
+        .lower()
+        .replace(".", "")
+        .replace(",", "")
+        .replace("-", " ")
+    )
+
+
 def get_position(row, columns):
     for column in columns:
         if column in row.index:
@@ -54,6 +65,11 @@ def main():
         print("Run download_live_practice.py after practice.")
         return
 
+    if not METADATA_FILE.exists():
+        raise FileNotFoundError(
+            f"FP3 metadata not found: {METADATA_FILE}"
+        )
+
     with open(METADATA_FILE, "r", encoding="utf-8") as f:
         metadata = json.load(f)
 
@@ -81,7 +97,6 @@ def main():
     sessions = {}
 
     for session_number in [1, 2, 3]:
-
         sessions[session_number] = live[
             live["session_name"].str.contains(
                 f"practice {session_number}",
@@ -163,28 +178,28 @@ def main():
                 f"Could not identify positions in FP{session_number}."
             )
 
+        session_lookup = {}
+
+        for _, live_row in session_df.iterrows():
+            live_name = normalize_name(
+                live_row[driver_column]
+            )
+
+            if live_name:
+                session_lookup[live_name] = live_row
+
         model_column = f"fp{session_number}_position"
 
         for index, row in result.iterrows():
 
-            driver_name = (
-                str(row["driver_name"])
-                .strip()
-                .lower()
+            driver_name = normalize_name(
+                row["driver_name"]
             )
 
-            matches = session_df[
-                session_df[driver_column]
-                .astype(str)
-                .str.strip()
-                .str.lower()
-                == driver_name
-            ]
-
-            if matches.empty:
+            if driver_name not in session_lookup:
                 continue
 
-            live_row = matches.iloc[0]
+            live_row = session_lookup[driver_name]
 
             position = get_position(
                 live_row,
@@ -197,7 +212,6 @@ def main():
             )
 
             if pd.notna(position):
-
                 result.at[
                     index,
                     model_column
@@ -213,18 +227,14 @@ def main():
         ]
     ]
 
-    result["practice_avg_position"] = (
-        practice_values.mean(
-            axis=1,
-            skipna=True
-        )
+    result["practice_avg_position"] = practice_values.mean(
+        axis=1,
+        skipna=True
     )
 
-    result["practice_best_position"] = (
-        practice_values.min(
-            axis=1,
-            skipna=True
-        )
+    result["practice_best_position"] = practice_values.min(
+        axis=1,
+        skipna=True
     )
 
     result["practice_sessions_available"] = (
@@ -238,8 +248,7 @@ def main():
     # ---------------------------------------------------------------
     # Weather features
     #
-    # These are left empty until we connect actual live session
-    # weather. Historical race weather must not be substituted here.
+    # Live session weather is not substituted with historical weather.
     # ---------------------------------------------------------------
 
     weather_features = []
@@ -266,7 +275,6 @@ def main():
         )
 
     for feature in weather_features:
-
         if feature not in result.columns:
             result[feature] = np.nan
 
@@ -275,7 +283,6 @@ def main():
     # ---------------------------------------------------------------
 
     for feature in model_features:
-
         if feature not in result.columns:
             result[feature] = np.nan
 
@@ -306,7 +313,6 @@ def main():
     ]
 
     for column in forbidden:
-
         if column in result.columns:
             result[column] = np.nan
 
@@ -321,7 +327,6 @@ def main():
     ]
 
     if missing:
-
         raise ValueError(
             "Missing required FP3 model features:\n"
             + "\n".join(
@@ -341,7 +346,6 @@ def main():
         )
 
     if result["fp3_position"].notna().sum() == 0:
-
         print("No valid FP3 positions detected.")
         return
 
